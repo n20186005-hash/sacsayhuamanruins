@@ -9,14 +9,15 @@ export type CultureSection = { subtitle: string; content: string };
 export type SaqsaywamanSection = { subtitle: string; content: string };
 
 export type Translations = {
-  nav: { about: string; ecology: string; culture: string; bestTime: string; visiting: string; transportation: string; tips: string; gallery: string; reviews: string; faq: string; location: string };
+  nav: { about: string; ecology: string; culture: string; history?: string; bestTime: string; visiting: string; transportation: string; tips: string; gallery: string; reviews: string; faq: string; location: string };
   hero: { tagline: string; title: string; subtitle: string; cta: string };
   rating: { reviews: string; source: string };
   about: { title: string; p1: string; p2: string; highlights: { title: string; items: string[] }; bestTime: { title: string; content: string; tip: string } };
   ecology: EcologySection;
   culture: CultureSection;
-  saqsaywaman: SaqsaywamanSection;
-  visiting: { title: string; hours: { title: string; content: string; note: string }; price: { title: string; content: string; note: string; ticketTip: string }; duration: { title: string; content: string; note: string }; tips: { title: string; items: string[] }; route: { title: string; content: string } };
+  chinkana?: { subtitle: string; content: string };
+  saqsaywaman: { title?: string; subtitle: string; content: string };
+    visiting: { title: string; hours: { title: string; content: string; note: string }; price: { title: string; content: string; note: string; ticketTip: string }; duration: { title: string; content: string; note: string }; tips: { title: string; items: string[] }; route: { title: string; content: string } };
   transportation: { title: string; airport: { title: string; content: string; options: TransportOption[] }; city: { title: string; content: string; steps: string[] }; selfDrive: { title: string; content: string; steps: string[] } };
   tips: { title: string; items: string[] };
   gallery: { title: string; viewMore: string };
@@ -28,7 +29,7 @@ export type Translations = {
 
 export const translations: Record<Locale, Translations> = {
   zh: {
-    nav: { about: "景点概览", ecology: "建筑之谜", culture: "印加文化", bestTime: "最佳时间", visiting: "游览指南", transportation: "交通接驳", tips: "游览建议", gallery: "照片画廊", reviews: "游客评价", faq: "常见问题", location: "地图位置" },
+    nav: { about: "景点概览", ecology: "建筑之谜", culture: "印加文化", history: "历史长河", bestTime: "最佳时间", visiting: "游览指南", transportation: "交通接驳", tips: "游览建议", gallery: "照片画廊", reviews: "旅行者手记", faq: "常见问题", location: "地图位置" },
     hero: { tagline: "秘鲁库斯科 · 印加帝国卫城", title: "萨克塞华曼", subtitle: "Saqsaywaman · 印加帝国的巨石长城", cta: "探索古迹" },
     rating: { reviews: "条评价", source: "Google 评论" },
     about: {
@@ -40,20 +41,25 @@ export const translations: Record<Locale, Translations> = {
     },
     ecology: {
       subtitle: "建筑之谜：百吨巨石如何严丝合缝？",
-      content: "萨克塞华曼最令人敬畏的，是其标志性的三层锯齿状（梯田式）巨石防御墙。这三层石墙全长约400米，宛如闪电或猛兽的獠牙。\n\n**超越人类想象的重量：**\n遗址中最大的石块高达 8.5 米，重量估计在 100 到 128 吨 之间。在没有车轮、没有滑轮组、也没有驮兽（羊驼无法拉动重物）的印加时代，成千上万的印加劳工是如何将这些采自数公里外的巨石运送上山，至今仍是工程学上的巨大谜团。\n\n**宏观多边形无缝石工：**\n萨克塞华曼采用了无灰泥多边形咬合技术。即便石块巨大如山，工匠依然将它们的边缘打磨出了极其复杂的向内和向外切角。重达百吨的巨石像立体的俄罗斯方块一样完美嵌套，石缝间同样连一张纸都插不进去，赋予了它能够抵御百年强震的柔性抗震能力。\n\n💡 **建筑知识：** 萨克塞华曼的巨石墙不仅是工程奇迹，更是印加人宏观重力美学的体现。与十二边印加石的微观精致不同，这里展现的是粗犷、狂暴且不可思议的巨石力量。"
+      content: "萨克塞华曼最令人敬畏的，是其标志性的三层锯齿状（梯田式）巨石防御墙。这三层石墙全长约400米，宛如闪电或猛兽的獠牙。\n\n**超越人类想象的重量与石材来源：**\n遗址中最大的石块高达 8.5 米，重量估计在 100 到 128 吨 之间。地质学分析表明，建造萨克塞华曼的安山岩和闪长岩并非就地取材，而是来自距离遗址约 15 至 35 公里外的 Waqoto 和 Rumiqolqa 采石场。印加人在没有车轮和铁器的时代，必须依靠原木滚木、极其坚韧的龙舌兰纤维绳索，以及数以万计的劳工，强行拖拽这些百吨巨石越过崎岖的安第斯山脉和深谷。这种对庞大人力资源的绝对调度能力，才是印加帝国真正的“肌肉”。\n\n**宏观多边形无缝石工：**\n萨克塞华曼采用了无灰泥多边形咬合技术。即便石块巨大如山，工匠依然将它们的边缘打磨出了极其复杂的向内和向外切角。重达百吨的巨石像立体的俄罗斯方块一样完美嵌套，石缝间同样连一张纸都插不进去，赋予了它能够抵御百年强震的柔性抗震能力。\n\n💡 **建筑知识：** 萨克塞华曼的巨石墙不仅是工程奇迹，更是印加人宏观重力美学的体现。与十二边印加石的微观精致不同，这里展现的是粗犷、狂暴且不可思议的巨石力量。"
     },
     culture: {
       subtitle: "城市规划神话：美洲豹的头部与太阳祭典",
       content: "在印加人的宇宙观中，美洲豹象征着大地与现世的力量。印加帝国最伟大的君主帕查库特克（Pachacuti）在重新规划首都库斯科时，将整座城市的轮廓设计成了一只匍匐的美洲豹。\n\n**神圣的美洲豹（Puma）：**\n库斯科老城区是豹子的身躯，而高高在上的萨克塞华曼，正是这只美洲豹威严的头部；那三道锯齿状的巨石墙，则被视为美洲豹竖立的毛发或利齿。\n\n**太阳祭典（Inti Raymi）：**\n这里是印加帝国最重要的宗教中心之一。时至今日，在每年的 6月24日（南半球的冬至），库斯科都会在萨克塞华曼广阔的中央广场上重现盛大的太阳神祭典。这是整个南美洲规模第二大的传统节日，吸引着全球数以万计的游客前来朝圣。\n\n💡 **文化知识：** 萨克塞华曼不仅是军事堡垒，更是印加人宇宙观的实体化。每年6月24日的Inti Raymi是体验印加文化的绝佳机会，建议提前预订观礼座位。"
     },
+    chinkana: {
+      subtitle: "神秘的地下迷宫（Las Chinkanas）",
+      content: "在巨石墙的后方，隐藏着天然与人工开凿交错的地下洞穴系统（Chinkana）。在克丘亚语中，它意为“迷失之地”。传说这些错综复杂的隧道曾与远在数公里外的科里坎查（太阳神殿）相连。出于安全考虑，目前秘鲁政府已将大部分深层隧道封闭，但游客依然可以在获准开放的浅层区域体验在这座地下迷宫中穿梭的神秘感。"
+    },
     saqsaywaman: {
+      title: "历史长河 | 帝国的余晖与抗争",
       subtitle: "历史的悲歌：殖民战火与巨石采石场",
       content: "萨克塞华曼曾见证了印加帝国最惨烈的抗争。1536年，印加皇室后裔曼科·印加（Manco Inca）发动了反抗西班牙殖民者的大起义。萨克塞华曼成为了印加军队围攻库斯科的核心阵地，双方在此展开了血腥的肉搏战。\n\n随着印加起义的失败，西班牙人控制了这座堡垒。由于忌惮它的军事防御力，殖民者下令将其拆毁。然而，那些百吨巨石根本无法被撼动。于是，西班牙人只能拆走那些较小的石块，将其滚下山坡，用来建造今天库斯科老城内的大教堂和殖民庭院。\n\n我们今天看到的萨克塞华曼遗址，仅仅是其原始规模的约 20%。但仅仅是这遗留下的五分之一，已经足以让世人震撼。\n\n💡 **旅行建议：** 从萨克塞华曼步行下山，回到库斯科老城（即美洲豹的身躯）。在距离武器广场不远的哈图姆鲁米约克街（Calle Hatunrumiyoc），隐藏着印加建筑的另一张面孔——微观几何的巅峰之作十二边印加石。如果说萨克塞华曼是印加人狂放的肌肉，那么十二边石就是他们最精密的大脑。"
     },
     visiting: {
       title: "游览指南",
       hours: { title: "开放时间", content: "07:00 - 17:30\n全年开放", note: "⚠️ 提醒：建议白天参观，安全和光线更佳。每年6月24日有太阳祭典。" },
-      price: { title: "门票费用", content: "不可单买门票\n需凭库斯科游客通票\n（Boleto Turístico del Cusco）入场", note: "⚠️ 重要提示：萨克塞华曼不能在门口单独买票，必须购买通票。", ticketTip: "🎫 票务Tips：库斯科游客通票（Boleto Turístico）分为以下几种：\n• 全套通票（130索尔，10天有效）：包含所有遗址\n• 仅Circuit 1（70索尔，1天有效）：包含萨克塞华曼\n建议在库斯科文化局官方网点购买，避免被宰。" },
+      price: { title: "门票费用", content: "不可单买门票\n需凭库斯科游客通票\n（Boleto Turístico del Cusco）入场", note: "⚠️ 重要提示：萨克塞华曼不设独立售票处，必须持有库斯科游客通票（BTC）。", ticketTip: "🎫 官方票务指南：萨克塞华曼不设独立售票处，必须持有 库斯科游客通票（Boleto Turístico del Cusco - BTC）。\n建议游客抵达库斯科后，前往 Avenida el Sol 103 号的 <a href='https://www.culturacusco.gob.pe/' target='_blank' rel='noopener noreferrer' style='color:inherit;text-decoration:underline;'>[库斯科文化局 (COSITUC) 官方服务中心]</a> 购买，以防买到伪造票据。" },
       duration: { title: "建议游览时长", content: "建议预留 2 - 3 小时", note: "可以结合库斯科市区游览，安排半天时间参观萨克塞华曼及附近遗址。" },
       tips: { title: "游览建议物品", items: ["舒适的步行鞋（石板路较滑，且有爬坡）",
         "预防高反药物或古柯叶（海拔约3700米，请预防高山症 Soroche）", "防晒用品与墨镜（高原紫外线极强）", "相机和备用电池", "帽子和保暖衣物（早晚温差大）", "水和零食", "当地地图或导游APP", "氧气罐（可在库斯科药店购买，以防高反）"] },
@@ -61,11 +67,10 @@ export const translations: Record<Locale, Translations> = {
     },
     transportation: {
       title: "交通接驳",
-      airport: { title: "从利马或其他城市出发", content: "所有游客需先到达库斯科（Cusco）——印加帝国的古都。库斯科拥有国际机场，连接利马和南美洲主要城市。", options: [
-        { name: "飞机(推荐)", price: "约 $80 - $200 美元", time: "约 1 小时飞机", steps: ["从利马飞往库斯科（约1小时）", "从库斯科机场前往市区（约20分钟）", "打车前往萨克塞华曼（约15分钟）"] },
-        { name: "长途汽车", price: "约 $30 - $60 美元", time: "约 20-24 小时", steps: ["从利马乘坐长途汽车前往库斯科", "到达库斯科后打车前往景点"] }
+      airport: { title: "第一程：亚历杭德罗·韦拉斯科·阿斯泰特国际机场 (CUZ) ➔ 库斯科老城", content: "所有游客需先到达库斯科（Cusco）——印加帝国的古都。库斯科拥有国际机场，连接利马和南美洲主要城市。", options: [
+        { name: "出租车 / 网约车", price: "约 15 - 40 索尔", time: "约 20 分钟", steps: ["耗时与费用： 约 20 分钟", "正规出租车（机场内官方柜台）费用约 30-40 索尔", "网约车（Uber/Cabify）约 15-20 索尔"] }
       ]},
-      city: { title: "库斯科市内交通", content: "萨克塞华曼位于库斯科市北部山丘上，海拔约3700米。从市区打车约15分钟即可到达。", steps: ["建议打车上山（taxi）", "下车后步行参观，然后步行下山返回市区", "导航: 在 Google Maps 中输入 Saqsaywaman", "沿指示牌前往"] },
+      city: { title: "第二程：库斯科老城 ➔ 萨克塞华曼", content: "萨克塞华曼位于库斯科市北部山丘上，海拔约3700米。", steps: ["强烈建议：从老城打车直达遗址的 上层入口（Cristo Blanco 耶稣白雕像附近）", "车费约 15-20 索尔", "这样你可以从最高点一路 向下步行 游览，最后轻松走回老城，完美避开在 3700 米海拔剧烈爬坡的致命高反风险。"] },
       selfDrive: { title: "自驾前往", content: "库斯科市区不建议自驾，因为街道狭窄且为石板路。建议打车或参加当地旅行团。", steps: ["将车停在武器广场附近停车场", "打车前往萨克塞华曼", "注意：库斯科老城区限行，外地车辆禁入"] }
     },
     tips: { title: "游览建议", items: [
@@ -82,7 +87,7 @@ export const translations: Record<Locale, Translations> = {
       "保持景点整洁，不要乱扔垃圾。带走的只有照片，留下的只有脚印"
     ] },
     gallery: { title: "精彩照片", viewMore: "在 Google Maps 查看更多相片" },
-    reviews: { title: "游客评价", subtitle: "来自库斯科的声音：Google Maps 真实见证", viewMore: "在 Google Maps 查看更多见证" },
+    reviews: { title: "旅行者手记 (Traveler Insights)", subtitle: "来自库斯科的声音：Google Maps 真实见证", viewMore: "在 Google Maps 查看更多见证" },
     faq: { title: "常见问题", subtitle: "深入了解萨克塞华曼", items: [
       { question: "萨克塞华曼的开放时间是？", answer: "萨克塞华曼的开放时间为每天07:00-17:30，全年无休。但由于是户外遗址，建议白天参观，安全和光线更佳。每年6月24日会举办盛大的太阳祭典（Inti Raymi），建议提前预订观礼座位。" },
       { question: "参观萨克塞华曼需要门票吗？", answer: "需要。萨克塞华曼不能在门口单独买票，必须凭库斯科游客通票（Boleto Turístico del Cusco）入场。通票分为以下几种：\n• 全套通票（130索尔，10天有效）：包含所有遗址\n• Circuit 1（70索尔，1天有效）：包含萨克塞华曼、Qenqo、Puka Pukara、Tambomachay\n建议在库斯科文化局官方网点购买，避免被宰。通票价格可能会变动，以官方公布为准。" },
@@ -101,7 +106,7 @@ export const translations: Record<Locale, Translations> = {
   },
 
   en: {
-    nav: { about: "Overview", ecology: "Architecture Mystery", culture: "Inca Culture", bestTime: "Best Time", visiting: "Visit Guide", transportation: "Getting There", tips: "Travel Tips", gallery: "Photo Gallery", reviews: "Reviews", faq: "FAQ", location: "Location" },
+    nav: { about: "Overview", ecology: "Architecture Mystery", culture: "Inca Culture", history: "History", bestTime: "Best Time", visiting: "Visit Guide", transportation: "Getting There", tips: "Travel Tips", gallery: "Photo Gallery", reviews: "Traveler Insights", faq: "FAQ", location: "Location" },
     hero: { tagline: "Cusco, Peru · Inca Citadel", title: "Saqsaywaman", subtitle: "Saqsaywaman · The Megalithic Fortress of the Inca Empire", cta: "Explore the Citadel" },
     rating: { reviews: "reviews", source: "Google Reviews" },
     about: {
@@ -113,13 +118,18 @@ export const translations: Record<Locale, Translations> = {
     },
     ecology: {
       subtitle: "Architectural Mystery: How Were 100-ton Stones Fitted So Precisely?",
-      content: "The most awe-inspiring feature of Saqsaywaman is its iconic three-tiered zigzag (terraced) megalithic defensive walls. These three walls extend about 400 meters, resembling lightning bolts or a beast's fangs.\n\n**Beyond Imagination Weight:**\nThe largest stone block on the site reaches 8.5 meters in height and is estimated to weigh between 100 and 128 tons. In the Inca era, without wheels, pulley systems, or pack animals, how thousands of Inca laborers transported these megaliths from several kilometers away up the mountain remains a massive engineering mystery.\n\n**Macroscopic Polygonal Seamless Masonry:**\nSaqsaywaman uses 'mortar-free polygonal interlocking' technology. Even though the stones are mountain-sized, craftsmen still polished their edges into extremely complex inward and outward angles. 100-ton megaliths nest perfectly like 3D Tetris blocks, and not even a piece of paper can be inserted between the stones. This gives the structure 'flexible earthquake-resistant capability' that has withstood centuries of strong tremors.\n\n💡 **Architectural Knowledge:** The megalithic walls of Saqsaywaman are not only an engineering miracle but also an embodiment of the Incas' 'macroscopic gravity aesthetics'. Unlike the microscopic delicacy of the Twelve-angled Stone, this place displays rugged, wild, and incredible megalithic power."
+      content: "The most awe-inspiring feature of Saqsaywaman is its iconic three-tiered zigzag (terraced) megalithic defensive walls. These three walls extend about 400 meters, resembling lightning bolts or a beast's fangs.\n\n**Beyond Imagination Weight and Stone Source:**\nThe largest stone block on the site reaches 8.5 meters in height and is estimated to weigh between 100 and 128 tons. Geological analysis shows that the andesite and diorite used to build Saqsaywaman were not sourced locally, but from the Waqoto and Rumiqolqa quarries about 15 to 35 kilometers away. In an era without wheels or iron tools, the Incas had to rely on log rollers, extremely tough agave fiber ropes, and tens of thousands of laborers to forcefully drag these 100-ton megaliths across the rugged Andes mountains and deep valleys. This absolute ability to mobilize massive human resources was the true 'muscle' of the Inca Empire.\n\n**Macroscopic Polygonal Seamless Masonry:**\nSaqsaywaman uses 'mortar-free polygonal interlocking' technology. Even though the stones are mountain-sized, craftsmen still polished their edges into extremely complex inward and outward angles. 100-ton megaliths nest perfectly like 3D Tetris blocks, and not even a piece of paper can be inserted between the stones. This gives the structure 'flexible earthquake-resistant capability' that has withstood centuries of strong tremors.\n\n💡 **Architectural Knowledge:** The megalithic walls of Saqsaywaman are not only an engineering miracle but also an embodiment of the Incas' 'macroscopic gravity aesthetics'. Unlike the microscopic delicacy of the Twelve-angled Stone, this place displays rugged, wild, and incredible megalithic power."
     },
     culture: {
       subtitle: "Urban Planning Myth: The Head of the Puma and the Sun Festival",
       content: "In the Inca cosmology, the puma symbolizes the power of the earth and the present world. Pachacuti, the greatest monarch of the Inca Empire, designed the layout of the capital Cusco to resemble a crouching puma when he redesigned the city.\n\n**The Sacred Puma:**\nCusco's old town is the puma's body, and the towering Saqsaywaman is the majestic head of this puma. The three zigzag megalithic walls are seen as the puma's erected mane or fangs.\n\n**Inti Raymi (Sun Festival):**\nThis is one of the most important religious centers of the Inca Empire. To this day, on June 24th each year (Southern Hemisphere winter solstice), Cusco recreates the grand 'Sun Festival' on Saqsaywaman's vast central plaza. This is the second-largest traditional festival in South America, attracting tens of thousands of tourists from around the world.\n\n💡 **Cultural Knowledge:** Saqsaywaman is not only a military fortress but also the materialization of the Incas' cosmology. The Inti Raymi on June 24th is an excellent opportunity to experience Inca culture. It is recommended to book viewing seats in advance."
     },
+    chinkana: {
+      subtitle: "The Mysterious Underground Maze (Las Chinkanas)",
+      content: "Behind the megalithic walls lies a system of intertwined natural and man-made underground caves (Chinkana). In Quechua, it means 'place of loss'. Legend has it that these intricate tunnels once connected to Qorikancha (Temple of the Sun) several kilometers away. For safety reasons, the Peruvian government has now closed most of the deep tunnels, but visitors can still experience the mystery of weaving through this underground maze in the permitted shallow areas."
+    },
     saqsaywaman: {
+      title: "History | The Empire's Twilight and Struggle",
       subtitle: "Elegy of History: Colonial Warfare and Megalithic Quarry",
       content: "Saqsaywaman witnessed the most tragic struggle of the Inca Empire. In 1536, Manco Inca, descendant of the Inca royal family, launched a great uprising against Spanish colonizers. Saqsaywaman became the core position of the Inca army besieging Cusco, and both sides engaged in bloody hand-to-hand combat here.\n\nWith the failure of the Inca uprising, the Spanish controlled this fortress. Fearing its military defense capability, the colonizers ordered its demolition. However, those 100-ton megaliths could not be moved at all. Thus, the Spanish could only remove the smaller stones, rolling them down the hillside to build the cathedrals and colonial courtyards in today's Cusco old town.\n\nWhat we see today of Saqsaywaman is only about 20% of its original scale. But even this remaining one-fifth is enough to shock the world.\n\n💡 **Travel Tip:** Walk down from Saqsaywaman back to Cusco old town (the 'puma's body'). On Calle Hatunrumiyoc, not far from Plaza de Armas, hides another face of Inca architecture—the pinnacle of micro-geometric work, the 'Twelve-angled Stone'. If Saqsaywaman is the Incas' wild muscle, then the Twelve-angled Stone is their most precise brain."
     },
@@ -154,7 +164,7 @@ export const translations: Record<Locale, Translations> = {
       "Keep the attraction clean, do not litter. Take only photos, leave only footprints"
     ] },
     gallery: { title: "Photo Gallery", viewMore: "View More Photos on Google Maps" },
-    reviews: { title: "Reviews", subtitle: "Voices from Cusco: Real Reviews from Google Maps", viewMore: "View More Reviews on Google Maps" },
+    reviews: { title: "Traveler Insights", subtitle: "Voices from Cusco: Real Reviews from Google Maps", viewMore: "View More Reviews on Google Maps" },
     faq: { title: "Frequently Asked Questions", subtitle: "Learn More About Saqsaywaman", items: [
       { question: "What are the opening hours of Saqsaywaman?", answer: "Saqsaywaman is open daily from 07:00-17:30, every day of the year. However, as it is an outdoor attraction, daytime visits are recommended for better safety and lighting. The grand Inti Raymi Sun Festival is held on June 24th each year. It is recommended to book viewing seats in advance." },
       { question: "Is there an entrance fee to see Saqsaywaman?", answer: "Yes. Saqsaywaman cannot be entered with a separate ticket at the gate. You must have the 'Cusco Tourist Ticket' (Boleto Turístico del Cusco). The ticket has several options:\n• Full Ticket (130 soles, valid 10 days): Includes all sites\n• Circuit 1 Only (70 soles, valid 1 day): Includes Saqsaywaman, Qenqo, Puka Pukara, Tambomachay\nIt is recommended to purchase at official Cusco Culture Bureau offices to avoid scams. Ticket prices may change, subject to official announcement." },
@@ -173,7 +183,7 @@ export const translations: Record<Locale, Translations> = {
   },
 
   es: {
-    nav: { about: "Descripción", ecology: "Misterio Arquitectónico", culture: "Cultura Inca", bestTime: "Mejor Época", visiting: "Guía de Visita", transportation: "Cómo Llegar", tips: "Consejos", gallery: "Galería", reviews: "Reseñas", faq: "Preguntas Frecuentes", location: "Ubicación" },
+    nav: { about: "Descripción", ecology: "Misterio Arquitectónico", culture: "Cultura Inca", history: "Historia", bestTime: "Mejor Época", visiting: "Guía de Visita", transportation: "Cómo Llegar", tips: "Consejos", gallery: "Galería", reviews: "Diario de Viajeros", faq: "Preguntas Frecuentes", location: "Ubicación" },
     hero: { tagline: "Cusco, Perú · Ciudadela Inca", title: "Saqsaywaman", subtitle: "Saqsaywaman · La Gran Muralla Megalítica del Imperio Inca", cta: "Explorar" },
     rating: { reviews: "reseñas", source: "Google Reviews" },
     about: {
@@ -185,13 +195,18 @@ export const translations: Record<Locale, Translations> = {
     },
     ecology: {
       subtitle: "Misterio Arquitectónico: ¿Cómo se Ajustaron Piedras de 100 Toneladas con Tanta Precisión?",
-      content: "Lo más impresionante de Saqsaywaman son sus icónicos muros defensivos megalíticos en zigzag de tres niveles. Estos tres muros tienen unos 400 metros de largo, pareciendo relámpagos o colmillos de bestia.\n\n**Peso más allá de la imaginación:**\nLa piedra más grande del sitio alcanza 8.5 metros de altura y se estima que pesa entre 100 y 128 toneladas. En la era inca, sin ruedas, sin sistemas de poleas y sin animales de carga, cómo miles de trabajadores incas transportaron estos megalitos desde varios kilómetros de distancia hasta la montaña sigue siendo un gran misterio de ingeniería.\n\n**Albañilería Poligonal Sin Mortero Macroscópica:**\nSaqsaywaman utiliza la tecnología de 'interbloqueo poligonal sin mortero'. Incluso aunque las piedras son del tamaño de una montaña, los artesanos todavía pulieron sus bordes en ángulos hacia adentro y hacia afuera extremadamente complejos. Los megalitos de 100 toneladas encajan perfectamente como bloques de Tetris 3D, y ni siquiera se puede insertar un papel entre las piedras.\n\n💡 **Conocimiento Arquitectónico:** Los muros megalíticos de Saqsaywaman no son solo un milagro de ingeniería, sino también una encarnación de la 'estética macrogravitacional' de los incas."
+      content: "Lo más impresionante de Saqsaywaman son sus icónicos muros defensivos megalíticos en zigzag de tres niveles. Estos tres muros tienen unos 400 metros de largo, pareciendo relámpagos o colmillos de bestia.\n\n**Peso y Origen de la Piedra:**\nLa piedra más grande del sitio alcanza 8.5 metros de altura y se estima que pesa entre 100 y 128 toneladas. El análisis geológico muestra que la andesita y la diorita utilizadas para construir Saqsaywaman no se obtuvieron localmente, sino de las canteras de Waqoto y Rumiqolqa a unos 15 o 35 kilómetros de distancia. En una era sin ruedas ni herramientas de hierro, los incas tuvieron que depender de rodillos de troncos, cuerdas de fibra de agave extremadamente resistentes y decenas de miles de trabajadores para arrastrar por la fuerza estos megalitos de 100 toneladas a través de las escarpadas montañas y valles profundos de los Andes. Esta capacidad absoluta para movilizar recursos humanos masivos fue el verdadero 'músculo' del Imperio Inca.\n\n**Albañilería Poligonal Sin Mortero Macroscópica:**\nSaqsaywaman utiliza la tecnología de 'interbloqueo poligonal sin mortero'. Incluso aunque las piedras son del tamaño de una montaña, los artesanos todavía pulieron sus bordes en ángulos hacia adentro y hacia afuera extremadamente complejos. Los megalitos de 100 toneladas encajan perfectamente como bloques de Tetris 3D, y ni siquiera se puede insertar un papel entre las piedras.\n\n💡 **Conocimiento Arquitectónico:** Los muros megalíticos de Saqsaywaman no son solo un milagro de ingeniería, sino también una encarnación de la 'estética macrogravitacional' de los incas."
     },
     culture: {
       subtitle: "Mito de Planificación Urbana: La Cabeza del Puma y la Fiesta del Sol",
       content: "En la cosmovisión inca, el puma simboliza el poder de la tierra y el mundo presente. Pachacútec, el monarca más grande del Imperio Inca, diseñó el diseño de la capital Cusco para parecerse a un puma agachado cuando rediseñó la ciudad.\n\n**El Puma Sagrado:**\nEl centro histórico de Cusco es el cuerpo del puma, y el imponente Saqsaywaman es la cabeza majestuosa de este puma. Los tres muros megalíticos en zigzag se consideran la melena erguida o los colmillos del puma.\n\n**Inti Raymi (Fiesta del Sol):**\nEste es uno de los centros religiosos más importantes del Imperio Inca. Hasta el día de hoy, el 24 de junio de cada año (solsticio de invierno del Hemisferio Sur), Cusco recrea el grandoso 'Festival del Sol' en la vasta plaza central de Saqsaywaman.\n\n💡 **Conocimiento Cultural:** Saqsaywaman no es solo una fortaleza militar, sino también la materialización de la cosmovisión de los incas."
     },
+    chinkana: {
+      subtitle: "El Misterioso Laberinto Subterráneo (Las Chinkanas)",
+      content: "Detrás de los muros megalíticos se esconde un sistema de cuevas subterráneas entrelazadas, tanto naturales como excavadas por el hombre (Chinkana). En quechua, significa 'lugar de pérdida'. Cuenta la leyenda que estos intrincados túneles alguna vez se conectaron con el Qorikancha (Templo del Sol) a varios kilómetros de distancia. Por razones de seguridad, el gobierno peruano ha cerrado la mayoría de los túneles profundos, pero los visitantes aún pueden experimentar el misterio de atravesar este laberinto subterráneo en las áreas poco profundas permitidas."
+    },
     saqsaywaman: {
+      title: "Historia | El Ocaso del Imperio y la Lucha",
       subtitle: "Elegía de la Historia: Guerra Colonial y Cantera Megalítica",
       content: "Saqsaywaman fue testigo de la lucha más trágica del Imperio Inca. En 1536, Manco Inca, descendiente de la familia real inca, lanzó una gran rebelión contra los colonizadores españoles. Saqsaywaman se convirtió en la posición central del ejército inca sitiando Cusco, y ambos bandos participaron en una sangrienta lucha cuerpo a cuerpo aquí.\n\nCon el fracaso de la rebelión inca, los españoles controlaron esta fortaleza. Temiendo su capacidad de defensa militar, los colonizadores ordenaron su demolición. Sin embargo, esos megalitos de 100 toneladas no podían ser movidos en absoluto. Así, los españoles solo podían quitar las piedras más pequeñas, rodándolas colina abajo para construir las catedrales y patios coloniales en el centro histórico de Cusco de hoy.\n\nLo que vemos hoy de Saqsaywaman es solo aproximadamente el 20% de su escala original. Pero incluso esta quinta parte restante es suficiente para sorprender al mundo.\n\n💡 **Consejo de Viaje:** Camine desde Saqsaywaman de regreso al centro histórico de Cusco (el 'cuerpo del puma'). En Calle Hatunrumiyoc, no lejos de Plaza de Armas, se esconde otra cara de la arquitectura inca: la cima del trabajo micro-geométrico, la 'Piedra de los 12 Ángulos'."
     },
@@ -222,7 +237,7 @@ export const translations: Record<Locale, Translations> = {
       "Contratar un guía local"
     ] },
     gallery: { title: "Galería", viewMore: "Ver Más Fotos en Google Maps" },
-    reviews: { title: "Reseñas", subtitle: "Voces de Cusco", viewMore: "Ver Más Reseñas en Google Maps" },
+    reviews: { title: "Diario de Viajeros (Traveler Insights)", subtitle: "Voces de Cusco", viewMore: "Ver Más Reseñas en Google Maps" },
     faq: { title: "Preguntas Frecuentes", subtitle: "Aprenda Más Sobre Saqsaywaman", items: [
       { question: "¿Cuál es el horario de Saqsaywaman?", answer: "07:00-17:30, todos los días." },
       { question: "¿Hay entrada?", answer: "Sí, requiere Boleto Turístico." }
@@ -237,7 +252,7 @@ export const translations: Record<Locale, Translations> = {
   },
 
   qu: {
-    nav: { about: "Qhaway", ecology: "Yachay", culture: "Kultura", bestTime: "Allin Punchaw", visiting: "Puriy", transportation: "Chaykamuy", tips: "Yachay", gallery: "Rikuy", reviews: "Niykuna", faq: "Tapuykuna", location: "Maypi" },
+    nav: { about: "Qhaway", ecology: "Yachay", culture: "Kultura", history: "Wiñay Kawsay", bestTime: "Allin Punchaw", visiting: "Puriy", transportation: "Chaykamuy", tips: "Yachay", gallery: "Rikuy", reviews: "Puriy Niykuna", faq: "Tapuykuna", location: "Maypi" },
     hero: { tagline: "Cusco, Piruw · Inka Ciudadela", title: "Saqsaywaman", subtitle: "Saqsaywaman · Inka Imperio Megalithic Fortress", cta: "Rikuy" },
     rating: { reviews: "niykuna", source: "Google niykuna" },
     about: {
@@ -249,13 +264,18 @@ export const translations: Record<Locale, Translations> = {
     },
     ecology: {
       subtitle: "Architecture | Inka Rumimanta",
-      content: "Saqsaywaman kanankupaq? Inka runakuna rumita junt'achanku, mana ñawch'awan. Inka pirqunqa jatun temblorpi mana urmachu.\n\nInka rumikuna 100-128 toneladas."
+      content: "Saqsaywaman kanankupaq? Inka runakuna rumita junt'achanku, mana ñawch'awan. Inka pirqunqa jatun temblorpi mana urmachu.\n\nInka rumikuna 100-128 toneladas. Rumikunaqa Waqoto, Rumiqolqa urqumantam 15-35 km karumanta apamusqa karqan. Inka runakunaqa mana llantayuq, mana fierroyuq, k'ulluwan, waskha waskawan, waranqa waranqa runakunawan kay 100 ton rumikunata aysarqanku."
     },
     culture: {
       subtitle: "Kultura | Inka Yachay",
       content: "Inka runakuna rumita yupaychanku. Saqsaywaman nisqa Inka Imperio paqarina.\n\nInti Raymi: Junio 24."
     },
+    chinkana: {
+      subtitle: "Chinkana: Ukhu Pacha",
+      content: "Hatun rumikuna qhipanpiqa Chinkana sutiyuq ukhu mach'aykunam kachkan. Chinkanaqa 'chinkana llaqta' ninanmi. Willakuykunapiqa kay mach'aykunaqa Qorikanchawan (Inti Wasi) tinkusqas karqan. Runakunaq allin kananpaqmi Piruw suyu kamachiqkuna aswan ukhu mach'aykunata wisq'apunku, ichaqa hawalla mach'aykunapiraqmi puriyta atikun."
+    },
     saqsaywaman: {
+      title: "Wiñay Kawsay",
       subtitle: "Historia | Inka Imperio",
       content: "Saqsaywaman Inka Imperio megalithic fortress. Inka runakuna rumita junt'achanku.\n\nInti Raymi Cuscopi."
     },
@@ -283,7 +303,7 @@ export const translations: Record<Locale, Translations> = {
       "Rumi ñan, botawan puriy"
     ] },
     gallery: { title: "Rikuy", viewMore: "Google Maps nisqapi astawan rikuy" },
-    reviews: { title: "Niykuna", subtitle: "Cusco niykuna", viewMore: "Astawan niykuna" },
+    reviews: { title: "Puriy Niykuna (Traveler Insights)", subtitle: "Cusco niykuna", viewMore: "Astawan niykuna" },
     faq: { title: "Tapuykuna", subtitle: "Yachay", items: [
       { question: "Hayk'aq kachkan?", answer: "07:00-17:30. Sapa p'unchay." },
       { question: "Qullqi paganan chá?", answer: "Arí. Boleto Turístico." }
