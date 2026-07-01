@@ -1,0 +1,20 @@
+export type Locale = "zh" | "en" | "es" | "qu";
+
+export type Translations = {
+  hero: { tagline: string; title: string; subtitle: string; cta: string };
+};
+
+export const translations: Record<Locale, Translations> = {
+  zh: {
+    hero: { tagline: "秘鲁库斯科", title: "萨克塞华曼", subtitle: "Saqsaywaman", cta: "探索" }
+  },
+  en: {
+    hero: { tagline: "Cusco, Peru", title: "Saqsaywaman", subtitle: "Inca Fortress", cta: "Explore" }
+  },
+  es: {
+    hero: { tagline: "Cusco, Perú", title: "Saqsaywaman", subtitle: "Fortaleza Inca", cta: "Explorar" }
+  },
+  qu: {
+    hero: { tagline: "Cusco, Piruw", title: "Saqsaywaman", subtitle: "Inka Fortress", cta: "Rikuy" }
+  }
+};

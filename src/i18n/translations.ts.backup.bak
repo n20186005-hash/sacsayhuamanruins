@@ -1,0 +1,299 @@
+export type Locale = "zh" | "en" | "es" | "qu";
+export type LinkItem = { name: string; url: string };
+export type FAQItem = { question: string; answer: string };
+export type TransportOption = { name: string; time: string; price: string; steps: string[] };
+export type TimelineEvent = { period: string; description: string };
+export type HistorySection = { subtitle: string; content: string };
+export type EcologySection = { subtitle: string; content: string };
+export type CultureSection = { subtitle: string; content: string };
+export type SaqsaywamanSection = { subtitle: string; content: string };
+
+export type Translations = {
+  nav: { about: string; ecology: string; culture: string; bestTime: string; visiting: string; transportation: string; tips: string; gallery: string; reviews: string; faq: string; location: string };
+  hero: { tagline: string; title: string; subtitle: string; cta: string };
+  rating: { reviews: string; source: string };
+  about: { title: string; p1: string; p2: string; highlights: { title: string; items: string[] }; bestTime: { title: string; content: string; tip: string } };
+  ecology: EcologySection;
+  culture: CultureSection;
+  saqsaywaman: SaqsaywamanSection;
+  visiting: { title: string; hours: { title: string; content: string; note: string; ticketTip: string }; price: { title: string; content: string; note: string }; duration: { title: string; content: string; note: string }; tips: { title: string; items: string[] }; route: { title: string; content: string } };
+  transportation: { title: string; airport: { title: string; content: string; options: TransportOption[] }; city: { title: string; content: string; steps: string[] }; selfDrive: { title: string; content: string; steps: string[] } };
+  tips: { title: string; items: string[] };
+  gallery: { title: string; viewMore: string };
+  reviews: { title: string; subtitle: string; viewMore: string };
+  faq: { title: string; subtitle: string; items: FAQItem[] };
+  location: { title: string; address: string; openMaps: string };
+  footer: { callToAction: string; text: string; made: string; linksTitle: string; links: LinkItem[] };
+};
+
+export const translations: Record<Locale, Translations> = {
+  zh: {
+    nav: { about: "景点概览", ecology: "建筑之谜", culture: "印加文化", bestTime: "最佳时间", visiting: "游览指南", transportation: "交通接驳", tips: "游览建议", gallery: "照片画廊", reviews: "游客评价", faq: "常见问题", location: "地图位置" },
+    hero: { tagline: "秘鲁库斯科 · 印加帝国卫城", title: "萨克塞华曼", subtitle: "Saqsaywaman · 印加帝国的巨石长城", cta: "探索古迹" },
+    rating: { reviews: "条评价", source: "Google 评论" },
+    about: {
+      title: "萨克塞华曼：印加帝国的巨石长城与【美洲豹之首】",
+      p1: "在库斯科老城北部陡峭的山丘上，盘踞着印加帝国最宏伟的建筑奇迹——萨克塞华曼（Saqsaywaman）。这座集军事堡垒、皇家行宫与太阳神祭祀中心于一体的庞大遗址，是印加文明鼎盛时期国力的终极象征。\n\n与老城区里精巧的十二边印加石不同，萨克塞华曼展现的是一种粗犷、狂暴且不可思议的【宏观重力美学】。这里的石墙由重达上百吨的安山岩与石灰岩垒砌而成，如同大地的脊梁般巍峨耸立。它不仅是美洲原住民建筑史上的丰碑，更是每年库斯科最盛大的太阳神祭典（Inti Raymi）的举办圣地。",
+      p2: "萨克塞华曼最令人敬畏的，是其标志性的三层锯齿状（梯田式）巨石防御墙。这三层石墙全长约400米，宛如闪电或猛兽的獠牙。遗址中最大的石块高达8.5米，重量估计在100到128吨之间。在没有车轮、没有滑轮组、也没有驮兽的印加时代，成千上万的印加劳工是如何将这些采自数公里外的巨石运送上山，至今仍是工程学上的巨大谜团。",
+      highlights: { title: "景点亮点", items: ["巨石防线: 三层锯齿状巨石墙，全长400米", "百吨巨石: 最重石块达128吨，高8.5米", "太阳祭典: 每年6月24日Inti Raymi举办地", "美洲豹之首: 印加宇宙观中库斯科的头部", "建筑奇迹: 无灰泥多边形咬合，抗震数百年"] },
+      bestTime: { title: "最佳参观时间", content: "07:00-17:30\n建议清晨参观，避开人群且光线柔和\n每年6月24日可观看太阳祭典", tip: "💡 建议: 清晨07:00开园时到达，游客最少且能拍摄无人的巨石墙" }
+    },
+    ecology: {
+      subtitle: "建筑之谜：百吨巨石如何【严丝合缝】？",
+      content: "萨克塞华曼最令人敬畏的，是其标志性的三层锯齿状（梯田式）巨石防御墙。这三层石墙全长约400米，宛如闪电或猛兽的獠牙。\n\n**超越人类想象的重量：**\n遗址中最大的石块高达 8.5 米，重量估计在 100 到 128 吨 之间。在没有车轮、没有滑轮组、也没有驮兽（羊驼无法拉动重物）的印加时代，成千上万的印加劳工是如何将这些采自数公里外的巨石运送上山，至今仍是工程学上的巨大谜团。\n\n**宏观多边形无缝石工：**\n萨克塞华曼采用了【无灰泥多边形咬合】技术。即便石块巨大如山，工匠依然将它们的边缘打磨出了极其复杂的向内和向外切角。重达百吨的巨石像立体的俄罗斯方块一样完美嵌套，石缝间同样连一张纸都插不进去，赋予了它能够抵御百年强震的【柔性抗震能力】。\n\n💡 **建筑知识：** 萨克塞华曼的巨石墙不仅是工程奇迹，更是印加人【宏观重力美学】的体现。与十二边印加石的微观精致不同，这里展现的是粗犷、狂暴且不可思议的巨石力量。"
+    },
+    culture: {
+      subtitle: "城市规划神话：美洲豹的头部与太阳祭典",
+      content: "在印加人的宇宙观中，美洲豹象征着大地与现世的力量。印加帝国最伟大的君主帕查库特克（Pachacuti）在重新规划首都库斯科时，将整座城市的轮廓设计成了一只匍匐的美洲豹。\n\n**神圣的美洲豹（Puma）：**\n库斯科老城区是豹子的身躯，而高高在上的萨克塞华曼，正是这只美洲豹威严的头部；那三道锯齿状的巨石墙，则被视为美洲豹竖立的毛发或利齿。\n\n**太阳祭典（Inti Raymi）：**\n这里是印加帝国最重要的宗教中心之一。时至今日，在每年的 6月24日（南半球的冬至），库斯科都会在萨克塞华曼广阔的中央广场上重现盛大的【太阳神祭典】。这是整个南美洲规模第二大的传统节日，吸引着全球数以万计的游客前来朝圣。\n\n💡 **文化知识：** 萨克塞华曼不仅是军事堡垒，更是印加人宇宙观的实体化。每年6月24日的Inti Raymi是体验印加文化的绝佳机会，建议提前预订观礼座位。"
+    },
+    saqsaywaman: {
+      subtitle: "历史的悲歌：殖民战火与巨石采石场",
+      content: "萨克塞华曼曾见证了印加帝国最惨烈的抗争。1536年，印加皇室后裔曼科·印加（Manco Inca）发动了反抗西班牙殖民者的大起义。萨克塞华曼成为了印加军队围攻库斯科的核心阵地，双方在此展开了血腥的肉搏战。\n\n随着印加起义的失败，西班牙人控制了这座堡垒。由于忌惮它的军事防御力，殖民者下令将其拆毁。然而，那些百吨巨石根本无法被撼动。于是，西班牙人只能拆走那些较小的石块，将其滚下山坡，用来建造今天库斯科老城内的大教堂和殖民庭院。\n\n我们今天看到的萨克塞华曼遗址，仅仅是其原始规模的约 20%。但仅仅是这遗留下的五分之一，已经足以让世人震撼。\n\n💡 **旅行建议：** 从萨克塞华曼步行下山，回到库斯科老城（即【美洲豹】的身躯）。在距离武器广场不远的哈图姆鲁米约克街（Calle Hatunrumiyoc），隐藏着印加建筑的另一张面孔——微观几何的巅峰之作【十二边印加石】。如果说萨克塞华曼是印加人狂放的肌肉，那么十二边石就是他们最精密的大脑。"
+    },
+    visiting: {
+      title: "游览指南",
+      hours: { title: "开放时间", content: "07:00 - 17:30\n全年开放", note: "⚠️ 提醒：建议白天参观，安全和光线更佳。每年6月24日有太阳祭典。" },
+      price: { title: "门票费用", content: "不可单买门票\n需凭【库斯科游客通票】\n（Boleto Turístico del Cusco）入场", note: "⚠️ 重要提示：萨克塞华曼不能在门口单独买票，必须购买通票。", ticketTip: "🎫 票务Tips：库斯科游客通票（Boleto Turístico）分为以下几种：\n• 全套通票（130索尔，10天有效）：包含所有遗址\n• 仅Circuit 1（70索尔，1天有效）：包含萨克塞华曼\n建议在库斯科文化局官方网点购买，避免被宰。" },
+      duration: { title: "建议游览时长", content: "建议预留 2 - 3 小时", note: "可以结合库斯科市区游览，安排半天时间参观萨克塞华曼及附近遗址。" },
+      tips: { title: "游览建议物品", items: ["舒适的步行鞋（石板路较滑，且有爬坡）",
+        "预防高反药物或古柯叶（海拔约3700米，请预防高山症 Soroche）", "防晒用品与墨镜（高原紫外线极强）", "相机和备用电池", "帽子和保暖衣物（早晚温差大）", "水和零食", "当地地图或导游APP", "氧气罐（可在库斯科药店购买，以防高反）"] },
+      route: { title: "主要探索路线", content: "我们特别推荐以下库斯科探索路线：\n\n1. 从库斯科市区打车上山至萨克塞华曼（建议打车上山，节省体力）\n2. 参观三层巨石防御墙和中央广场\n3. 观看太阳祭典遗址和印加浴室遗迹\n4. 步行下山，沿途欣赏库斯科全景\n5. 返回市区，参观十二边印加石（Calle Hatunrumiyoc）\n6. 参观科里坎查遗址（Sun Temple）\n7. 返回武器广场，结束一日游" }
+    },
+    transportation: {
+      title: "交通接驳",
+      airport: { title: "从利马或其他城市出发", content: "所有游客需先到达库斯科（Cusco）——印加帝国的古都。库斯科拥有国际机场，连接利马和南美洲主要城市。", options: [
+        { name: "飞机(推荐)", price: "约 $80 - $200 美元", time: "约 1 小时飞机", steps: ["从利马飞往库斯科（约1小时）", "从库斯科机场前往市区（约20分钟）", "打车前往萨克塞华曼（约15分钟）"] },
+        { name: "长途汽车", price: "约 $30 - $60 美元", time: "约 20-24 小时", steps: ["从利马乘坐长途汽车前往库斯科", "到达库斯科后打车前往景点"] }
+      ]},
+      city: { title: "库斯科市内交通", content: "萨克塞华曼位于库斯科市北部山丘上，海拔约3700米。从市区打车约15分钟即可到达。", steps: ["建议打车上山（mostrado）", "下车后步行参观，然后步行下山返回市区", "导航: 在 Google Maps 中输入 Saqsaywaman", "沿指示牌前往"] },
+      selfDrive: { title: "自驾前往", content: "库斯科市区不建议自驾，因为街道狭窄且为石板路。建议打车或参加当地旅行团。", steps: ["将车停在武器广场附近停车场", "打车前往萨克塞华曼", "注意：库斯科老城区限行，外地车辆禁入"] }
+    },
+    tips: { title: "游览建议", items: [
+      "⚠️ 高原反应预警：萨克塞华曼海拔约3700米，比库斯科老城高出约300米。刚到达库斯科的游客切勿剧烈活动，建议先适应1-2天再前往。",
+      "💡 交通建议：建议打车上山，然后步行下山返回老城。这样既节省体力，又能沿途欣赏风景。",
+      "🎫 门票提示：必须购买Boleto Turístico通票，不能在门口单独买票。建议在官方网点购买。",
+      "请做好防晒措施，高原紫外线极强，即使阴天也要涂防晒霜",
+      "石板路较滑，建议穿防滑鞋。下山时特别注意脚下",
+      "请尊重当地文化，不要攀爬墙体，不要在遗址上乱涂乱画",
+      "建议聘请当地导游（约50-100索尔），了解更多历史故事和建筑奥秘",
+      "可以结合参观科里坎查遗址和十二边印加石，了解印加历史",
+      "注意保管个人物品，市中心游客较多，提防小偷",
+      "尊重当地文化和传统，太阳祭典期间尤为注意",
+      "保持景点整洁，不要乱扔垃圾。带走的只有照片，留下的只有脚印"
+    ] },
+    gallery: { title: "精彩照片", viewMore: "在 Google Maps 查看更多相片" },
+    reviews: { title: "游客评价", subtitle: "来自库斯科的声音：Google Maps 真实见证", viewMore: "在 Google Maps 查看更多见证" },
+    faq: { title: "常见问题", subtitle: "深入了解萨克塞华曼", items: [
+      { question: "萨克塞华曼的开放时间是？", answer: "萨克塞华曼的开放时间为每天07:00-17:30，全年无休。但由于是户外遗址，建议白天参观，安全和光线更佳。每年6月24日会举办盛大的太阳祭典（Inti Raymi），建议提前预订观礼座位。" },
+      { question: "参观萨克塞华曼需要门票吗？", answer: "需要。萨克塞华曼不能在门口单独买票，必须凭【库斯科游客通票】（Boleto Turístico del Cusco）入场。通票分为以下几种：\n• 全套通票（130索尔，10天有效）：包含所有遗址\n• Circuit 1（70索尔，1天有效）：包含萨克塞华曼、Qenqo、Puka Pukara、Tambomachay\n建议在库斯科文化局官方网点购买，避免被宰。通票价格可能会变动，以官方公布为准。" },
+      { question: "萨克塞华曼有什么特别之处？", answer: "萨克塞华曼因其巨大的多边形石块而闻名于世。它展现了印加帝国杰出的石工技术——巨大的石块重达100-128吨，高8.5米，被精确切割成多边形，完美嵌入墙体，无需任何灰泥或水泥。这种技术至今仍是建筑学的谜题。此外，这里还是印加太阳祭典（Inti Raymi）的举办地，每年6月24日吸引数万游客前来观看。" },
+      { question: "如何前往萨克塞华曼？有什么交通建议？", answer: "萨克塞华曼位于秘鲁库斯科市北部山丘上，海拔约3700米。从库斯科武器广场打车约15分钟即可到达。\n\n⚠️ 重要交通建议：\n1. 建议打车上山，节省体力（海拔3700米，爬坡很消耗体力）\n2. 参观完毕后，可以步行下山返回老城，沿途欣赏风景\n3. 具体导航可在 Google Maps 中搜索【Saqsaywaman, Cusco】\n4. 也可以参加当地旅行团，包含交通和导游讲解" },
+      { question: "游览萨克塞华曼需要注意什么？有什么安全建议？", answer: "游览时需要注意：\n1. ⚠️ 高原反应：萨克塞华曼海拔约3700米，比库斯科老城（3399米）高出约300米。刚到达库斯科的游客切勿剧烈活动，建议先适应1-2天再前往。可准备古柯叶或氧气罐。\n2. 🌞 防晒：高原紫外线极强，即使阴天也要涂防晒霜，戴墨镜和帽子\n3. 👟 防滑：石板路较滑，穿防滑鞋。下山时特别注意脚下\n4. 🏛️ 文化尊重：不要攀爬墙体，不要在遗址上乱涂乱画\n5. 💰 安全：保管好个人物品，市中心游客较多，提防小偷\n6. 🎫 门票：记住必须买通票，不能单独买票" },
+      { question: "附近还有哪些值得一游的景点？", answer: "萨克塞华曼位于库斯科市附近，购买Boleto Turístico通票后，可以参观以下遗址：\n1. 武器广场（Plaza de Armas）——库斯科的心脏\n2. 科里坎查（Qorikancha）——印加太阳神殿遗址\n3. 十二边印加石（Piedra de los 12 ángulos）——Calle Hatunrumiyoc\n4. Qenqo——印加宗教圣地\n5. Puka Pukara——印加军事要塞\n6. Tambomachay——印加浴场\n7. 圣布拉斯区（San Blas）——艺术家聚集区\n8. 库斯科大教堂（Cusco Cathedral）——殖民地建筑" }
+    ]},
+    location: { title: "地图位置", address: "Cusco 08002\nPerú\n（海拔约3,700米）", openMaps: "在 Google Maps 查看位置" },
+    footer: { callToAction: "作为库斯科的重要文化遗产，请与我们一起爱护古迹、保护历史。保持景点整洁，共同维护这一人类文化遗产。⚠️ 注意：萨克塞华曼海拔约3700米，请预防高原反应。", text: "© 2026 萨克塞华曼指南 · 保留所有权利。\n本网站是一个独立的第三方指南项目，致力于准确传播萨克塞华曼信息。我们与秘鲁政府或其他官方机构没有任何关联。", made: "本网站是一个独立的第三方指南项目。为探索者与学习者而制。", linksTitle: "相关链接", links: [
+      { name: "秘鲁外贸和旅游部", url: "https://www.gob.pe/mincetur" },
+      { name: "秘鲁国家旅游局官方指南 - 库斯科大区专页", url: "https://www.peru.travel/es/destinos/cusco" },
+      { name: "库斯科大区政府", url: "https://www.gob.pe/regioncusco" },
+      { name: "库斯科文化局", url: "https://www.culturacusco.gob.pe/" }
+    ]}
+  },
+
+  en: {
+    nav: { about: "Overview", ecology: "Architecture Mystery", culture: "Inca Culture", bestTime: "Best Time", visiting: "Visit Guide", transportation: "Getting There", tips: "Travel Tips", gallery: "Photo Gallery", reviews: "Reviews", faq: "FAQ", location: "Location" },
+    hero: { tagline: "Cusco, Peru · Inca Citadel", title: "Saqsaywaman", subtitle: "Saqsaywaman · The Megalithic Fortress of the Inca Empire", cta: "Explore the Citadel" },
+    rating: { reviews: "reviews", source: "Google Reviews" },
+    about: {
+      title: "Saqsaywaman: The Megalithic Great Wall and [Head of the Puma] of the Inca Empire",
+      p1: "On the steep hills north of Cusco's old town stands the most magnificent architectural miracle of the Inca Empire—Saqsaywaman. This massive complex, integrating military fortress, royal palace, and sun god worship center, is the ultimate symbol of the Inca civilization at its peak.\n\nUnlike the delicate Twelve-angled Stone in the old town, Saqsaywaman displays a 'macroscopic gravity aesthetics' that is rugged, wild, and incredible. The stone walls here are built from andesite and limestone blocks weighing over 100 tons, standing like the spine of the earth. It is not only a monument in the history of Native American architecture but also the sacred site where Cusco's grandest Sun Festival (Inti Raymi) is held annually.",
+      p2: "The most awe-inspiring feature of Saqsaywaman is its iconic three-tiered zigzag (terraced) megalithic defensive walls. These three walls extend about 400 meters, resembling lightning bolts or a beast's fangs. The largest stone block on the site reaches 8.5 meters in height and is estimated to weigh between 100 and 128 tons. In the Inca era, without wheels, pulley systems, or pack animals (llamas cannot pull heavy loads), how thousands of Inca laborers transported these megaliths from several kilometers away up the mountain remains a massive engineering mystery.",
+      highlights: { title: "Highlights", items: ["Megalithic Defense: Three-tiered zigzag walls, 400m long", "100-ton Stones: Heaviest block 128 tons, 8.5m high", "Inti Raymi: Sun Festival held here every June 24th", "Head of the Puma: The puma's head in Inca urban planning", "Architectural Miracle: Mortar-free polygonal joints, earthquake-resistant for centuries"] },
+      bestTime: { title: "Best Time to Visit", content: "07:00-17:30\nEarly morning recommended for fewer crowds and soft light\nJune 24th: Inti Raymi Sun Festival", tip: "💡 Tip: Arrive at 07:00 when the site opens for the fewest tourists and best photos of the megalithic walls" }
+    },
+    ecology: {
+      subtitle: "Architectural Mystery: How Were 100-ton Stones Fitted So Precisely?",
+      content: "The most awe-inspiring feature of Saqsaywaman is its iconic three-tiered zigzag (terraced) megalithic defensive walls. These three walls extend about 400 meters, resembling lightning bolts or a beast's fangs.\n\n**Beyond Imagination Weight:**\nThe largest stone block on the site reaches 8.5 meters in height and is estimated to weigh between 100 and 128 tons. In the Inca era, without wheels, pulley systems, or pack animals, how thousands of Inca laborers transported these megaliths from several kilometers away up the mountain remains a massive engineering mystery.\n\n**Macroscopic Polygonal Seamless Masonry:**\nSaqsaywaman uses 'mortar-free polygonal interlocking' technology. Even though the stones are mountain-sized, craftsmen still polished their edges into extremely complex inward and outward angles. 100-ton megaliths nest perfectly like 3D Tetris blocks, and not even a piece of paper can be inserted between the stones. This gives the structure 'flexible earthquake-resistant capability' that has withstood centuries of strong tremors.\n\n💡 **Architectural Knowledge:** The megalithic walls of Saqsaywaman are not only an engineering miracle but also an embodiment of the Incas' 'macroscopic gravity aesthetics'. Unlike the microscopic delicacy of the Twelve-angled Stone, this place displays rugged, wild, and incredible megalithic power."
+    },
+    culture: {
+      subtitle: "Urban Planning Myth: The Head of the Puma and the Sun Festival",
+      content: "In the Inca cosmology, the puma symbolizes the power of the earth and the present world. Pachacuti, the greatest monarch of the Inca Empire, designed the layout of the capital Cusco to resemble a crouching puma when he redesigned the city.\n\n**The Sacred Puma:**\nCusco's old town is the puma's body, and the towering Saqsaywaman is the majestic head of this puma. The three zigzag megalithic walls are seen as the puma's erected mane or fangs.\n\n**Inti Raymi (Sun Festival):**\nThis is one of the most important religious centers of the Inca Empire. To this day, on June 24th each year (Southern Hemisphere winter solstice), Cusco recreates the grand 'Sun Festival' on Saqsaywaman's vast central plaza. This is the second-largest traditional festival in South America, attracting tens of thousands of tourists from around the world.\n\n💡 **Cultural Knowledge:** Saqsaywaman is not only a military fortress but also the materialization of the Incas' cosmology. The Inti Raymi on June 24th is an excellent opportunity to experience Inca culture. It is recommended to book viewing seats in advance."
+    },
+    saqsaywaman: {
+      subtitle: "Elegy of History: Colonial Warfare and Megalithic Quarry",
+      content: "Saqsaywaman witnessed the most tragic struggle of the Inca Empire. In 1536, Manco Inca, descendant of the Inca royal family, launched a great uprising against Spanish colonizers. Saqsaywaman became the core position of the Inca army besieging Cusco, and both sides engaged in bloody hand-to-hand combat here.\n\nWith the failure of the Inca uprising, the Spanish controlled this fortress. Fearing its military defense capability, the colonizers ordered its demolition. However, those 100-ton megaliths could not be moved at all. Thus, the Spanish could only remove the smaller stones, rolling them down the hillside to build the cathedrals and colonial courtyards in today's Cusco old town.\n\nWhat we see today of Saqsaywaman is only about 20% of its original scale. But even this remaining one-fifth is enough to shock the world.\n\n💡 **Travel Tip:** Walk down from Saqsaywaman back to Cusco old town (the 'puma's body'). On Calle Hatunrumiyoc, not far from Plaza de Armas, hides another face of Inca architecture—the pinnacle of micro-geometric work, the 'Twelve-angled Stone'. If Saqsaywaman is the Incas' wild muscle, then the Twelve-angled Stone is their most precise brain."
+    },
+    visiting: {
+      title: "Visit Guide",
+      hours: { title: "Opening Hours", content: "07:00 - 17:30\nOpen every day", note: "⚠️ Note: Daytime visits are recommended for better safety and lighting. Inti Raymi on June 24th." },
+      price: { title: "Entrance Fees", content: "Cannot buy separate ticket\nMust have 'Cusco Tourist Ticket'\n(Boleto Turístico del Cusco)", note: "⚠️ Important Note: Saqsaywaman cannot be entered with a separate ticket at the gate, you must purchase the Tourist Ticket.", ticketTip: "🎫 Ticket Tip: Cusco Tourist Ticket (Boleto Turístico) has several options:\n• Full Ticket (130 soles, valid 10 days): Includes all sites\n• Circuit 1 Only (70 soles, valid 1 day): Includes Saqsaywaman\nIt is recommended to purchase at official Cusco Culture Bureau offices to avoid scams." },
+      duration: { title: "Recommended Duration", content: "Recommended: 2 - 3 hours", note: "Can be combined with Cusco city tour, plan half a day to visit Saqsaywaman and nearby sites." },
+      tips: { title: "Recommended Items", items: ["Comfortable walking shoes (stone streets are slippery, and there's uphill walking)",
+        "Altitude sickness medication or coca leaves (approx. 3700m altitude, prevent Soroche)", "Sun protection & sunglasses (extremely strong UV at high altitude)", "Camera and spare batteries", "Hat and warm clothing (large temperature difference between day and night)", "Water and snacks", "Local map or guide APP", "Oxygen canister (can be purchased at Cusco pharmacies for altitude sickness)"] },
+      route: { title: "Exploration Routes", content: "We especially recommend the following Cusco exploration route:\n\n1. Take a taxi from Cusco city center up to Saqsaywaman (recommended to save energy)\n2. Visit the three-tiered megalithic defense walls and central plaza\n3. View the Sun Festival site and Inca bath ruins\n4. Walk down the hill, enjoying panoramic views of Cusco along the way\n5. Return to city center, visit the Twelve-angled Stone (Calle Hatunrumiyoc)\n6. Visit Qorikancha site (Sun Temple)\n7. Return to Plaza de Armas to end the day tour" }
+    },
+    transportation: {
+      title: "Getting There",
+      airport: { title: "From Lima or Other Cities", content: "All visitors must first arrive in Cusco—the ancient capital of the Inca Empire. Cusco has an international airport connecting Lima and major South American cities.", options: [
+        { name: "Flight (Recommended)", price: "About $80 - $200 USD", time: "About 1 hour flight", steps: ["Fly from Lima to Cusco (about 1 hour)", "Get from Cusco airport to city center (about 20 minutes)", "Take a taxi to Saqsaywaman (about 15 minutes)"] }
+      ]},
+      city: { title: "Getting Around Cusco", content: "Saqsaywaman is located on the northern hills of Cusco city, at an altitude of about 3,700m. It's about a 15-minute taxi ride from the city center.", steps: ["Recommended to take a taxi up the hill (save energy)", "After visiting, walk down the hill back to the old town", "Navigation: Enter Saqsaywaman in Google Maps", "Follow the signs"] },
+      selfDrive: { title: "Driving", content: "Driving in downtown Cusco is not recommended due to narrow streets and stone roads. Taking a taxi or joining a local tour is recommended.", steps: ["Park near Plaza de Armas", "Take a taxi to Saqsaywaman", "Note: Cusco old town has traffic restrictions, non-local vehicles are prohibited"] }
+    },
+    tips: { title: "Travel Tips", items: [
+      "⚠️ Altitude Sickness Warning: Saqsaywaman is at approx. 3,700m, about 300m higher than Cusco old town (3,399m). Visitors who have just arrived in Cusco should NOT exert themselves. It is recommended to acclimate for 1-2 days before visiting.",
+      "💡 Transportation Tip: Take a taxi up the hill, then walk down back to the old town. This saves energy and allows you to enjoy the scenery along the way.",
+      "🎫 Ticket Tip: Must purchase Boleto Turístico tourist ticket, cannot buy separate ticket at the gate. Recommended to purchase at official offices.",
+      "Take sun protection measures, UV is extremely strong at high altitude, apply sunscreen even on cloudy days",
+      "Stone streets are slippery, wear non-slip shoes. Be especially careful when going downhill",
+      "Respect local culture, do not climb the wall, do not graffiti on the ruins",
+      "Hire a local guide (about 50-100 soles) to learn more about historical stories and architectural mysteries",
+      "Visit Qorikancha site and Twelve-angled Stone to learn about Inca history",
+      "Keep personal belongings safe, city center has many tourists, beware of pickpockets",
+      "Respect local culture and traditions, especially during Inti Raymi",
+      "Keep the attraction clean, do not litter. Take only photos, leave only footprints"
+    ] },
+    gallery: { title: "Photo Gallery", viewMore: "View More Photos on Google Maps" },
+    reviews: { title: "Reviews", subtitle: "Voices from Cusco: Real Reviews from Google Maps", viewMore: "View More Reviews on Google Maps" },
+    faq: { title: "Frequently Asked Questions", subtitle: "Learn More About Saqsaywaman", items: [
+      { question: "What are the opening hours of Saqsaywaman?", answer: "Saqsaywaman is open daily from 07:00-17:30, every day of the year. However, as it is an outdoor attraction, daytime visits are recommended for better safety and lighting. The grand Inti Raymi Sun Festival is held on June 24th each year. It is recommended to book viewing seats in advance." },
+      { question: "Is there an entrance fee to see Saqsaywaman?", answer: "Yes. Saqsaywaman cannot be entered with a separate ticket at the gate. You must have the 'Cusco Tourist Ticket' (Boleto Turístico del Cusco). The ticket has several options:\n• Full Ticket (130 soles, valid 10 days): Includes all sites\n• Circuit 1 Only (70 soles, valid 1 day): Includes Saqsaywaman, Qenqo, Puka Pukara, Tambomachay\nIt is recommended to purchase at official Cusco Culture Bureau offices to avoid scams. Ticket prices may change, subject to official announcement." },
+      { question: "What is special about Saqsaywaman?", answer: "Saqsaywaman is famous worldwide for its massive polygonal stones. It demonstrates the outstanding stonework techniques of the Inca Empire—the huge stones weigh 100-128 tons, reach 8.5 meters in height, were precisely cut into polygons, and perfectly embedded in the wall without any mortar or cement. This technique remains a puzzle in architecture to this day. In addition, this is where the Inca Sun Festival (Inti Raymi) is held, attracting tens of thousands of tourists every June 24th." },
+      { question: "How to get to Saqsaywaman? Any transportation recommendations?", answer: "Saqsaywaman is located on the northern hills of Cusco city, Peru, at an altitude of about 3,700m. It's about a 15-minute taxi ride from Plaza de Armas in Cusco.\n\n⚠️ Important Transportation Recommendations:\n1. Take a taxi up the hill to save energy (3,700m altitude, uphill is very exhausting)\n2. After visiting, you can walk down the hill back to the old town, enjoying the scenery along the way\n3. For specific navigation, search for 'Saqsaywaman, Cusco' in Google Maps\n4. You can also join a local tour, which includes transportation and guide explanation" },
+      { question: "What should I pay attention to when visiting? Any safety recommendations?", answer: "When visiting, please note:\n1. ⚠️ Altitude sickness: Saqsaywaman is at approx. 3,700m, about 300m higher than Cusco old town (3,399m). Visitors who have just arrived in Cusco should NOT exert themselves. It is recommended to acclimate for 1-2 days before visiting. Prepare coca leaves or oxygen canister.\n2. 🌞 Sun protection: Extremely strong UV at high altitude, apply sunscreen even on cloudy days, wear sunglasses and hat\n3. 👟 Slip prevention: Stone streets are slippery, wear non-slip shoes. Be especially careful when going downhill\n4. 🏛️ Cultural respect: Do not climb the wall, do not graffiti on the ruins\n5. 💰 Safety: Keep personal belongings safe, city center has many tourists, beware of pickpockets\n6. 🎫 Tickets: Remember you must buy the tourist ticket, cannot buy separate ticket" },
+      { question: "What other attractions are worth visiting nearby?", answer: "Saqsaywaman is located near Cusco city. After purchasing the Boleto Turístico tourist ticket, you can visit the following sites:\n1. Plaza de Armas — the heart of Cusco\n2. Qorikancha — ruins of the Inca Sun Temple\n3. Twelve-angled Stone (Piedra de los 12 ángulos) — Calle Hatunrumiyoc\n4. Qenqo — Inca religious sanctuary\n5. Puka Pukara — Inca military fortress\n6. Tambomachay — Inca baths\n7. San Blas district — artist gathering area\n8. Cusco Cathedral — colonial architecture" }
+    ]},
+    location: { title: "Map Location", address: "Cusco 08002\nPeru\n(Altitude: approx. 3,700m)", openMaps: "View Location on Google Maps" },
+    footer: { callToAction: "As an important cultural heritage site in Cusco, please join us in caring for the monument and protecting history. Keep the attraction clean and maintain this cultural heritage of humanity together. ⚠️ Note: Saqsaywaman is at approx. 3,700m altitude, please prevent altitude sickness.", text: "© 2026 Saqsaywaman Guide · All rights reserved.\nThis website is an independent third-party guide project dedicated to accurately sharing information about Saqsaywaman. We are not affiliated with the Peruvian government or any official authority.", made: "This website is an independent third-party guide project. Made for explorers and learners.", linksTitle: "Related Links", links: [
+      { name: "Peru Ministry of Foreign Trade and Tourism", url: "https://www.gob.pe/mincetur" },
+      { name: "Official Peru Travel Guide - Cusco Region", url: "https://www.peru.travel/es/destinos/cusco" },
+      { name: "Cusco Regional Government", url: "https://www.gob.pe/regioncusco" },
+      { name: "Cusco Culture Bureau", url: "https://www.culturacusco.gob.pe/" }
+    ]}
+  },
+
+  es: {
+    nav: { about: "Descripción", ecology: "Misterio Arquitectónico", culture: "Cultura Inca", bestTime: "Mejor Época", visiting: "Guía de Visita", transportation: "Cómo Llegar", tips: "Consejos", gallery: "Galería", reviews: "Reseñas", faq: "Preguntas Frecuentes", location: "Ubicación" },
+    hero: { tagline: "Cusco, Perú · Ciudadela Inca", title: "Saqsaywaman", subtitle: "Saqsaywaman · La Gran Muralla Megalítica del Imperio Inca", cta: "Explorar" },
+    rating: { reviews: "reseñas", source: "Google Reviews" },
+    about: {
+      title: "Saqsaywaman: La Gran Muralla Megalítica y la 【Cabeza del Puma】 del Imperio Inca",
+      p1: "En las colinas empinadas al norte del centro histórico de Cusco se encuentra el milagro arquitectónico más magnífico del Imperio Inca: Saqsaywaman. Este complejo masivo, que integra fortaleza militar, palacio real y centro de culto al dios sol, es el símbolo supremo del poder del Imperio Inca en su apogeo.\n\nA diferencia de la delicada Piedra de los 12 Ángulos en el centro histórico, Saqsaywaman muestra una 'estética macrogravitacional' ruda, salvaje e increíble. Los muros de piedra aquí están construidos con bloques de andesita y caliza que pesan más de 100 toneladas, erguidos como la columna vertebral de la tierra. No es solo un monumento en la historia de la arquitectura de los nativos americanos, sino también el sitio sagrado donde se celebra anualmente la más grandiosa Fiesta del Sol (Inti Raymi) de Cusco.",
+      p2: "Lo más impresionante de Saqsaywaman son sus icónicos muros defensivos megalíticos en zigzag de tres niveles (terraza). Estos tres muros tienen unos 400 metros de largo, pareciendo relámpagos o colmillos de bestia. La piedra más grande del sitio alcanza 8.5 metros de altura y se estima que pesa entre 100 y 128 toneladas. En la era inca, sin ruedas, sin sistemas de poleas y sin animales de carga (las llamas no pueden tirar de cargas pesadas), cómo miles de trabajadores incas transportaron estos megalitos desde varios kilómetros de distancia hasta la montaña sigue siendo un gran misterio de ingeniería.",
+      highlights: { title: "Puntos Destacados", items: ["Muralla Megalítica: Muros en zigzag de 3 niveles, 400m de largo", "Piedras de 100 toneladas: Bloque más pesado 128 toneladas, 8.5m de alto", "Inti Raymi: Fiesta del Sol celebrada aquí cada 24 de junio", "Cabeza del Puma: La cabeza del puma en el urbanismo inca", "Milagro Arquitectónico: Uniones poligonales sin mortero, resistente a terremotos"] },
+      bestTime: { title: "Mejor Época para Visitar", content: "07:00-17:30\nSe recomienda temprano en la mañana para menos turistas y luz suave\n24 de junio: Festival del Sol Inti Raymi", tip: "💡 Consejo: Llegue a las 07:00 cuando el sitio abre para menos turistas y mejores fotos de los muros megalíticos" }
+    },
+    ecology: {
+      subtitle: "Misterio Arquitectónico: ¿Cómo se Ajustaron Piedras de 100 Toneladas con Tanta Precisión?",
+      content: "Lo más impresionante de Saqsaywaman son sus icónicos muros defensivos megalíticos en zigzag de tres niveles. Estos tres muros tienen unos 400 metros de largo, pareciendo relámpagos o colmillos de bestia.\n\n**Peso más allá de la imaginación:**\nLa piedra más grande del sitio alcanza 8.5 metros de altura y se estima que pesa entre 100 y 128 toneladas. En la era inca, sin ruedas, sin sistemas de poleas y sin animales de carga, cómo miles de trabajadores incas transportaron estos megalitos desde varios kilómetros de distancia hasta la montaña sigue siendo un gran misterio de ingeniería.\n\n**Albañilería Poligonal Sin Mortero Macroscópica:**\nSaqsaywaman utiliza la tecnología de 'interbloqueo poligonal sin mortero'. Incluso aunque las piedras son del tamaño de una montaña, los artesanos todavía pulieron sus bordes en ángulos hacia adentro y hacia afuera extremadamente complejos. Los megalitos de 100 toneladas encajan perfectamente como bloques de Tetris 3D, y ni siquiera se puede insertar un papel entre las piedras.\n\n💡 **Conocimiento Arquitectónico:** Los muros megalíticos de Saqsaywaman no son solo un milagro de ingeniería, sino también una encarnación de la 'estética macrogravitacional' de los incas."
+    },
+    culture: {
+      subtitle: "Mito de Planificación Urbana: La Cabeza del Puma y la Fiesta del Sol",
+      content: "En la cosmovisión inca, el puma simboliza el poder de la tierra y el mundo presente. Pachacútec, el monarca más grande del Imperio Inca, diseñó el diseño de la capital Cusco para parecerse a un puma agachado cuando rediseñó la ciudad.\n\n**El Puma Sagrado:**\nEl centro histórico de Cusco es el cuerpo del puma, y el imponente Saqsaywaman es la cabeza majestuosa de este puma. Los tres muros megalíticos en zigzag se consideran la melena erguida o los colmillos del puma.\n\n**Inti Raymi (Fiesta del Sol):**\nEste es uno de los centros religiosos más importantes del Imperio Inca. Hasta el día de hoy, el 24 de junio de cada año (solsticio de invierno del Hemisferio Sur), Cusco recrea el grandoso 'Festival del Sol' en la vasta plaza central de Saqsaywaman.\n\n💡 **Conocimiento Cultural:** Saqsaywaman no es solo una fortaleza militar, sino también la materialización de la cosmovisión de los incas."
+    },
+    saqsaywaman: {
+      subtitle: "Elegía de la Historia: Guerra Colonial y Cantera Megalítica",
+      content: "Saqsaywaman fue testigo de la lucha más trágica del Imperio Inca. En 1536, Manco Inca, descendiente de la familia real inca, lanzó una gran rebelión contra los colonizadores españoles. Saqsaywaman se convirtió en la posición central del ejército inca sitiando Cusco, y ambos bandos participaron en una sangrienta lucha cuerpo a cuerpo aquí.\n\nCon el fracaso de la rebelión inca, los españoles controlaron esta fortaleza. Temiendo su capacidad de defensa militar, los colonizadores ordenaron su demolición. Sin embargo, esos megalitos de 100 toneladas no podían ser movidos en absoluto. Así, los españoles solo podían quitar las piedras más pequeñas, rodándolas colina abajo para construir las catedrales y patios coloniales en el centro histórico de Cusco de hoy.\n\nLo que vemos hoy de Saqsaywaman es solo aproximadamente el 20% de su escala original. Pero incluso esta quinta parte restante es suficiente para sorprender al mundo.\n\n💡 **Consejo de Viaje:** Camine desde Saqsaywaman de regreso al centro histórico de Cusco (el 'cuerpo del puma'). En Calle Hatunrumiyoc, no lejos de Plaza de Armas, se esconde otra cara de la arquitectura inca: la cima del trabajo micro-geométrico, la 'Piedra de los 12 Ángulos'."
+    },
+    visiting: {
+      title: "Guía de Visita",
+      hours: { title: "Horario de Apertura", content: "07:00 - 17:30\nAbierto todos los días", note: "⚠️ Nota: Se recomienda visitar durante el día para mejor seguridad e iluminación. Inti Raymi el 24 de junio." },
+      price: { title: "Entrada", content: "No se puede comprar entrada separada\nRequiere \"Boleto Turístico del Cusco\"", note: "⚠️ Nota Importante: Saqsaywaman no se puede ingresar con una entrada separada en la puerta, debe comprar el Boleto Turístico.", ticketTip: "🎫 Consejo de Entrada: Boleto Turístico del Cusco tiene varias opciones:\n• Boleto Completo (130 soles, válido 10 días): Incluye todos los sitios\n• Solo Circuito 1 (70 soles, válido 1 día): Incluye Saqsaywaman\nSe recomienda comprar en oficinas oficiales de Cultura Cusco para evitar estafas." },
+      duration: { title: "Duración Recomendada", content: "Recomendado: 2 - 3 horas", note: "Puede combinarse con un tour por la ciudad de Cusco, planee medio día para visitar Saqsaywaman y sitios cercanos." },
+      tips: { title: "Qué llevar", items: ["Zapatos cómodos para caminar (las calles de piedra son resbaladizas, y hay subida)",
+        "Medicamentos para el mal de altura u hojas de coca (aprox. 3700m de altitud)", "Protección solar y gafas de sol (UV fuerte en altura)", "Cámara y baterías de repuesto", "Sombrero y ropa abrigadora (gran diferencia de temperatura)", "Agua y snacks", "Mapa local o APP de guía", "Balón de oxígeno (se puede comprar en farmacias de Cusco)"] },
+      route: { title: "Ruta Recomendada", content: "Recomendamos especialmente la siguiente ruta de exploración por Cusco:\n\n1. Tome un taxi desde el centro de Cusco hasta Saqsaywaman (ahorra energía)\n2. Visite los tres niveles de muros defensivos megalíticos y la plaza central\n3. Vea el sitio del Festival del Sol y las ruinas de baños incas\n4. Camine cuesta abajo, disfrutando de las vistas panorámicas de Cusco\n5. Regrese al centro, visite la Piedra de los 12 Ángulos (Calle Hatunrumiyoc)\n6. Visite el sitio de Qorikancha (Templo del Sol)\n7. Regrese a Plaza de Armas para finalizar el tour" }
+    },
+    transportation: {
+      title: "Cómo Llegar",
+      airport: { title: "Desde Lima u Otras Ciudades", content: "Todos los visitantes deben llegar primero a Cusco—la antigua capital del Imperio Inca.", options: [
+        { name: "Vuelo (Recomendado)", price: "Aprox. $80 - $200 USD", time: "Aprox. 1 hora de vuelo", steps: ["Volar de Lima a Cusco", "Ir del aeropuerto al centro", "Tomar taxi a Saqsaywaman"] }
+      ]},
+      city: { title: "Transporte en Cusco", content: "Saqsaywaman está en las colinas norteñas de Cusco, a unos 15 minutos en taxi desde el centro.", steps: ["Recomendado tomar taxi subida (ahorra energía)", "Después de visitar, caminar bajada al centro", "Navegación: Saqsaywaman en Google Maps"] },
+      selfDrive: { title: "Conduciendo", content: "No se recomienda conducir en Cusco. Tome taxi.", steps: ["Estacionar cerca de Plaza de Armas", "Tomar taxi a Saqsaywaman"] }
+    },
+    tips: { title: "Consejos", items: [
+      "⚠️ Advertencia de Mal de Altura: Saqsaywaman está a aprox. 3700m, unos 300m más alto que Cusco (3399m). Visitantes que acaban de llegar no deben esforzarse.",
+      "💡 Consejo de Transporte: Tome taxi subida, luego camine bajada.",
+      "🎫 Consejo de Entrada: Debe comprar Boleto Turístico, no se puede comprar entrada separada.",
+      "Tome medidas de protección solar",
+      "Use zapatos antideslizantes",
+      "Respetar la cultura local",
+      "Contratar un guía local"
+    ] },
+    gallery: { title: "Galería", viewMore: "Ver Más Fotos en Google Maps" },
+    reviews: { title: "Reseñas", subtitle: "Voces de Cusco", viewMore: "Ver Más Reseñas en Google Maps" },
+    faq: { title: "Preguntas Frecuentes", subtitle: "Aprenda Más Sobre Saqsaywaman", items: [
+      { question: "¿Cuál es el horario de Saqsaywaman?", answer: "07:00-17:30, todos los días." },
+      { question: "¿Hay entrada?", answer: "Sí, requiere Boleto Turístico." }
+    ]},
+    location: { title: "Ubicación", address: "Cusco 08002\nPerú\n(Altitud: aprox. 3,700m)", openMaps: "Ver en Google Maps" },
+    footer: { callToAction: "Como un importante sitio de patrimonio cultural en Cusco, únanse a nosotros para cuidar el monumento.", text: "© 2026 Guía de Saqsaywaman.", made: "Hecho para exploradores.", linksTitle: "Enlaces", links: [
+      { name: "MINCETUR", url: "https://www.gob.pe/mincetur" },
+      { name: "Peru Travel - Cusco", url: "https://www.peru.travel/es/destinos/cusco" },
+      { name: "Gobierno Regional de Cusco", url: "https://www.gob.pe/regioncusco" },
+      { name: "Cultura Cusco", url: "https://www.culturacusco.gob.pe/" }
+    ]}
+  },
+
+  qu: {
+    nav: { about: "Qhaway", ecology: "Yachay", culture: "Kultura", bestTime: "Allin Punchaw", visiting: "Puriy", transportation: "Chaykamuy", tips: "Yachay", gallery: "Rikuy", reviews: "Niykuna", faq: "Tapuykuna", location: "Maypi" },
+    hero: { tagline: "Cusco, Piruw · Inka Ciudadela", title: "Saqsaywaman", subtitle: "Saqsaywaman · Inka Imperio Megalithic Fortress", cta: "Rikuy" },
+    rating: { reviews: "niykuna", source: "Google niykuna" },
+    about: {
+      title: "Saqsaywaman: Inka Imperio Megalithic Wall",
+      p1: "Cusco, Piruwpi Saqsaywaman. Inka Imperio megalithic fortress. Kayqa Inka runakunaq ruwayta rikuchin.\n\nSaqsaywaman nisqa Inka Imperio megalithic wall. Kay rumikuna 100-128 toneladas.",
+      p2: "Saqsaywaman Cuscopi allin rikuy. 07:00-17:30 kachkan. Runakunaqa hamukunku rikuy.",
+      highlights: { title: "Rikuy", items: ["Megalithic Wall: 3 niveles", "100 toneladas: Hatun rumikuna", "Inti Raymi: Junio 24", "Puma: Inka urbanismo", "Architecture: Mortar-free"] },
+      bestTime: { title: "Allin Punchaw", content: "07:00-17:30\nPaqarina allin", tip: "💡 Yachay: Paqarina hamuy" }
+    },
+    ecology: {
+      subtitle: "Architecture | Inka Rumimanta",
+      content: "Saqsaywaman kanankupaq? Inka runakuna rumita junt'achanku, mana ñawch'awan. Inka pirqunqa jatun temblorpi mana urmachu.\n\nInka rumikuna 100-128 toneladas."
+    },
+    culture: {
+      subtitle: "Kultura | Inka Yachay",
+      content: "Inka runakuna rumita yupaychanku. Saqsaywaman nisqa Inka Imperio paqarina.\n\nInti Raymi: Junio 24."
+    },
+    saqsaywaman: {
+      subtitle: "Historia | Inka Imperio",
+      content: "Saqsaywaman Inka Imperio megalithic fortress. Inka runakuna rumita junt'achanku.\n\nInti Raymi Cuscopi."
+    },
+    visiting: {
+      title: "Puriy",
+      hours: { title: "Punchaw", content: "07:00-17:30\nSapa punchaw", note: "⚠️ Punchaw rikuy." },
+      price: { title: "Qullqi", content: "Boleto Turístico", note: "⚠️ Boleto Turístico apamuy.", ticketTip: "🎫 Boleto Turístico 130 soles." },
+      duration: { title: "Unay", content: "2 - 3 ura", note: "Cusco puriy." },
+      tips: { title: "Apamuy", items: ["Bota", "Soroche pastilla", "Inti amachana", "Cámara", "Oxygen"] },
+      route: { title: "Puriy", content: "1. Plaza de Armas-manta\n2. Taxi Saqsaywaman-man\n3. Rikuy\n4. Qorikancha\n5. Kutiy" }
+    },
+    transportation: {
+      title: "Chaykamuy",
+      airport: { title: "Lima-manta", content: "Cusco-man antawan hamuy.", options: [
+        { name: "Anta", price: "$80 - $200", time: "1 ura", steps: ["Lima-manta Cusco-man anta", "Aeropuerto-manta centro-man", "Taxi Saqsaywaman-man"] }
+      ]},
+      city: { title: "Cusco", content: "Plaza de Armas-manta 15 minuto.", steps: ["Taxi", "Google Maps-mi maskuy"] },
+      selfDrive: { title: "Auto", content: "Mana allin. Taxi.", steps: ["Plaza de Armas-pata parking", "Taxi Saqsaywaman-man"] }
+    },
+    tips: { title: "Yachay", items: [
+      "Saqsaywaman 3700m, Soroche",
+      "Taxi waman-manta",
+      "Boleto Turístico",
+      "Intita amachakuy",
+      "Rumi ñan, botawan puriy"
+    ] },
+    gallery: { title: "Rikuy", viewMore: "Google Maps nisqapi astawan rikuy" },
+    reviews: { title: "Niykuna", subtitle: "Cusco niykuna", viewMore: "Astawan niykuna" },
+    faq: { title: "Tapuykuna", subtitle: "Yachay", items: [
+      { question: "Hayk'aq kachkan?", answer: "07:00-17:30. Sapa p'unchay." },
+      { question: "Qullqi paganan chá?", answer: "Arí. Boleto Turístico." }
+    ]},
+    location: { title: "Maypipas", address: "Cusco 08002\nPerú\n(3700m)", openMaps: "Google Maps nisqapi maytapas rikuy" },
+    footer: { callToAction: "Ñawpa ruwayta cuiday. 3700m, Soroche amachakuy.", text: "© 2026 Saqsaywaman. Kayqa puriy yachay.", made: "Kayqa puriy yachay.", linksTitle: "Imakunata", links: [
+      { name: "MINCETUR", url: "https://www.gob.pe/mincetur" },
+      { name: "Peru Travel - Cusco", url: "https://www.peru.travel/es/destinos/cusco" },
+      { name: "Cusco Gobierno", url: "https://www.gob.pe/regioncusco" },
+      { name: "Cultura Cusco", url: "https://www.culturacusco.gob.pe/" }
+    ]}
+  }
+};
