@@ -17,7 +17,7 @@ const dmSans = DM_Sans({
   display: "swap",
 });
 
-const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "saqsaywaman.com"}`;
+const baseUrl = `https://${process.env.CURRENT_SITE_DOMAIN || "sacsayhuamanruins.com"}`;
 
 // 语言配置：HTML lang 属性 + OG locale 映射
 const localeConfig: Record<string, { htmlLang: string; ogLocale: string }> = {

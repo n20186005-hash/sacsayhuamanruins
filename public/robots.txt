@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://saqsaywaman.com/sitemap.xml
+Sitemap: https://sacsayhuamanruins.com/sitemap.xml
