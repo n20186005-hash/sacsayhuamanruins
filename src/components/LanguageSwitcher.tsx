@@ -1,31 +1,36 @@
-"use client";
+import { useLang } from "@/components/LangProvider";
 
-import { useLang } from "./LangProvider";
-import type { Locale } from "@/i18n/translations";
-
-const LANG_LABELS: Record<Locale, string> = {
-  zh: "中文",
-  en: "EN",
-  es: "ES",
-  qu: "QU",
-};
+const LANGUAGES = [
+  { code: "zh", label: "中文" },
+  { code: "en", label: "EN" },
+  { code: "es", label: "ES" },
+  { code: "qu", label: "QU" },
+];
 
 export function LanguageSwitcher() {
-  const { locale } = useLang();
+  const { lang } = useLang();
+
+  const switchLang = (code: string) => {
+    const parts = window.location.pathname.split("/");
+    // parts[0] === "", parts[1] 为当前语言段（若存在）
+    if (parts[1] && LANGUAGES.some((l) => l.code === parts[1])) {
+      parts[1] = code;
+    } else {
+      parts.splice(1, 0, code);
+    }
+    window.location.pathname = parts.join("/");
+  };
+
   return (
     <div className="lang-switcher">
-      {(["zh", "en", "es", "qu"] as Locale[]).map((l) => (
+      {LANGUAGES.map((l) => (
         <button
-          key={l}
-          className={`lang-btn ${locale === l ? "active" : ""}`}
-          onClick={() => {
-            if (l !== locale) {
-              window.location.href = `/${l}${window.location.hash}`;
-            }
-          }}
-          aria-label={`Switch to ${l}`}
+          key={l.code}
+          className={`lang-btn ${lang === l.code ? "active" : ""}`}
+          onClick={() => switchLang(l.code)}
+          aria-current={lang === l.code ? "true" : undefined}
         >
-          {LANG_LABELS[l]}
+          {l.label}
         </button>
       ))}
     </div>

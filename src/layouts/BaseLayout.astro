@@ -1,0 +1,105 @@
+---
+import "../styles/global.css";
+import { resolveBaseUrl, siteConfig, poi } from "../config";
+import type { Locale } from "../i18n/translations";
+
+interface Props {
+  lang: Locale;
+  title: string;
+  description: string;
+  restPath?: string;
+  mapsUrl: string;
+}
+
+const { lang, title, description, restPath = "", mapsUrl } = Astro.props;
+
+const baseUrl = resolveBaseUrl();
+const locales: Locale[] = ["zh", "en", "es", "qu"];
+const htmlLang: Record<Locale, string> = { zh: "zh", en: "en", es: "es", qu: "qu" };
+
+const canonical = `${baseUrl}/${lang}${restPath}`;
+const alternates = locales.map((l) => ({ hreflang: l, href: `${baseUrl}/${l}${restPath}` }));
+alternates.push({ hreflang: "x-default", href: `${baseUrl}/es${restPath}` });
+
+const ogImage = `${baseUrl}/gallery/saqsaywaman%20(1).jpg`;
+
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "TouristAttraction",
+  name: poi.name,
+  description,
+  url: canonical,
+  image: ogImage,
+  address: {
+    "@type": "PostalAddress",
+    addressLocality: "Cusco",
+    addressCountry: "PE",
+  },
+  geo: {
+    "@type": "GeoCoordinates",
+    latitude: poi.geo.latitude,
+    longitude: poi.geo.longitude,
+  },
+  openingHours: poi.openingHours,
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: siteConfig.rating,
+    reviewCount: siteConfig.reviewCount,
+  },
+  sameAs: [mapsUrl],
+};
+
+const gtagSrc = `https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`;
+const gaConfig = `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','${siteConfig.gaId}');`;
+---
+
+<!doctype html>
+<html lang={htmlLang[lang]}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    {alternates.map((a) => (
+      <link rel="alternate" hreflang={a.hreflang} href={a.href} />
+    ))}
+
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=DM+Sans:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Prevent theme flash: set data-theme before first paint -->
+    <script is:inline>
+      (function () {
+        try {
+          var t = localStorage.getItem("theme");
+          if (!t || t === "system") {
+            t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          }
+          document.documentElement.setAttribute("data-theme", t);
+        } catch (e) {}
+      })();
+    </script>
+
+    <!-- Google Analytics -->
+    <script is:inline src={gtagSrc}></script>
+    <script is:inline set:html={gaConfig}></script>
+
+    <!-- JSON-LD structured data -->
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)}></script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
