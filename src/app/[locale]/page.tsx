@@ -13,7 +13,7 @@ const GOOGLE_REVIEWS = [
   { name: "María G.", avatar: "MG", rating: 5, date: "2024-11-20", text: "Increíble ver Saqsaywaman en persona. La precisión del corte de la piedra es asombrosa. Un must-see en Cusco." },
   { name: "John S.", avatar: "JS", rating: 5, date: "2024-10-15", text: "Saqsaywaman is a masterpiece of Inca stonework. The massive stones weighing over 100 tons are amazing!" },
   { name: "Carlos R.", avatar: "CR", rating: 5, date: "2024-09-10", text: "Una obra maestra de la arquitectura inca. Saqsaywaman es impresionante con sus piedras megalíticas." },
-  { name: "李小美", avatar: "李", rating: 5, date: "2024-08-25", text: "萨克塞华曼真的很震撼！巨大的石块重达100多吨，印加人的建筑技术令人惊叹。库斯科必看的景点！" },
+  { name: "María Fernanda", avatar: "MF", rating: 5, date: "2024-08-25", text: "¡Saqsaywaman es impresionante! Las piedras megalíticas pesan más de 100 toneladas. Una obra maestra de la ingeniería inca, imperdible en Cusco." },
   { name: "Ana P.", avatar: "AP", rating: 5, date: "2024-07-18", text: "Hermoso ejemplo de la arquitectura inca. Saqsaywaman es único en el mundo. Muy recomendado visitar." },
   { name: "Michael T.", avatar: "MT", rating: 5, date: "2024-06-05", text: "Fantastic example of Inca masonry. Saqsaywaman is world-famous for good reason. The megalithic stones are incredible!" },
 ];
@@ -324,7 +324,7 @@ function Visiting() {
               gap: "0.5rem"
             }}>
               <span style={{ fontSize: "1.6rem" }}>🎫</span>
-              票务重要提示
+              {t.visiting.ticketTipTitle}
             </h3>
             <div style={{ 
               fontSize: "1rem", 
@@ -345,7 +345,7 @@ function Visiting() {
               color: "#856404",
               fontStyle: "italic"
             }}>
-              💡 信息来源：库斯科文化局官方指南
+              💡 {t.visiting.ticketTipSource}
             </div>
           </div>
         </ScrollReveal>
@@ -476,7 +476,7 @@ function Tips() {
               gap: "0.5rem"
             }}>
               <span style={{ fontSize: "2rem" }}>⚠️</span>
-              高原反应预警 | Altitude Sickness Warning
+              {t.tips.altitudeWarning}
             </h3>
             <div style={{ 
               fontSize: "1.1rem", 
@@ -487,20 +487,9 @@ function Tips() {
               borderRadius: "8px",
               backdropFilter: "blur(10px)"
             }}>
-              <strong>海拔警示 | Altitude Warning:</strong>
-              
-萨克塞华曼海拔约 <strong>3,700米</strong>，比库斯科老城（3,399米）高出约<strong>300米</strong>。
-Saqsaywaman is at approx. <strong>3,700m</strong>, about <strong>300m higher</strong> than Cusco old town (3,399m).
-
-<strong>建议 | Recommendations:</strong>
-• 刚到达库斯科的游客请勿剧烈活动
-• Do NOT exert yourself if you just arrived in Cusco
-• 建议先适应1-2天再前往萨克塞华曼
-• Acclimate for 1-2 days before visiting Saqsaywaman
-• 建议搭乘出租车上山，然后步行下山
-• Take taxi up, walk down to save energy
-• 准备古柯叶（Coca leaves）或氧气罐
-• Prepare coca leaves or oxygen canister
+              {t.tips.altitudeWarningBody.split("\n").map((line: string, i: number) => (
+                <div key={i}>{line}</div>
+              ))}
             </div>
           </div>
         </ScrollReveal>

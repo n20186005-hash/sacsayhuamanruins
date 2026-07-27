@@ -17,9 +17,9 @@ export type Translations = {
   culture: CultureSection;
   chinkana?: { subtitle: string; content: string };
   saqsaywaman: { title?: string; subtitle: string; content: string };
-    visiting: { title: string; hours: { title: string; content: string; note: string }; price: { title: string; content: string; note: string; ticketTip: string }; duration: { title: string; content: string; note: string }; tips: { title: string; items: string[] }; route: { title: string; content: string } };
+    visiting: { title: string; ticketTipTitle: string; ticketTipSource: string; hours: { title: string; content: string; note: string }; price: { title: string; content: string; note: string; ticketTip: string }; duration: { title: string; content: string; note: string }; tips: { title: string; items: string[] }; route: { title: string; content: string } };
   transportation: { title: string; airport: { title: string; content: string; options: TransportOption[] }; city: { title: string; content: string; steps: string[] }; selfDrive: { title: string; content: string; steps: string[] } };
-  tips: { title: string; items: string[] };
+  tips: { title: string; altitudeWarning: string; altitudeWarningBody: string; items: string[] };
   gallery: { title: string; viewMore: string };
   reviews: { title: string; subtitle: string; viewMore: string };
   faq: { title: string; subtitle: string; items: FAQItem[] };
@@ -58,6 +58,8 @@ export const translations: Record<Locale, Translations> = {
     },
     visiting: {
       title: "游览指南",
+      ticketTipTitle: "🎫 票务重要提示",
+      ticketTipSource: "💡 信息来源：库斯科文化局官方指南",
       hours: { title: "开放时间", content: "07:00 - 17:30\n全年开放", note: "⚠️ 提醒：建议白天参观，安全和光线更佳。每年6月24日有太阳祭典。" },
       price: { title: "门票费用", content: "不可单买门票\n需凭库斯科游客通票\n（Boleto Turístico del Cusco）入场", note: "⚠️ 重要提示：萨克塞华曼不设独立售票处，必须持有库斯科游客通票（BTC）。", ticketTip: "🎫 官方票务指南：萨克塞华曼不设独立售票处，必须持有 库斯科游客通票（Boleto Turístico del Cusco - BTC）。\n建议游客抵达库斯科后，前往 Avenida el Sol 103 号的 <a href='https://www.culturacusco.gob.pe/' target='_blank' rel='noopener noreferrer' style='color:inherit;text-decoration:underline;'>[库斯科文化局 (COSITUC) 官方服务中心]</a> 购买，以防买到伪造票据。" },
       duration: { title: "建议游览时长", content: "建议预留 2 - 3 小时", note: "可以结合库斯科市区游览，安排半天时间参观萨克塞华曼及附近遗址。" },
@@ -73,7 +75,7 @@ export const translations: Record<Locale, Translations> = {
       city: { title: "第二程：库斯科老城 ➔ 萨克塞华曼", content: "萨克塞华曼位于库斯科市北部山丘上，海拔约3700米。", steps: ["强烈建议：从老城打车直达遗址的 上层入口（Cristo Blanco 耶稣白雕像附近）", "车费约 15-20 索尔", "这样你可以从最高点一路 向下步行 游览，最后轻松走回老城，完美避开在 3700 米海拔剧烈爬坡的致命高反风险。"] },
       selfDrive: { title: "自驾前往", content: "库斯科市区不建议自驾，因为街道狭窄且为石板路。建议打车或参加当地旅行团。", steps: ["将车停在武器广场附近停车场", "打车前往萨克塞华曼", "注意：库斯科老城区限行，外地车辆禁入"] }
     },
-    tips: { title: "游览建议", items: [
+    tips: { title: "游览建议", altitudeWarning: "高原反应预警 | Altitude Sickness Warning", altitudeWarningBody: "海拔警示 | Altitude Warning:\n\n萨克塞华曼海拔约 3,700米，比库斯科老城（3,399米）高出约300米。\n\n建议 | Recommendations:\n• 刚到达库斯科的游客请勿剧烈活动\n• 建议先适应1-2天再前往萨克塞华曼\n• 建议搭乘出租车上山，然后步行下山\n• 准备古柯叶（Coca leaves）或氧气罐", items: [
       "⚠️ 高原反应预警：萨克塞华曼海拔约3700米，比库斯科老城高出约300米。刚到达库斯科的游客切勿剧烈活动，建议先适应1-2天再前往。",
       "💡 交通建议：建议打车上山，然后步行下山返回老城。这样既节省体力，又能沿途欣赏风景。",
       "🎫 门票提示：必须购买Boleto Turístico通票，不能在门口单独买票。建议在官方网点购买。",
@@ -135,6 +137,8 @@ export const translations: Record<Locale, Translations> = {
     },
     visiting: {
       title: "Visit Guide",
+      ticketTipTitle: "🎫 Important Ticket Notice",
+      ticketTipSource: "💡 Source: Official Cusco Culture Directorate guide",
       hours: { title: "Opening Hours", content: "07:00 - 17:30\nOpen every day", note: "⚠️ Note: Daytime visits are recommended for better safety and lighting. Inti Raymi on June 24th." },
       price: { title: "Entrance Fees", content: "Cannot buy separate ticket\nMust have 'Cusco Tourist Ticket'\n(Boleto Turístico del Cusco)", note: "⚠️ Important Note: Saqsaywaman cannot be entered with a separate ticket at the gate, you must purchase the Tourist Ticket.", ticketTip: "🎫 Ticket Tip: Cusco Tourist Ticket (Boleto Turístico) has several options:\n• Full Ticket (130 soles, valid 10 days): Includes all sites\n• Circuit 1 Only (70 soles, valid 1 day): Includes Saqsaywaman\nIt is recommended to purchase at official Cusco Culture Bureau offices to avoid scams." },
       duration: { title: "Recommended Duration", content: "Recommended: 2 - 3 hours", note: "Can be combined with Cusco city tour, plan half a day to visit Saqsaywaman and nearby sites." },
@@ -150,7 +154,7 @@ export const translations: Record<Locale, Translations> = {
       city: { title: "Getting Around Cusco", content: "Saqsaywaman is located on the northern hills of Cusco city, at an altitude of about 3,700m. It's about a 15-minute taxi ride from the city center.", steps: ["Recommended to take a taxi up the hill (save energy)", "After visiting, walk down the hill back to the old town", "Navigation: Enter Saqsaywaman in Google Maps", "Follow the signs"] },
       selfDrive: { title: "Driving", content: "Driving in downtown Cusco is not recommended due to narrow streets and stone roads. Taking a taxi or joining a local tour is recommended.", steps: ["Park near Plaza de Armas", "Take a taxi to Saqsaywaman", "Note: Cusco old town has traffic restrictions, non-local vehicles are prohibited"] }
     },
-    tips: { title: "Travel Tips", items: [
+    tips: { title: "Travel Tips", altitudeWarning: "Altitude Sickness Warning", altitudeWarningBody: "Altitude Warning:\n\nSaqsaywaman sits at approx. 3,700m, about 300m higher than Cusco's historic center (3,399m).\n\nRecommendations:\n• Do NOT exert yourself if you just arrived in Cusco\n• Acclimate for 1-2 days before visiting Saqsaywaman\n• Take a taxi up and walk downhill to save energy\n• Bring coca leaves or an oxygen canister", items: [
       "⚠️ Altitude Sickness Warning: Saqsaywaman is at approx. 3,700m, about 300m higher than Cusco old town (3,399m). Visitors who have just arrived in Cusco should NOT exert themselves. It is recommended to acclimate for 1-2 days before visiting.",
       "💡 Transportation Tip: Take a taxi up the hill, then walk down back to the old town. This saves energy and allows you to enjoy the scenery along the way.",
       "🎫 Ticket Tip: Must purchase Boleto Turístico tourist ticket, cannot buy separate ticket at the gate. Recommended to purchase at official offices.",
@@ -212,6 +216,8 @@ export const translations: Record<Locale, Translations> = {
     },
     visiting: {
       title: "Guía de Visita",
+      ticketTipTitle: "🎫 Aviso importante de entradas",
+      ticketTipSource: "💡 Fuente: Guía oficial de la Dirección de Cultura de Cusco",
       hours: { title: "Horario de Apertura", content: "07:00 - 17:30\nAbierto todos los días", note: "⚠️ Nota: Se recomienda visitar durante el día para mejor seguridad e iluminación. Inti Raymi el 24 de junio." },
       price: { title: "Entrada", content: "No se puede comprar entrada separada\nRequiere 'Boleto Turístico del Cusco'", note: "⚠️ Nota Importante: Saqsaywaman no se puede ingresar con una entrada separada en la puerta, debe comprar el Boleto Turístico.", ticketTip: "🎫 Consejo de Entrada: Boleto Turístico del Cusco tiene varias opciones:\n• Boleto Completo (130 soles, válido 10 días): Incluye todos los sitios\n• Solo Circuito 1 (70 soles, válido 1 día): Incluye Saqsaywaman\nSe recomienda comprar en oficinas oficiales de Cultura Cusco para evitar estafas." },
       duration: { title: "Duración Recomendada", content: "Recomendado: 2 - 3 horas", note: "Puede combinarse con un tour por la ciudad de Cusco, planee medio día para visitar Saqsaywaman y sitios cercanos." },
@@ -227,7 +233,7 @@ export const translations: Record<Locale, Translations> = {
       city: { title: "Transporte en Cusco", content: "Saqsaywaman está en las colinas norteñas de Cusco, a unos 15 minutos en taxi desde el centro.", steps: ["Recomendado tomar taxi subida (ahorra energía)", "Después de visitar, caminar bajada al centro", "Navegación: Saqsaywaman en Google Maps"] },
       selfDrive: { title: "Conduciendo", content: "No se recomienda conducir en Cusco. Tome taxi.", steps: ["Estacionar cerca de Plaza de Armas", "Tomar taxi a Saqsaywaman"] }
     },
-    tips: { title: "Consejos", items: [
+    tips: { title: "Consejos", altitudeWarning: "Advertencia de mal de altura", altitudeWarningBody: "Advertencia de altitud:\n\nSaqsaywaman se encuentra a approx. 3.700 m, unos 300 m más alto que el centro histórico de Cusco (3.399 m).\n\nRecomendaciones:\n• No realice esfuerzos si acaba de llegar a Cusco\n• Aclimátese de 1 a 2 días antes de visitar Saqsaywaman\n• Tome un taxi hasta arriba y camine cuesta abajo\n• Prepare hojas de coca o un tanque de oxígeno", items: [
       "⚠️ Advertencia de Mal de Altura: Saqsaywaman está a aprox. 3700m, unos 300m más alto que Cusco (3399m). Visitantes que acaban de llegar no deben esforzarse.",
       "💡 Consejo de Transporte: Tome taxi subida, luego camine bajada.",
       "🎫 Consejo de Entrada: Debe comprar Boleto Turístico, no se puede comprar entrada separada.",
@@ -281,6 +287,8 @@ export const translations: Record<Locale, Translations> = {
     },
     visiting: {
       title: "Puriy",
+      ticketTipTitle: "🎫 Boleto willakuy",
+      ticketTipSource: "💡 Pukyu: Cusco Cultura dirección willay",
       hours: { title: "Punchaw", content: "07:00-17:30\nSapa punchaw", note: "⚠️ Punchaw rikuy." },
       price: { title: "Qullqi", content: "Boleto Turístico", note: "⚠️ Boleto Turístico apamuy.", ticketTip: "🎫 Boleto Turístico 130 soles." },
       duration: { title: "Unay", content: "2 - 3 ura", note: "Cusco puriy." },
@@ -295,7 +303,7 @@ export const translations: Record<Locale, Translations> = {
       city: { title: "Cusco", content: "Plaza de Armas-manta 15 minuto.", steps: ["Taxi", "Google Maps-mi maskuy"] },
       selfDrive: { title: "Auto", content: "Mana allin. Taxi.", steps: ["Plaza de Armas-pata parking", "Taxi Saqsaywaman-man"] }
     },
-    tips: { title: "Yachay", items: [
+    tips: { title: "Yachay", altitudeWarning: "Hatun pata unquy qayllu", altitudeWarningBody: "Hatun pata willay:\n\nSaqsaywaman mana 3.700 m, Cusco llaqtanmanta (3.399 m) 300 m aswan hatun.\n\nYanapakuna:\n• Cusco-man chayasqaykimanta mana kallpanchuychu\n• 1-2 p'unchay kawsaykamusqayki Saqsaywaman-man riypaq\n• Taksi-wan hijukama, urqu-manta puririy\n• Kuka hojas utaq oxygeno apañay", items: [
       "Saqsaywaman 3700m, Soroche",
       "Taxi waman-manta",
       "Boleto Turístico",
