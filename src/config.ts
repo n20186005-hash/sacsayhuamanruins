@@ -10,7 +10,7 @@ export const siteConfig = {
   name: 'Sacsayhuaman Ruins',
   gaId: 'G-HXM22WWPKP',
   rating: 4.7,
-  reviewCount: 14200,
+  reviewCount: 20525,
 };
 
 export const poi = {

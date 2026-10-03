@@ -9,9 +9,11 @@ export type CultureSection = { subtitle: string; content: string };
 export type SaqsaywamanSection = { subtitle: string; content: string };
 
 export type Translations = {
+  meta?: { title: string; description: string };
   nav: { about: string; ecology: string; culture: string; history?: string; bestTime: string; visiting: string; transportation: string; tips: string; gallery: string; reviews: string; faq: string; location: string };
   hero: { tagline: string; title: string; subtitle: string; cta: string };
   rating: { reviews: string; source: string };
+  nameVariants?: { title: string; subtitle: string; content: string };
   about: { title: string; p1: string; p2: string; highlights: { title: string; items: string[] }; bestTime: { title: string; content: string; tip: string } };
   ecology: EcologySection;
   culture: CultureSection;
@@ -29,6 +31,8 @@ export type Translations = {
 
 export const translations: Record<Locale, Translations> = {
   zh: {
+    meta: { title: "萨克塞华曼（Saqsaywaman）门票、开放时间与游览攻略", description: "萨克塞华曼（Saqsaywaman，亦作 Sacsayhuaman）是秘鲁库斯科的印加巨石遗址。开放时间、门票（库斯科游客通票）、交通方式与历史背景一文掌握。" },
+    nameVariants: { title: "萨克塞华曼、Sacsayhuaman 还是 Saksaywaman？", subtitle: "同一个印加遗址的不同拼法", content: "萨克塞华曼最常见的现代拼法是 Saqsaywaman（克丘亚语转写）。Sacsayhuaman 与 Sacsayhuamán 是英语与西班牙语旅行资料中广泛使用、由中文音译回溯的拼写，Saksaywaman 亦偶见。三者均指位于秘鲁库斯科的同一座印加巨石军事建筑群，并非不同景点。\n\n在搜索或购票时，无论你输入 Saqsaywaman、Sacsayhuaman 还是 Saksaywaman，指向的都是这座库斯科北山坡上的遗址，可放心按任一拼法规划行程。" },
     nav: { about: "景点概览", ecology: "建筑之谜", culture: "印加文化", history: "历史长河", bestTime: "最佳时间", visiting: "游览指南", transportation: "交通接驳", tips: "游览建议", gallery: "照片画廊", reviews: "旅行者手记", faq: "常见问题", location: "地图位置" },
     hero: { tagline: "秘鲁库斯科 · 印加帝国卫城", title: "萨克塞华曼", subtitle: "Saqsaywaman · 印加帝国的巨石长城", cta: "探索古迹" },
     rating: { reviews: "条评价", source: "Google 评论" },
@@ -61,7 +65,7 @@ export const translations: Record<Locale, Translations> = {
       ticketTipTitle: "🎫 票务重要提示",
       ticketTipSource: "💡 信息来源：库斯科文化局官方指南",
       hours: { title: "开放时间", content: "07:00 - 17:30\n全年开放", note: "⚠️ 提醒：建议白天参观，安全和光线更佳。每年6月24日有太阳祭典。" },
-      price: { title: "门票费用", content: "不可单买门票\n需凭库斯科游客通票\n（Boleto Turístico del Cusco）入场", note: "⚠️ 重要提示：萨克塞华曼不设独立售票处，必须持有库斯科游客通票（BTC）。", ticketTip: "🎫 官方票务指南：萨克塞华曼不设独立售票处，必须持有 库斯科游客通票（Boleto Turístico del Cusco - BTC）。\n建议游客抵达库斯科后，前往 Avenida el Sol 103 号的 <a href='https://www.culturacusco.gob.pe/' target='_blank' rel='noopener noreferrer' style='color:inherit;text-decoration:underline;'>[库斯科文化局 (COSITUC) 官方服务中心]</a> 购买，以防买到伪造票据。" },
+      price: { title: "门票费用", content: "无单独门票\n须持库斯科游客通票\n（Boleto Turístico del Cusco）入园", note: "⚠️ 重要提示：萨克塞华曼不设独立门票，须持有库斯科游客通票（BTC）。可在官方 COSITUC 服务点及大部分含票景点购买。", ticketTip: "🎫 官方票务指南：萨克塞华曼不设独立门票，必须持有 库斯科游客通票（Boleto Turístico del Cusco - BTC）。通票分两种：\n• 全套通票（S/130，10天有效）：包含所有遗址\n• Circuit 1 部分通票（S/70，1天有效）：含萨克塞华曼、Qenqo、Puka Pukara、Tambomachay\n建议游客前往 <a href='https://www.culturacusco.gob.pe/' target='_blank' rel='noopener noreferrer' style='color:inherit;text-decoration:underline;'>[库斯科文化局 (COSITUC) 官方服务中心]</a> 购买，以防买到伪造票据。价格可能调整，请以官方公告为准。" },
       duration: { title: "建议游览时长", content: "建议预留 2 - 3 小时", note: "可以结合库斯科市区游览，安排半天时间参观萨克塞华曼及附近遗址。" },
       tips: { title: "游览建议物品", items: ["舒适的步行鞋（石板路较滑，且有爬坡）",
         "预防高反药物或古柯叶（海拔约3700米，请预防高山症 Soroche）", "防晒用品与墨镜（高原紫外线极强）", "相机和备用电池", "帽子和保暖衣物（早晚温差大）", "水和零食", "当地地图或导游APP", "氧气罐（可在库斯科药店购买，以防高反）"] },
@@ -78,7 +82,7 @@ export const translations: Record<Locale, Translations> = {
     tips: { title: "游览建议", altitudeWarning: "高原反应预警 | Altitude Sickness Warning", altitudeWarningBody: "海拔警示 | Altitude Warning:\n\n萨克塞华曼海拔约 3,700米，比库斯科老城（3,399米）高出约300米。\n\n建议 | Recommendations:\n• 刚到达库斯科的游客请勿剧烈活动\n• 建议先适应1-2天再前往萨克塞华曼\n• 建议搭乘出租车上山，然后步行下山\n• 准备古柯叶（Coca leaves）或氧气罐", items: [
       "⚠️ 高原反应预警：萨克塞华曼海拔约3700米，比库斯科老城高出约300米。刚到达库斯科的游客切勿剧烈活动，建议先适应1-2天再前往。",
       "💡 交通建议：建议打车上山，然后步行下山返回老城。这样既节省体力，又能沿途欣赏风景。",
-      "🎫 门票提示：必须购买Boleto Turístico通票，不能在门口单独买票。建议在官方网点购买。",
+      "🎫 门票提示：萨克塞华曼无独立门票，须购买库斯科游客通票（BTC），可在官方 COSITUC 服务点或大部分含票景点购买。",
       "请做好防晒措施，高原紫外线极强，即使阴天也要涂防晒霜",
       "石板路较滑，建议穿防滑鞋。下山时特别注意脚下",
       "请尊重当地文化，不要攀爬墙体，不要在遗址上乱涂乱画",
@@ -92,11 +96,12 @@ export const translations: Record<Locale, Translations> = {
     reviews: { title: "旅行者手记 (Traveler Insights)", subtitle: "来自库斯科的声音：Google Maps 真实见证", viewMore: "在 Google Maps 查看更多见证" },
     faq: { title: "常见问题", subtitle: "深入了解萨克塞华曼", items: [
       { question: "萨克塞华曼的开放时间是？", answer: "萨克塞华曼的开放时间为每天07:00-17:30，全年无休。但由于是户外遗址，建议白天参观，安全和光线更佳。每年6月24日会举办盛大的太阳祭典（Inti Raymi），建议提前预订观礼座位。" },
-      { question: "参观萨克塞华曼需要门票吗？", answer: "需要。萨克塞华曼不能在门口单独买票，必须凭库斯科游客通票（Boleto Turístico del Cusco）入场。通票分为以下几种：\n• 全套通票（130索尔，10天有效）：包含所有遗址\n• Circuit 1（70索尔，1天有效）：包含萨克塞华曼、Qenqo、Puka Pukara、Tambomachay\n建议在库斯科文化局官方网点购买，避免被宰。通票价格可能会变动，以官方公布为准。" },
+      { question: "参观萨克塞华曼需要门票吗？", answer: "需要。萨克塞华曼没有独立门票——须持库斯科游客通票（Boleto Turístico del Cusco / BTC）入园，可在官方 COSITUC 服务点或大部分含票景点购买。两种与本站相关：\n• 全套通票（S/130，10天有效）：所有遗址\n• Circuit 1 部分通票（S/70，1天有效）：萨克塞华曼、Qenqo、Puka Pukara、Tambomachay\n价格可能变动，请以官方公告为准。" },
       { question: "萨克塞华曼有什么特别之处？", answer: "萨克塞华曼因其巨大的多边形石块而闻名于世。它展现了印加帝国杰出的石工技术——巨大的石块重达100-128吨，高8.5米，被精确切割成多边形，完美嵌入墙体，无需任何灰泥或水泥。这种技术至今仍是建筑学的谜题。此外，这里还是印加太阳祭典（Inti Raymi）的举办地，每年6月24日吸引数万游客前来观看。" },
       { question: "如何前往萨克塞华曼？有什么交通建议？", answer: "萨克塞华曼位于秘鲁库斯科市北部山丘上，海拔约3700米。从库斯科武器广场打车约15分钟即可到达。\n\n⚠️ 重要交通建议：\n1. 建议打车上山，节省体力（海拔3700米，爬坡很消耗体力）\n2. 参观完毕后，可以步行下山返回老城，沿途欣赏风景\n3. 具体导航可在 Google Maps 中搜索Saqsaywaman, Cusco\n4. 也可以参加当地旅行团，包含交通和导游讲解" },
       { question: "游览萨克塞华曼需要注意什么？有什么安全建议？", answer: "游览时需要注意：\n1. ⚠️ 高原反应：萨克塞华曼海拔约3700米，比库斯科老城（3399米）高出约300米。刚到达库斯科的游客切勿剧烈活动，建议先适应1-2天再前往。可准备古柯叶或氧气罐。\n2. 🌞 防晒：高原紫外线极强，即使阴天也要涂防晒霜，戴墨镜和帽子\n3. 👟 防滑：石板路较滑，穿防滑鞋。下山时特别注意脚下\n4. 🏛️ 文化尊重：不要攀爬墙体，不要在遗址上乱涂乱画\n5. 💰 安全：保管好个人物品，市中心游客较多，提防小偷\n6. 🎫 门票：记住必须买通票，不能单独买票" },
-      { question: "附近还有哪些值得一游的景点？", answer: "萨克塞华曼位于库斯科市附近，购买Boleto Turístico通票后，可以参观以下遗址：\n1. 武器广场（Plaza de Armas）——库斯科的心脏\n2. 科里坎查（Qorikancha）——印加太阳神殿遗址\n3. 十二边印加石（Piedra de los 12 ángulos）——Calle Hatunrumiyoc\n4. Qenqo——印加宗教圣地\n5. Puka Pukara——印加军事要塞\n6. Tambomachay——印加浴场\n7. 圣布拉斯区（San Blas）——艺术家聚集区\n8. 库斯科大教堂（Cusco Cathedral）——殖民地建筑" }
+      { question: "附近还有哪些值得一游的景点？", answer: "萨克塞华曼位于库斯科市附近，购买Boleto Turístico通票后，可以参观以下遗址：\n1. 武器广场（Plaza de Armas）——库斯科的心脏\n2. 科里坎查（Qorikancha）——印加太阳神殿遗址\n3. 十二边印加石（Piedra de los 12 ángulos）——Calle Hatunrumiyoc\n4. Qenqo——印加宗教圣地\n5. Puka Pukara——印加军事要塞\n6. Tambomachay——印加浴场\n7. 圣布拉斯区（San Blas）——艺术家聚集区\n8. 库斯科大教堂（Cusco Cathedral）——殖民地建筑" },
+      { question: "萨克塞华曼和 Sacsayhuaman 是同一个地方吗？", answer: "是的。Saqsaywaman、Sacsayhuaman、Sacsayhuamán 与 Saksaywaman 指的是位于秘鲁库斯科的同一座印加巨石建筑群，只是拼写不同。无论用哪个拼法搜索或购票，指向的都是这座遗址。" }
     ]},
     location: { title: "地图位置", address: "Cusco 08002\nPerú\n（海拔约3,700米）", openMaps: "在 Google Maps 查看位置" },
     footer: { callToAction: "作为库斯科的重要文化遗产，请与我们一起爱护古迹、保护历史。保持景点整洁，共同维护这一人类文化遗产。⚠️ 注意：萨克塞华曼海拔约3700米，请预防高原反应。", text: "© 2026 萨克塞华曼指南 · 保留所有权利。\n本网站是一个独立的第三方指南项目，致力于准确传播萨克塞华曼信息。我们与秘鲁政府或其他官方机构没有任何关联。", made: "本网站是一个独立的第三方指南项目。为探索者与学习者而制。", linksTitle: "相关链接", links: [
@@ -108,6 +113,8 @@ export const translations: Record<Locale, Translations> = {
   },
 
   en: {
+    meta: { title: "Saqsaywaman Ruins (Sacsayhuaman): Tickets & Visitor Guide", description: "Saqsaywaman (also spelled Sacsayhuaman) is the megalithic Inca fortress above Cusco, Peru. Opening hours, Cusco Tourist Ticket prices, how to get there, and history—all in one guide." },
+    nameVariants: { title: "Saqsaywaman, Sacsayhuaman or Saksaywaman?", subtitle: "Why the same Inca site has different spellings", content: "The archaeological site is most commonly written Saqsaywaman today, a Quechua-derived spelling. Sacsayhuaman and Sacsayhuamán remain widely used alternative spellings in English- and Spanish-language travel sources, and Saksaywaman is also seen. All of them refer to the same Inca megalithic complex overlooking Cusco, Peru—not different places.\n\nWhen searching or buying tickets, whether you type Saqsaywaman, Sacsayhuaman or Saksaywaman, you are looking at this single site on the hills north of Cusco." },
     nav: { about: "Overview", ecology: "Architecture Mystery", culture: "Inca Culture", history: "History", bestTime: "Best Time", visiting: "Visit Guide", transportation: "Getting There", tips: "Travel Tips", gallery: "Photo Gallery", reviews: "Traveler Insights", faq: "FAQ", location: "Location" },
     hero: { tagline: "Cusco, Peru · Inca Citadel", title: "Saqsaywaman", subtitle: "Saqsaywaman · The Megalithic Fortress of the Inca Empire", cta: "Explore the Citadel" },
     rating: { reviews: "reviews", source: "Google Reviews" },
@@ -140,7 +147,7 @@ export const translations: Record<Locale, Translations> = {
       ticketTipTitle: "🎫 Important Ticket Notice",
       ticketTipSource: "💡 Source: Official Cusco Culture Directorate guide",
       hours: { title: "Opening Hours", content: "07:00 - 17:30\nOpen every day", note: "⚠️ Note: Daytime visits are recommended for better safety and lighting. Inti Raymi on June 24th." },
-      price: { title: "Entrance Fees", content: "Cannot buy separate ticket\nMust have 'Cusco Tourist Ticket'\n(Boleto Turístico del Cusco)", note: "⚠️ Important Note: Saqsaywaman cannot be entered with a separate ticket at the gate, you must purchase the Tourist Ticket.", ticketTip: "🎫 Ticket Tip: Cusco Tourist Ticket (Boleto Turístico) has several options:\n• Full Ticket (130 soles, valid 10 days): Includes all sites\n• Circuit 1 Only (70 soles, valid 1 day): Includes Saqsaywaman\nIt is recommended to purchase at official Cusco Culture Bureau offices to avoid scams." },
+      price: { title: "Entrance Fees", content: "No Saqsaywaman-only admission ticket\nEntry is with the Cusco Tourist Ticket\n(Boleto Turístico del Cusco)", note: "⚠️ Note: There is no standalone Saqsaywaman ticket. You must hold the Cusco Tourist Ticket (BTC), sold at official COSITUC offices and at most included sites.", ticketTip: "🎫 Ticket Guide: The Cusco Tourist Ticket (Boleto Turístico del Cusco) has two options relevant here:\n• Full Ticket (S/130, valid 10 days): All sites\n• Partial Circuit 1 (S/70, valid 1 day): Saqsaywaman, Q'enqo, Puka Pukara & Tambomachay\nBuy at official COSITUC offices to avoid scams. Prices may change—confirm with the official source." },
       duration: { title: "Recommended Duration", content: "Recommended: 2 - 3 hours", note: "Can be combined with Cusco city tour, plan half a day to visit Saqsaywaman and nearby sites." },
       tips: { title: "Recommended Items", items: ["Comfortable walking shoes (stone streets are slippery, and there's uphill walking)",
         "Altitude sickness medication or coca leaves (approx. 3700m altitude, prevent Soroche)", "Sun protection & sunglasses (extremely strong UV at high altitude)", "Camera and spare batteries", "Hat and warm clothing (large temperature difference between day and night)", "Water and snacks", "Local map or guide APP", "Oxygen canister (can be purchased at Cusco pharmacies for altitude sickness)"] },
@@ -157,7 +164,7 @@ export const translations: Record<Locale, Translations> = {
     tips: { title: "Travel Tips", altitudeWarning: "Altitude Sickness Warning", altitudeWarningBody: "Altitude Warning:\n\nSaqsaywaman sits at approx. 3,700m, about 300m higher than Cusco's historic center (3,399m).\n\nRecommendations:\n• Do NOT exert yourself if you just arrived in Cusco\n• Acclimate for 1-2 days before visiting Saqsaywaman\n• Take a taxi up and walk downhill to save energy\n• Bring coca leaves or an oxygen canister", items: [
       "⚠️ Altitude Sickness Warning: Saqsaywaman is at approx. 3,700m, about 300m higher than Cusco old town (3,399m). Visitors who have just arrived in Cusco should NOT exert themselves. It is recommended to acclimate for 1-2 days before visiting.",
       "💡 Transportation Tip: Take a taxi up the hill, then walk down back to the old town. This saves energy and allows you to enjoy the scenery along the way.",
-      "🎫 Ticket Tip: Must purchase Boleto Turístico tourist ticket, cannot buy separate ticket at the gate. Recommended to purchase at official offices.",
+      "🎫 Ticket Tip: There is no separate Saqsaywaman ticket—buy the Cusco Tourist Ticket (BTC) at official COSITUC offices or at most included sites.",
       "Take sun protection measures, UV is extremely strong at high altitude, apply sunscreen even on cloudy days",
       "Stone streets are slippery, wear non-slip shoes. Be especially careful when going downhill",
       "Respect local culture, do not climb the wall, do not graffiti on the ruins",
@@ -171,11 +178,12 @@ export const translations: Record<Locale, Translations> = {
     reviews: { title: "Traveler Insights", subtitle: "Voices from Cusco: Real Reviews from Google Maps", viewMore: "View More Reviews on Google Maps" },
     faq: { title: "Frequently Asked Questions", subtitle: "Learn More About Saqsaywaman", items: [
       { question: "What are the opening hours of Saqsaywaman?", answer: "Saqsaywaman is open daily from 07:00-17:30, every day of the year. However, as it is an outdoor attraction, daytime visits are recommended for better safety and lighting. The grand Inti Raymi Sun Festival is held on June 24th each year. It is recommended to book viewing seats in advance." },
-      { question: "Is there an entrance fee to see Saqsaywaman?", answer: "Yes. Saqsaywaman cannot be entered with a separate ticket at the gate. You must have the 'Cusco Tourist Ticket' (Boleto Turístico del Cusco). The ticket has several options:\n• Full Ticket (130 soles, valid 10 days): Includes all sites\n• Circuit 1 Only (70 soles, valid 1 day): Includes Saqsaywaman, Qenqo, Puka Pukara, Tambomachay\nIt is recommended to purchase at official Cusco Culture Bureau offices to avoid scams. Ticket prices may change, subject to official announcement." },
+      { question: "Is there an entrance fee to see Saqsaywaman?", answer: "Yes. There is no Saqsaywaman-only admission ticket—entry is with the Cusco Tourist Ticket (Boleto Turístico del Cusco / BTC), which is sold at official COSITUC offices and at most included sites. Two options are relevant:\n• Full Ticket (S/130, valid 10 days): All sites\n• Partial Circuit 1 (S/70, valid 1 day): Saqsaywaman, Q'enqo, Puka Pukara, Tambomachay\nPrices may change; confirm with the official source." },
       { question: "What is special about Saqsaywaman?", answer: "Saqsaywaman is famous worldwide for its massive polygonal stones. It demonstrates the outstanding stonework techniques of the Inca Empire—the huge stones weigh 100-128 tons, reach 8.5 meters in height, were precisely cut into polygons, and perfectly embedded in the wall without any mortar or cement. This technique remains a puzzle in architecture to this day. In addition, this is where the Inca Sun Festival (Inti Raymi) is held, attracting tens of thousands of tourists every June 24th." },
       { question: "How to get to Saqsaywaman? Any transportation recommendations?", answer: "Saqsaywaman is located on the northern hills of Cusco city, Peru, at an altitude of about 3,700m. It's about a 15-minute taxi ride from Plaza de Armas in Cusco.\n\n⚠️ Important Transportation Recommendations:\n1. Take a taxi up the hill to save energy (3,700m altitude, uphill is very exhausting)\n2. After visiting, you can walk down the hill back to the old town, enjoying the scenery along the way\n3. For specific navigation, search for 'Saqsaywaman, Cusco' in Google Maps\n4. You can also join a local tour, which includes transportation and guide explanation" },
       { question: "What should I pay attention to when visiting? Any safety recommendations?", answer: "When visiting, please note:\n1. ⚠️ Altitude sickness: Saqsaywaman is at approx. 3,700m, about 300m higher than Cusco old town (3,399m). Visitors who have just arrived in Cusco should NOT exert themselves. It is recommended to acclimate for 1-2 days before visiting. Prepare coca leaves or oxygen canister.\n2. 🌞 Sun protection: Extremely strong UV at high altitude, apply sunscreen even on cloudy days, wear sunglasses and hat\n3. 👟 Slip prevention: Stone streets are slippery, wear non-slip shoes. Be especially careful when going downhill\n4. 🏛️ Cultural respect: Do not climb the wall, do not graffiti on the ruins\n5. 💰 Safety: Keep personal belongings safe, city center has many tourists, beware of pickpockets\n6. 🎫 Tickets: Remember you must buy the tourist ticket, cannot buy separate ticket" },
-      { question: "What other attractions are worth visiting nearby?", answer: "Saqsaywaman is located near Cusco city. After purchasing the Boleto Turístico tourist ticket, you can visit the following sites:\n1. Plaza de Armas — the heart of Cusco\n2. Qorikancha — ruins of the Inca Sun Temple\n3. Twelve-angled Stone (Piedra de los 12 ángulos) — Calle Hatunrumiyoc\n4. Qenqo — Inca religious sanctuary\n5. Puka Pukara — Inca military fortress\n6. Tambomachay — Inca baths\n7. San Blas district — artist gathering area\n8. Cusco Cathedral — colonial architecture" }
+      { question: "What other attractions are worth visiting nearby?", answer: "Saqsaywaman is located near Cusco city. After purchasing the Boleto Turístico tourist ticket, you can visit the following sites:\n1. Plaza de Armas — the heart of Cusco\n2. Qorikancha — ruins of the Inca Sun Temple\n3. Twelve-angled Stone (Piedra de los 12 ángulos) — Calle Hatunrumiyoc\n4. Qenqo — Inca religious sanctuary\n5. Puka Pukara — Inca military fortress\n6. Tambomachay — Inca baths\n7. San Blas district — artist gathering area\n8. Cusco Cathedral — colonial architecture" },
+      { question: "Is Saqsaywaman the same as Sacsayhuaman?", answer: "Yes. Saqsaywaman, Sacsayhuaman, Sacsayhuamán and Saksaywaman all refer to the same Inca megalithic complex in Cusco, Peru. They are simply different spellings of one site, so you can plan your visit using any of them." }
     ]},
     location: { title: "Map Location", address: "Cusco 08002\nPeru\n(Altitude: approx. 3,700m)", openMaps: "View Location on Google Maps" },
     footer: { callToAction: "As an important cultural heritage site in Cusco, please join us in caring for the monument and protecting history. Keep the attraction clean and maintain this cultural heritage of humanity together. ⚠️ Note: Saqsaywaman is at approx. 3,700m altitude, please prevent altitude sickness.", text: "© 2026 Saqsaywaman Guide · All rights reserved.\nThis website is an independent third-party guide project dedicated to accurately sharing information about Saqsaywaman. We are not affiliated with the Peruvian government or any official authority.", made: "This website is an independent third-party guide project. Made for explorers and learners.", linksTitle: "Related Links", links: [
@@ -187,6 +195,8 @@ export const translations: Record<Locale, Translations> = {
   },
 
   es: {
+    meta: { title: "Saqsaywaman (Sacsayhuamán): Entradas, Horarios y Guía | Cusco", description: "Saqsaywaman (también escrito Sacsayhuamán) es la fortaleza megalítica inca sobre Cusco, Perú. Horarios de apertura, precios del Boleto Turístico del Cusco, cómo llegar e historia en una guía." },
+    nameVariants: { title: "¿Saqsaywaman, Sacsayhuamán o Saksaywaman?", subtitle: "Por qué el mismo sitio inca tiene distintas grafías", content: "El sitio arqueológico se escribe hoy comúnmente Saqsaywaman, una grafía derivada del quechua. Sacsayhuaman y Sacsayhuamán siguen siendo grafías alternativas muy usadas en fuentes de viaje en inglés y español, y también se ve Saksaywaman. Todas se refieren al mismo complejo megalítico inca que domina Cusco, Perú, no a lugares distintos.\n\nAl buscar o comprar entradas, escriba Saqsaywaman, Sacsayhuaman o Saksaywaman: en todos los casos se refiere a este único sitio en las colinas al norte de Cusco." },
     nav: { about: "Descripción", ecology: "Misterio Arquitectónico", culture: "Cultura Inca", history: "Historia", bestTime: "Mejor Época", visiting: "Guía de Visita", transportation: "Cómo Llegar", tips: "Consejos", gallery: "Galería", reviews: "Diario de Viajeros", faq: "Preguntas Frecuentes", location: "Ubicación" },
     hero: { tagline: "Cusco, Perú · Ciudadela Inca", title: "Saqsaywaman", subtitle: "Saqsaywaman · La Gran Muralla Megalítica del Imperio Inca", cta: "Explorar" },
     rating: { reviews: "reseñas", source: "Google Reviews" },
@@ -219,7 +229,7 @@ export const translations: Record<Locale, Translations> = {
       ticketTipTitle: "🎫 Aviso importante de entradas",
       ticketTipSource: "💡 Fuente: Guía oficial de la Dirección de Cultura de Cusco",
       hours: { title: "Horario de Apertura", content: "07:00 - 17:30\nAbierto todos los días", note: "⚠️ Nota: Se recomienda visitar durante el día para mejor seguridad e iluminación. Inti Raymi el 24 de junio." },
-      price: { title: "Entrada", content: "No se puede comprar entrada separada\nRequiere 'Boleto Turístico del Cusco'", note: "⚠️ Nota Importante: Saqsaywaman no se puede ingresar con una entrada separada en la puerta, debe comprar el Boleto Turístico.", ticketTip: "🎫 Consejo de Entrada: Boleto Turístico del Cusco tiene varias opciones:\n• Boleto Completo (130 soles, válido 10 días): Incluye todos los sitios\n• Solo Circuito 1 (70 soles, válido 1 día): Incluye Saqsaywaman\nSe recomienda comprar en oficinas oficiales de Cultura Cusco para evitar estafas." },
+      price: { title: "Entrada", content: "No hay entrada solo para Saqsaywaman\nEl ingreso es con el Boleto Turístico del Cusco", note: "⚠️ Nota: No existe una entrada independiente para Saqsaywaman. Debe tener el Boleto Turístico del Cusco (BTC), que se vende en oficinas oficiales de COSITUC y en la mayoría de los sitios incluidos.", ticketTip: "🎫 Guía de Entrada: El Boleto Turístico del Cusco (BTC) tiene dos opciones relevantes:\n• Boleto Completo (S/130, válido 10 días): Todos los sitios\n• Circuito 1 Parcial (S/70, válido 1 día): Saqsaywaman, Q'enqo, Puka Pukara y Tambomachay\nCompre en oficinas oficiales de COSITUC para evitar estafas. Los precios pueden cambiar; confirme con la fuente oficial." },
       duration: { title: "Duración Recomendada", content: "Recomendado: 2 - 3 horas", note: "Puede combinarse con un tour por la ciudad de Cusco, planee medio día para visitar Saqsaywaman y sitios cercanos." },
       tips: { title: "Qué llevar", items: ["Zapatos cómodos para caminar (las calles de piedra son resbaladizas, y hay subida)",
         "Medicamentos para el mal de altura u hojas de coca (aprox. 3700m de altitud)", "Protección solar y gafas de sol (UV fuerte en altura)", "Cámara y baterías de repuesto", "Sombrero y ropa abrigadora (gran diferencia de temperatura)", "Agua y snacks", "Mapa local o APP de guía", "Balón de oxígeno (se puede comprar en farmacias de Cusco)"] },
@@ -236,7 +246,7 @@ export const translations: Record<Locale, Translations> = {
     tips: { title: "Consejos", altitudeWarning: "Advertencia de mal de altura", altitudeWarningBody: "Advertencia de altitud:\n\nSaqsaywaman se encuentra a approx. 3.700 m, unos 300 m más alto que el centro histórico de Cusco (3.399 m).\n\nRecomendaciones:\n• No realice esfuerzos si acaba de llegar a Cusco\n• Aclimátese de 1 a 2 días antes de visitar Saqsaywaman\n• Tome un taxi hasta arriba y camine cuesta abajo\n• Prepare hojas de coca o un tanque de oxígeno", items: [
       "⚠️ Advertencia de Mal de Altura: Saqsaywaman está a aprox. 3700m, unos 300m más alto que Cusco (3399m). Visitantes que acaban de llegar no deben esforzarse.",
       "💡 Consejo de Transporte: Tome taxi subida, luego camine bajada.",
-      "🎫 Consejo de Entrada: Debe comprar Boleto Turístico, no se puede comprar entrada separada.",
+      "🎫 Consejo de Entrada: No hay entrada separada para Saqsaywaman; compre el Boleto Turístico del Cusco (BTC) en oficinas oficiales de COSITUC o en la mayoría de los sitios incluidos.",
       "Tome medidas de protección solar",
       "Use zapatos antideslizantes",
       "Respetar la cultura local",
@@ -245,8 +255,11 @@ export const translations: Record<Locale, Translations> = {
     gallery: { title: "Galería", viewMore: "Ver Más Fotos en Google Maps" },
     reviews: { title: "Diario de Viajeros (Traveler Insights)", subtitle: "Voces de Cusco", viewMore: "Ver Más Reseñas en Google Maps" },
     faq: { title: "Preguntas Frecuentes", subtitle: "Aprenda Más Sobre Saqsaywaman", items: [
-      { question: "¿Cuál es el horario de Saqsaywaman?", answer: "07:00-17:30, todos los días." },
-      { question: "¿Hay entrada?", answer: "Sí, requiere Boleto Turístico." }
+      { question: "¿Cuál es el horario de Saqsaywaman?", answer: "Saqsaywaman abre todos los días de 07:00 a 17:30. Como es un sitio al aire libre, se recomienda visitarlo de día para mejor luz y seguridad. El 24 de junio se celebra el Inti Raymi en su plaza central." },
+      { question: "¿Se puede comprar una entrada solo para Saqsaywaman?", answer: "No existe una entrada exclusiva para Saqsaywaman. El ingreso se hace con el Boleto Turístico del Cusco (BTC), que se compra de forma presencial en los puntos oficiales de COSITUC. El Circuito 1 (S/70, válido 1 día) incluye Saqsaywaman, Qenqo, Puka Pukara y Tambomachay." },
+      { question: "¿Cuánto cuesta el Boleto Turístico del Cusco?", answer: "El Boleto Integral (S/130, válido 10 días) incluye todos los sitios. El Circuito 1 Parcial (S/70, válido 1 día) incluye Saqsaywaman y otros tres sitios cercanos. Los precios pueden cambiar; confirme en la fuente oficial." },
+      { question: "¿Cómo llegar a Saqsaywaman desde Cusco?", answer: "Saqsaywaman está en las colinas norte de Cusco, a unos 15 minutos en taxi desde el centro (Plaza de Armas). Se recomienda tomar taxi hasta la parte alta y caminar cuesta abajo. También puede contratar un tour local." },
+      { question: "¿Saqsaywaman es lo mismo que Sacsayhuamán?", answer: "Sí. Saqsaywaman, Sacsayhuamán y Saksaywaman son distintas grafías del mismo complejo inca en Cusco, Perú. Puede planear su visita usando cualquiera de ellas." }
     ]},
     location: { title: "Ubicación", address: "Cusco 08002\nPerú\n(Altitud: aprox. 3,700m)", openMaps: "Ver en Google Maps" },
     footer: { callToAction: "Como un importante sitio de patrimonio cultural en Cusco, únanse a nosotros para cuidar el monumento.", text: "© 2026 Guía de Saqsaywaman.", made: "Hecho para exploradores.", linksTitle: "Enlaces", links: [
@@ -258,6 +271,8 @@ export const translations: Record<Locale, Translations> = {
   },
 
   qu: {
+    meta: { title: "Saqsaywaman (Sacsayhuaman) | Cusco Puriy", description: "Saqsaywaman (Sacsayhuaman nisqapas) Cusco, Piruw llaqtapi Inka rumikunamanta. Punchaw, boleto, chaykamuy yachay." },
+    nameVariants: { title: "Saqsaywaman, Sacsayhuamán icha Saksaywaman?", subtitle: "Imaratac hurqunakun?", content: "Saqsaywaman nisqa Inka rumikuna Cusco llaqtanpi. Saqsaywaman, Sacsayhuamán, Saksaywaman nisqakuna llapan huklla sitiomantam rimanku, mana wak sitioschu." },
     nav: { about: "Qhaway", ecology: "Yachay", culture: "Kultura", history: "Wiñay Kawsay", bestTime: "Allin Punchaw", visiting: "Puriy", transportation: "Chaykamuy", tips: "Yachay", gallery: "Rikuy", reviews: "Puriy Niykuna", faq: "Tapuykuna", location: "Maypi" },
     hero: { tagline: "Cusco, Piruw · Inka Ciudadela", title: "Saqsaywaman", subtitle: "Saqsaywaman · Inka Imperio Megalithic Fortress", cta: "Rikuy" },
     rating: { reviews: "niykuna", source: "Google niykuna" },

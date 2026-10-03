@@ -144,9 +144,85 @@ function Hero() {
         <div className="hero-meta">
           <div className="hero-rating">4.7</div>
           <div className="hero-stars">★ ★ ★ ★ ☆</div>
-          <div className="hero-reviews">20,199 {t.rating.reviews} · {t.rating.source}</div>
+          <div className="hero-reviews">20,525 {t.rating.reviews} · {t.rating.source}</div>
         </div>
       </a>
+    </section>
+  );
+}
+
+function QuickFacts() {
+  const { t, locale } = useLang();
+  const facts: { label: string; value: string }[] = [
+    { label: "Location", value: "Cusco, Peru" },
+    { label: t.about.bestTime.title, value: "07:00–17:30" },
+    { label: "Ticket", value: "Cusco Tourist Ticket" },
+    { label: "Partial Circuit I", value: "S/70 · 1 day" },
+    { label: "Full BTC", value: "S/130 · 10 days" },
+    { label: "Altitude", value: "≈ 3,700 m" },
+  ];
+  const links: { href: string; label: string }[] = [
+    { href: `/${locale}/tickets/`, label: t.nav.visiting },
+    { href: `/${locale}/opening-hours/`, label: t.about.bestTime.title },
+    { href: `/${locale}/how-to-get-there/`, label: t.nav.transportation },
+    { href: `/${locale}/history/`, label: t.nav.history || "History" },
+    { href: `/${locale}/stones/`, label: t.nav.ecology },
+  ];
+  return (
+    <section className="section" style={{ background: "linear-gradient(180deg, #f4f1eb 0%, #fefefe 100%)" }}>
+      <div className="section">
+        <ScrollReveal>
+          <p className="section-label">Plan</p>
+          <h2 className="section-title">Plan Your Visit</h2>
+          <div className="section-divider" />
+        </ScrollReveal>
+        <ScrollReveal>
+          <div style={{ display: "grid", gap: "1rem", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", marginTop: "1.5rem" }}>
+            {facts.map((f, i) => (
+              <div key={i} style={{ padding: "1.25rem", background: "#fff", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.06)", boxShadow: "0 4px 18px rgba(0,0,0,0.03)" }}>
+                <div style={{ fontSize: "0.8rem", letterSpacing: "0.04em", textTransform: "uppercase", color: "var(--color-earth-soft)", marginBottom: "0.4rem" }}>{f.label}</div>
+                <div style={{ fontFamily: "var(--font-display)", fontSize: "1.2rem", fontWeight: 600, color: "var(--color-deep)" }}>{f.value}</div>
+              </div>
+            ))}
+          </div>
+        </ScrollReveal>
+        <ScrollReveal>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.75rem", marginTop: "1.75rem" }}>
+            {links.map((l, i) => (
+              <a key={i} href={l.href} className="google-maps-btn" style={{ textDecoration: "none" }}>
+                {l.label}
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M7 17L17 7M17 7H7M17 7V17" />
+                </svg>
+              </a>
+            ))}
+          </div>
+        </ScrollReveal>
+      </div>
+    </section>
+  );
+}
+
+function NameVariants() {
+  const { t } = useLang();
+  if (!t.nameVariants) return null;
+  return (
+    <section className="section" style={{ background: "linear-gradient(180deg, #fefefe 0%, #f4f1eb 100%)" }}>
+      <ScrollReveal>
+        <p className="section-label">Name</p>
+        <h2 className="section-title">{t.nameVariants.title}</h2>
+        <div className="section-divider" />
+      </ScrollReveal>
+      <ScrollReveal>
+        <div style={{ marginTop: "2rem", padding: "2rem", background: "#fff", borderRadius: "8px", border: "1px solid rgba(0,0,0,0.05)", boxShadow: "0 4px 20px rgba(0,0,0,0.03)" }}>
+          <h3 style={{ fontFamily: "var(--font-display)", fontSize: "1.3rem", fontWeight: 600, color: "var(--color-deep)", marginBottom: "1rem" }}>
+            {t.nameVariants.subtitle}
+          </h3>
+          <div style={{ fontSize: "1rem", lineHeight: "1.8", color: "var(--color-earth)", whiteSpace: "pre-line" }}>
+            {t.nameVariants.content}
+          </div>
+        </div>
+      </ScrollReveal>
     </section>
   );
 }
@@ -735,7 +811,7 @@ function Location() {
 }
 
 function Footer() {
-  const { t, lang } = useLang();
+  const { t, locale } = useLang();
   return (
     <footer className="site-footer">
       <div className="footer-links">
@@ -749,13 +825,13 @@ function Footer() {
         </div>
       </div>
       <div className="footer-legal" style={{ maxWidth: "1100px", margin: "0 auto", padding: "1rem 2rem 0", textAlign: "center" }}>
-        <a href={`/${lang}/privacy`} style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
+        <a href={`/${locale}/privacy/`} style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
           Privacy Policy
         </a>
-        <a href={`/${lang}/terms`} style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
+        <a href={`/${locale}/terms/`} style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem", marginRight: "1.5rem" }}>
           Terms of Service
         </a>
-        <a href={`/${lang}/cookies`} style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem" }}>
+        <a href={`/${locale}/cookies/`} style={{ color: "rgba(255,255,255,0.5)", textDecoration: "none", fontSize: "0.8rem" }}>
           Cookie Settings
         </a>
       </div>
@@ -772,7 +848,9 @@ export default function MainPage({ locale }: { locale: Locale }) {
     <LangProvider initialLocale={locale}>
       <Nav />
       <Hero />
+      <QuickFacts />
       <About />
+      <NameVariants />
       <Ecology />
       <Culture />
       <Chinkana />

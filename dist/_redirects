@@ -1,1 +1,6 @@
-/  /es  302
+# 强制 https + 统一 www（域名级规范化，Cloudflare Pages 边缘执行）
+http://sacsayhuamanruins.com/* https://www.sacsayhuamanruins.com/:splat 301
+https://sacsayhuamanruins.com/* https://www.sacsayhuamanruins.com/:splat 301
+
+# 根路径重定向到默认语言（西班牙语，秘鲁本地）
+/ /es/ 302

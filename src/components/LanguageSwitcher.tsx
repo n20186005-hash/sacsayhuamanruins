@@ -8,7 +8,7 @@ const LANGUAGES = [
 ];
 
 export function LanguageSwitcher() {
-  const { lang } = useLang();
+  const { locale: lang } = useLang();
 
   const switchLang = (code: string) => {
     const parts = window.location.pathname.split("/");

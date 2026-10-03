@@ -1,0 +1,165 @@
+---
+import BaseLayout from "./BaseLayout.astro";
+import type { Locale } from "../i18n/translations";
+
+interface Props {
+  lang: Locale;
+  title: string;
+  description: string;
+  restPath: string;
+  faqItems?: { question: string; answer: string }[];
+  breadcrumbLabel: string;
+  homeLabel: string;
+}
+
+const { lang, title, description, restPath, faqItems, breadcrumbLabel, homeLabel } = Astro.props;
+const mapsUrl = "https://maps.app.goo.gl/bBdBGNwo6QqUcx7L8";
+---
+
+<BaseLayout lang={lang} title={title} description={description} restPath={restPath} mapsUrl={mapsUrl} faqItems={faqItems}>
+  <div class="subpage">
+    <div class="subpage-inner">
+      <nav class="subpage-crumbs" aria-label="Breadcrumb">
+        <a href={`/${lang}/`}>{homeLabel}</a>
+        <span aria-hidden="true">›</span>
+        <span class="subpage-crumb-current">{breadcrumbLabel}</span>
+      </nav>
+      <h1 class="subpage-title">{title}</h1>
+      <slot />
+    </div>
+  </div>
+</BaseLayout>
+
+<style>
+  .subpage {
+    background: linear-gradient(180deg, #fefefe 0%, #f4f1eb 100%);
+    padding: 3rem 1.5rem 4rem;
+  }
+  .subpage-inner {
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  .subpage-crumbs {
+    font-size: 0.9rem;
+    color: var(--color-earth-soft, #8a7a63);
+    margin-bottom: 1.5rem;
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .subpage-crumbs a {
+    color: var(--color-deep, #2a2118);
+    text-decoration: none;
+  }
+  .subpage-crumbs a:hover {
+    text-decoration: underline;
+  }
+  .subpage-crumb-current {
+    color: var(--color-gold, #b8893b);
+    font-weight: 600;
+  }
+  .subpage-title {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: clamp(1.8rem, 4vw, 2.6rem);
+    font-weight: 700;
+    line-height: 1.15;
+    color: var(--color-deep, #2a2118);
+    margin: 0 0 1.5rem;
+  }
+  .subpage-intro {
+    font-size: 1.08rem;
+    line-height: 1.8;
+    color: var(--color-earth, #5b4d3a);
+    margin-bottom: 2rem;
+  }
+  .subpage-section {
+    margin: 2.5rem 0;
+  }
+  .subpage-section h2 {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-deep, #2a2118);
+    margin: 0 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--color-gold, #b8893b);
+  }
+  .subpage-body {
+    font-size: 1rem;
+    line-height: 1.85;
+    color: var(--color-earth, #5b4d3a);
+    white-space: pre-line;
+  }
+  .subpage-verified {
+    margin: 2.5rem 0 1rem;
+    font-size: 0.85rem;
+    font-style: italic;
+    color: var(--color-earth-soft, #8a7a63);
+    background: rgba(0, 0, 0, 0.03);
+    padding: 0.75rem 1rem;
+    border-radius: 6px;
+    border-left: 3px solid var(--color-gold, #b8893b);
+  }
+  .subpage-faq {
+    margin: 3rem 0 2rem;
+  }
+  .subpage-faq h2 {
+    font-family: var(--font-display, Georgia, serif);
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: var(--color-deep, #2a2118);
+    margin: 0 0 1.25rem;
+  }
+  .subpage-faq details {
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 0.75rem;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.03);
+  }
+  .subpage-faq summary {
+    cursor: pointer;
+    padding: 1rem 1.25rem;
+    font-weight: 600;
+    color: var(--color-deep, #2a2118);
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .subpage-faq summary::-webkit-details-marker {
+    display: none;
+  }
+  .subpage-faq summary::after {
+    content: "+";
+    color: var(--color-gold, #b8893b);
+    font-size: 1.4rem;
+    font-weight: 700;
+  }
+  .subpage-faq details[open] summary::after {
+    content: "−";
+  }
+  .subpage-faq .faq-answer {
+    padding: 0 1.25rem 1.25rem;
+    font-size: 0.97rem;
+    line-height: 1.8;
+    color: var(--color-earth, #5b4d3a);
+  }
+  .subpage-back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 2rem;
+    padding: 0.75rem 1.5rem;
+    background: var(--color-deep, #2a2118);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: 600;
+  }
+  .subpage-back:hover {
+    background: var(--color-gold, #b8893b);
+  }
+</style>

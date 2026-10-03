@@ -11,10 +11,10 @@ interface Props {
 
 const { lang } = Astro.props;
 const t = translations[lang];
-const title = `${t.hero.title} | ${"Sacsayhuaman Ruins"}`;
-const description = t.about.p1.slice(0, 160);
+const title = t.meta?.title || `${t.hero.title} | Sacsayhuaman Ruins`;
+const description = t.meta?.description || t.about.p1.slice(0, 160);
 ---
 
-<BaseLayout lang={lang} title={title} description={description} restPath="" mapsUrl={poi.mapsUrl}>
+<BaseLayout lang={lang} title={title} description={description} restPath="" mapsUrl={poi.mapsUrl} faqItems={t.faq.items}>
   <MainPage client:load locale={lang} />
 </BaseLayout>

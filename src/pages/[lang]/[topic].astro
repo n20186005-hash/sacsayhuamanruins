@@ -1,0 +1,51 @@
+---
+import SubpageLayout from "../../layouts/SubpageLayout.astro";
+import { topics, topicKeys } from "../../i18n/topics";
+import type { TopicKey } from "../../i18n/topics";
+import { translations } from "../../i18n/translations";
+import type { Locale } from "../../i18n/translations";
+
+export function getStaticPaths() {
+  const locales: Locale[] = ["zh", "en", "es", "qu"];
+  return locales.flatMap((lang) =>
+    topicKeys.map((topic) => ({ params: { lang, topic } }))
+  );
+}
+
+const { lang, topic } = Astro.params as { lang: Locale; topic: TopicKey };
+const c = topics[topic][lang];
+const faqTitle = translations[lang].faq.title;
+---
+
+<SubpageLayout
+  lang={lang}
+  title={c.title}
+  description={c.metaDescription}
+  restPath={`/${topic}`}
+  faqItems={c.faq}
+  breadcrumbLabel={c.title}
+  homeLabel="Saqsaywaman"
+>
+  <p class="subpage-intro">{c.intro}</p>
+
+  {c.sections.map((s) => (
+    <section class="subpage-section">
+      <h2>{s.heading}</h2>
+      <div class="subpage-body" set:html={s.body.replace(/\*\*(.*?)\*\*/g, "<strong>$1</strong>")} />
+    </section>
+  ))}
+
+  <p class="subpage-verified">Visitor information last verified: {c.lastVerified}</p>
+
+  <section class="subpage-faq">
+    <h2>{faqTitle}</h2>
+    {c.faq.map((f) => (
+      <details>
+        <summary>{f.question}</summary>
+        <div class="faq-answer" set:html={f.answer.replace(/\n+/g, "<br/>")} />
+      </details>
+    ))}
+  </section>
+
+  <a href={`/${lang}/`} class="subpage-back">{c.backLabel}</a>
+</SubpageLayout>

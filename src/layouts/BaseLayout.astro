@@ -9,44 +9,102 @@ interface Props {
   description: string;
   restPath?: string;
   mapsUrl: string;
+  faqItems?: { question: string; answer: string }[];
 }
 
-const { lang, title, description, restPath = "", mapsUrl } = Astro.props;
+const { lang, title, description, restPath = "", mapsUrl, faqItems } = Astro.props;
 
 const baseUrl = resolveBaseUrl();
 const locales: Locale[] = ["zh", "en", "es", "qu"];
 const htmlLang: Record<Locale, string> = { zh: "zh", en: "en", es: "es", qu: "qu" };
+type Alternate = { hreflang: Locale | "x-default"; href: string };
 
-const canonical = `${baseUrl}/${lang}${restPath}`;
-const alternates = locales.map((l) => ({ hreflang: l, href: `${baseUrl}/${l}${restPath}` }));
-alternates.push({ hreflang: "x-default", href: `${baseUrl}/es${restPath}` });
+// 统一带结尾斜杠，canonical 与所有 hreflang 必须指向最终规范化 URL。
+const canonical = `${baseUrl}/${lang}${restPath}/`;
+const alternates: Alternate[] = locales.map((l) => ({ hreflang: l, href: `${baseUrl}/${l}${restPath}/` }));
+// x-default 指向英文版（国际游客为主的默认入口）。
+alternates.push({ hreflang: "x-default", href: `${baseUrl}/en${restPath}/` });
 
 const ogImage = `${baseUrl}/gallery/saqsaywaman%20(1).jpg`;
 
+// 实体拼写变体集中声明，覆盖查询中的大量不同拼法。
+const alternateNames = ["Sacsayhuaman", "Sacsayhuamán", "Saksaywaman", "Saqsa Waman"];
+
 const jsonLd = {
   "@context": "https://schema.org",
-  "@type": "TouristAttraction",
-  name: poi.name,
-  description,
-  url: canonical,
-  image: ogImage,
-  address: {
-    "@type": "PostalAddress",
-    addressLocality: "Cusco",
-    addressCountry: "PE",
-  },
-  geo: {
-    "@type": "GeoCoordinates",
-    latitude: poi.geo.latitude,
-    longitude: poi.geo.longitude,
-  },
-  openingHours: poi.openingHours,
-  aggregateRating: {
-    "@type": "AggregateRating",
-    ratingValue: siteConfig.rating,
-    reviewCount: siteConfig.reviewCount,
-  },
-  sameAs: [mapsUrl],
+  "@graph": [
+    {
+      "@type": ["TouristAttraction", "Place", "LandmarksOrHistoricalBuildings"],
+      "@id": `${baseUrl}/#attraction`,
+      name: poi.name,
+      alternateName: alternateNames,
+      description,
+      url: canonical,
+      image: ogImage,
+      address: {
+        "@type": "PostalAddress",
+        addressLocality: "Cusco",
+        addressCountry: "PE",
+      },
+      geo: {
+        "@type": "GeoCoordinates",
+        latitude: poi.geo.latitude,
+        longitude: poi.geo.longitude,
+      },
+      openingHours: poi.openingHours,
+      sameAs: [mapsUrl],
+    },
+    {
+      "@type": "WebSite",
+      "@id": `${baseUrl}/#website`,
+      url: baseUrl,
+      name: siteConfig.name,
+      inLanguage: lang,
+    },
+    {
+      "@type": "WebPage",
+      "@id": `${canonical}#webpage`,
+      url: canonical,
+      name: title,
+      description,
+      isPartOf: { "@id": `${baseUrl}/#website` },
+      inLanguage: lang,
+    },
+    {
+      "@type": "BreadcrumbList",
+      itemListElement: [
+        {
+          "@type": "ListItem",
+          position: 1,
+          name: poi.name,
+          item: `${baseUrl}/${lang}/`,
+        },
+        ...(restPath
+          ? [
+              {
+                "@type": "ListItem",
+                position: 2,
+                name: title,
+                item: canonical,
+              },
+            ]
+          : []),
+      ],
+    },
+    ...(faqItems && faqItems.length
+      ? [
+          {
+            "@type": "FAQPage",
+            "@id": `${canonical}#faq`,
+            mainEntity: faqItems.map((f) => ({
+              "@type": "Question",
+              name: f.question,
+              acceptedAnswer: { "@type": "Answer", text: f.answer.replace(/\n+/g, " ") },
+            })),
+          },
+        ]
+      : []),
+  ],
 };
 
 const gtagSrc = `https://www.googletagmanager.com/gtag/js?id=${siteConfig.gaId}`;
