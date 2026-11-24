@@ -1,0 +1,219 @@
+{
+  "qenqo": {
+    "page": "https://commons.wikimedia.org/wiki/File%3AQ%27enqo.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Q%27enqo.jpg/1280px-Q%27enqo.jpg",
+    "width": 1200,
+    "height": 900,
+    "sha256": "b0d5d58253f7826a771c580516a273327aedc017b2536c6a43ebe4cc6fb56443"
+  },
+  "puka-pukara": {
+    "page": "https://commons.wikimedia.org/wiki/File%3APukapukara%2C_Cusco.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Pukapukara%2C_Cusco.jpg/1280px-Pukapukara%2C_Cusco.jpg",
+    "width": 1195,
+    "height": 900,
+    "sha256": "5a42ecf1c9ec8c5c278d8e063ef811af1f41a83f1166b1cb61459d35cf35bdbc"
+  },
+  "tambomachay": {
+    "page": "https://commons.wikimedia.org/wiki/File%3ATambomachay.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Tambomachay.jpg/1280px-Tambomachay.jpg",
+    "width": 1200,
+    "height": 818,
+    "sha256": "d0bf6aaee71ea275d61a10b382ec8e2570fadb08bf323716d7ff0a51cfa5216c"
+  },
+  "qorikancha": {
+    "page": "https://commons.wikimedia.org/wiki/File%3AQorikancha_Cusco%2C_Peru.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Qorikancha_Cusco%2C_Peru.jpg/1280px-Qorikancha_Cusco%2C_Peru.jpg",
+    "width": 1200,
+    "height": 800,
+    "sha256": "67be8cee9896198332f5d0c7722172bab4fc8d53de6aece7d41e0bef04502acc"
+  },
+  "plaza-de-armas": {
+    "page": "https://commons.wikimedia.org/wiki/File%3APlaza_de_Armas_del_Cuzco_%281%29.JPG",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Plaza_de_Armas_del_Cuzco_(1).JPG/1280px-Plaza_de_Armas_del_Cuzco_(1).JPG",
+    "width": 1200,
+    "height": 692,
+    "sha256": "7b6f665f21f57f2a4c2c7840b148d1c61abdce32fc0c902c6aebb672c974c355"
+  },
+  "catedral-cusco": {
+    "page": "https://commons.wikimedia.org/wiki/File%3ACatedral_del_Cusco%2C_2026.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Catedral_del_Cusco%2C_2026.jpg/1280px-Catedral_del_Cusco%2C_2026.jpg",
+    "width": 1198,
+    "height": 900,
+    "sha256": "87dd4935fef0d074c8bb0e44fca2eb9123b21069e3837bf347387b27c627d67c"
+  },
+  "compania": {
+    "page": "https://commons.wikimedia.org/wiki/File%3ACusco_Iglesia_de_la_Compania_de_Jesus.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Cusco_Iglesia_de_la_Compania_de_Jesus.jpg/1280px-Cusco_Iglesia_de_la_Compania_de_Jesus.jpg",
+    "width": 1200,
+    "height": 900,
+    "sha256": "f3625f23282d92e1fc40d959b62375d59dbb14ccbfd0b065247c9ccd1370f02f"
+  },
+  "hatun-rumiyoc": {
+    "page": "https://commons.wikimedia.org/wiki/File%3ALa_piedra_de_los_doce_%C3%A1ngulos%2C_en_calle_Hatun_Rumiyoc%2C_Cuzco_01.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/La_piedra_de_los_doce_%C3%A1ngulos%2C_en_calle_Hatun_Rumiyoc%2C_Cuzco_01.jpg/1280px-La_piedra_de_los_doce_%C3%A1ngulos%2C_en_calle_Hatun_Rumiyoc%2C_Cuzco_01.jpg",
+    "width": 1200,
+    "height": 797,
+    "sha256": "a18910622cd8d7c888a57ea42c6f4415fae329b1992e6e7ad59d13f7a1040cb6"
+  },
+  "san-blas": {
+    "page": "https://commons.wikimedia.org/wiki/File%3APlazoleta_de_san_blas.png",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Plazoleta_de_san_blas.png/1280px-Plazoleta_de_san_blas.png",
+    "width": 1200,
+    "height": 803,
+    "sha256": "6b1de6ac54a6bb89ed4852e431cd465e252f1b49d1f308df33efd38d3ec870cb"
+  },
+  "san-pedro": {
+    "page": "https://commons.wikimedia.org/wiki/File%3AMercado_Central_San_Pedro_Cusco.jpg",
+    "original": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Mercado_Central_San_Pedro_Cusco.jpg/1280px-Mercado_Central_San_Pedro_Cusco.jpg",
+    "width": 675,
+    "height": 900,
+    "sha256": "231ab4595bbda3c8094c24cb0cd63a30fbeecc6a4851ffcb078b46bd90b7e41c"
+  },
+  "museo-inka": {
+    "errors": [
+      "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)",
+      "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)",
+      "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
+    ]
+  },
+  "museo-precolombino": {
+    "page": "https://happyperutours.com/blog/blog-castellano/atracciones-turisticas-de-cusco",
+    "original": "https://happyperutours.com/img/blog/museo-precolombino.webp",
+    "width": 1200,
+    "height": 800,
+    "sha256": "819edc7727fe5dc8411c7369e8073a9aa3a513a19a0e50271b861b275c811aa0"
+  },
+  "casa-garcilaso": {
+    "page": "https://cocatambo.com/blog/cusco-temporada-lluvia",
+    "original": "https://cocatambo.com/sites/default/files/casa%20garcilazo_0.webp",
+    "width": 1200,
+    "height": 800,
+    "sha256": "2e44fb8c09349d7ef5ebffda5bf598550a0e4dbefc25795020d41e8e15a81068"
+  },
+  "museo-arte-religioso": {
+    "page": "https://trekero.com/blog/museos-en-cusco",
+    "original": "https://trekero.com/sites/default/files/museos%20en%20cusco%20-%204.webp",
+    "width": 960,
+    "height": 640,
+    "sha256": "f5cfaa4d7ac1f0d3dea86afa6743a00bbbf7b780864cff40c47b0138cbb72bfc"
+  },
+  "museo-arte-contemporaneo": {
+    "page": "https://whichmuseum.es/museo/museo-de-arte-contemporaneo-cusco-21720",
+    "original": "https://image.wmsm.co/649f53bdab608/museo-de-arte-contemporaneo-cusco-1.webp?quality=80&width=1280",
+    "width": 1200,
+    "height": 774,
+    "sha256": "973cd69bb7a3002054a18869c67c6fbfd4974da42fae749f7944cb9709d39c17"
+  },
+  "museo-arte-popular": {
+    "page": "https://mindtrip.ai/attraction/cusco-south-peru/instituto-americano-de-arte-de-cusco/at-XstnBrhM",
+    "original": "https://d3fphkxyf5o5bm.cloudfront.net/image-resize/format%3Dwebp%2Cw%3D720/QwRY54Li1HMwD7oNfpDXwLCYymeYwdQtGejCasEBBC",
+    "width": 720,
+    "height": 542,
+    "sha256": "0510e6e70226c03b1da5c160e78fba9443a855fc383fedd1430d28148c3cddc2"
+  },
+  "monumento-pachacutec": {
+    "page": "https://www.acamerainquieta.com/blog/o-que-fazer-em-cusco",
+    "original": "https://images.squarespace-cdn.com/content/v1/61ccb1d00c277945535f9f6a/e97c8272-8094-4c7f-aefd-db2477aedf73/monumento-pachacutec.jpg",
+    "width": 1200,
+    "height": 800,
+    "sha256": "17426c1387515a092419a096793d4ea45094ee5446c5f3e38c5f4e20ccf92c78"
+  },
+  "tipon": {
+    "page": "https://www.audleytravel.com/peru/country-guides/inca-sites-to-visit",
+    "original": "https://media.audleytravel.com/-/media/images/home/south-america/peru/country-guides/perus-inca-wonders-beyond-machu-picchu/tipon_1026557.jpg?q=79&w=1200",
+    "width": 1200,
+    "height": 857,
+    "sha256": "6bfff0bc652e61c2a87deae92bd402ab9faf62081738cbfdbb30e575d3b3905f"
+  },
+  "pikillacta": {
+    "page": "https://www.gettyimages.com/",
+    "original": "https://cdn.machupicchuagency.com/cusco_pikillacta_1_f2dfee3aad_d82854a5ee.jpg",
+    "width": 800,
+    "height": 533,
+    "sha256": "7e2c125e82e2c12979996dc6005eb96b3ba1d0d81475090b6a92b7e6effb5a1a"
+  },
+  "rumicolca": {
+    "page": "https://www.gettyimages.com/",
+    "original": "https://www.boletomachupicchu.com/gutblt/wp-content/uploads/2025/01/rumicolca-4-g.jpg",
+    "width": 800,
+    "height": 534,
+    "sha256": "1cdd35eb2aa87f5fa6d866fd600ef7c0b9733e9df3db8565bb4433d7ed0c82ac"
+  },
+  "andahuaylillas": {
+    "errors": [
+      "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)",
+      "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)",
+      "HTTP Error 429: Your bot is making too many requests. Please reduce your request rate or contact bot-traffic@wikimedia.org (f263c81)"
+    ]
+  },
+  "pisac": {
+    "page": "https://commons.wikimedia.org/wiki/File%3APeru_Pisac_ruins.jpg",
+    "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Peru_Pisac_ruins.jpg?width=1000",
+    "width": 1200,
+    "height": 800,
+    "sha256": "33be4329b8303ec17dc3a44a80e845d610e0a55ed2fed0a3c3383a492c4c5b68"
+  },
+  "ollantaytambo": {
+    "page": "https://commons.wikimedia.org/wiki/File%3AParque_Arqueol%C3%B3gico_Nacional_de_Ollantaytambo-2026_01.jpg",
+    "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Parque_Arqueol%C3%B3gico_Nacional_de_Ollantaytambo-2026_01.jpg?width=1000",
+    "width": 1200,
+    "height": 900,
+    "sha256": "f0155ee9e8f074d3f565a1676a8ce4d38fcc8d374e4b317867ccf5222f41abec"
+  },
+  "chinchero": {
+    "page": "https://www.gettyimages.com/",
+    "original": "https://cdn.enjoytravel.com/img/Big7Enjoy/en/travel-news/guides/how-to-spend-5-days-in-cusco-peru/CKtccfoI7HHg51cqFPsbk206QuU0xnAG5fl9cNeo.webp",
+    "width": 1200,
+    "height": 800,
+    "sha256": "1a243fa2cf70a45556f7db1322e2e4a5993b39c6cc6defbe9aabd19e882d5f47"
+  },
+  "moray": {
+    "page": "https://www.pelago.com/en-US/activity/pdrdyx2jp-salinas-de-maras-moray-cusco/",
+    "original": "https://www.pelago.com/img/products/PE-Peru/salinas-de-maras-moray/d3440670-5b54-45f3-8b9e-9d1273f007e3_salinas-de-maras-moray.jpg",
+    "width": 720,
+    "height": 480,
+    "sha256": "9d55cd8349e0defd05e4e745618cf7ffaf733f75606d788131373cd873c3fc9d"
+  },
+  "salineras-maras": {
+    "page": "https://www.gettyimages.com/",
+    "original": "https://www.civitatis.com/f/peru/cusco/maras-masaje-sal-moray-misminay-r32.jpg",
+    "width": 1200,
+    "height": 800,
+    "sha256": "494cfb4bf2fee5b8d38269d3d430c0eec9ab4f7b26a07ea0e6cfb111bc96d7c7"
+  },
+  "huchuy-qosqo": {
+    "page": "https://www.flashpackerconnect.com/trips/huchuy-qosqo-trek-1-day",
+    "original": "https://assets-global.website-files.com/5bb2cb199758ce1535f85891/5c1c1422652a35d6c6a29ba1_DSC02237%20copy.jpg",
+    "width": 1200,
+    "height": 800,
+    "sha256": "ca6feaf1c923d9df356c9bddeab9133dcd5dac6ff6c4196245a483fbf01441bb"
+  },
+  "tarawasi": {
+    "page": "https://www.civitatis.com/mx/cusco/excursion-killarumiyoq-tarawasi-mirador-chonta/",
+    "original": "https://cdn2.civitatis.com/peru/cusco/galeria/tarawasi-chonta.jpg",
+    "width": 780,
+    "height": 521,
+    "sha256": "83d7f2efa4a0a05060af6428d5fae248bfbf856a4f8e291ffb513ec705817515"
+  },
+  "zurite": {
+    "page": "https://x.com/EDICIONESREGION/status/1480965959519141891",
+    "original": "https://pbs.twimg.com/media/FI1ysJ6XoAkB3vA.jpg",
+    "width": 1080,
+    "height": 607,
+    "sha256": "8495084f61a63ee17ff553a68a913f7199d17982fc0c0aeccae4522721fae529"
+  },
+  "chincheros-iglesia": {
+    "page": "https://commons.wikimedia.org/wiki/File%3ATemplo_Nuestra_Se%C3%B1ora_de_la_Natividad_%28Chinchero%29.jpg",
+    "original": "https://commons.wikimedia.org/wiki/Special:FilePath/Templo_Nuestra_Se%C3%B1ora_de_la_Natividad_%28Chinchero%29.jpg?width=1000",
+    "width": 1200,
+    "height": 628,
+    "sha256": "7893fbfc3446629170cb0b0f051ccc30af1f3cd5307f846e5714e093092cdaae"
+  },
+  "puente-checacupe": {
+    "page": "https://guruexplorers.com/es/blog/puentes-de-checacupe/",
+    "original": "https://static.guruexplorers.com/uploads/2021/05/WhatsApp-Image-2021-12-23-at-4.20.25-PM-1024x576.jpeg",
+    "width": 1024,
+    "height": 576,
+    "sha256": "bacf933853f46d8da6c47bbec49db73036aa3bd7be53daeb7c96cc710bc9aa6d"
+  }
+}
