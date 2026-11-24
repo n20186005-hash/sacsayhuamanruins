@@ -23,6 +23,13 @@ jobs:
         with:
           name: nearby-image-evidence
           path: scripts/nearby-image-results.json
+      - name: Preserve partial retrieval if a source stops responding
+        if: failure()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add public/nearby-images scripts/nearby-image-results.json
+          if ! git diff --cached --quiet; then git commit -m 'Preserve verified images and outstanding source errors'; git push origin HEAD:guide/nearby-four-languages; fi
       - run: npm run build
       - name: Check generated visitor guides
         run: |
