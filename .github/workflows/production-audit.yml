@@ -1,0 +1,29 @@
+name: Verify deployed Cusco guide URLs
+on:
+  push:
+    branches: [qa/nearby-release]
+permissions:
+  contents: write
+  checks: read
+jobs:
+  production:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify Cloudflare and live routes
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PRODUCTION_SHA: 4c6b7cce6190461086aca320ea18f20bb566eb50
+        run: python scripts/verify-live-154.py
+      - name: Check mobile and desktop rendering
+        if: always()
+        run: |
+          npm install --prefix /tmp/nearby-display --no-audit --no-fund playwright-core
+          NODE_PATH=/tmp/nearby-display/node_modules node scripts/verify-display-154.cjs
+      - name: Save release evidence
+        if: always()
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add evidence/154
+          if ! git diff --cached --quiet; then git commit -m 'Save per-URL production evidence and viewport captures'; git push origin HEAD:qa/nearby-release; fi
