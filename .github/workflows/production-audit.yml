@@ -18,6 +18,8 @@ jobs:
       - name: Check mobile and desktop rendering
         if: always()
         run: |
+          sudo apt-get -qq update && sudo apt-get -qq install -y fonts-noto-cjk
+          fc-cache -f
           npm install --prefix /tmp/nearby-display --no-audit --no-fund playwright-core
           NODE_PATH=/tmp/nearby-display/node_modules node scripts/verify-display-154.cjs
       - name: Save release evidence
