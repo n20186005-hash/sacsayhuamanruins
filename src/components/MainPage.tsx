@@ -5,6 +5,14 @@ import { LangProvider, useLang } from "@/components/LangProvider";
 import { LanguageSwitcher } from "@/components/LanguageSwitcher";
 import galleryImagesData from "@/gallery-data.json";
 
+import nearbyDirectory from "../data/nearby-directory.json";
+const nearbyTitles: Record<Locale,string> = {"en":"Nearby places","es":"Lugares cercanos","zh":"周边景点","qu":"Qayllapi watukuna kitikuna"};
+
+function NearbyDirectory() {
+  const {locale} = useLang();
+  return <section id="nearby" className="guideindex"><h2>{nearbyTitles[locale]}</h2><div className="glist">{nearbyDirectory[locale].map(item => <a key={item.slug} href={`/${locale}/nearby/${item.slug}/`}>{item.name}</a>)}</div></section>;
+}
+
 const MAPS_URL = "https://maps.app.goo.gl/bBdBGNwo6QqUcx7L8";
 
 const GOOGLE_REVIEWS = [
@@ -87,7 +95,7 @@ function ThemeToggle() {
 }
 
 function Nav() {
-  const { t } = useLang();
+  const { t, locale } = useLang();
   const [scrolled, setScrolled] = useState(false);
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 80);
@@ -103,6 +111,7 @@ function Nav() {
       </div>
       <div style={{ display: "flex", alignItems: "center", gap: "2rem" }}>
         <div className="nav-links">
+          <a href="#nearby">{nearbyTitles[locale]}</a>
           <a href="#about">{t.nav.about}</a>
           <a href="#ecology">{t.nav.ecology}</a>
           <a href="#culture">{t.nav.culture}</a>
@@ -862,6 +871,7 @@ export default function MainPage({ locale }: { locale: Locale }) {
       <Reviews />
       <FAQ />
       <Location />
+      <NearbyDirectory />
       <Footer />
     </LangProvider>
   );

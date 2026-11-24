@@ -12,22 +12,34 @@
       "en": {
         "name": "Q'enqo",
         "history": "A limestone outcrop has been carved into channels, ledges and a passage. Walk around its outer face first: the contrast between rough stone and cut surfaces makes the intervention of Inca masons visible before you enter the more confined space.",
-        "route": "From the signed entrance follow the exterior circuit, pause beside the cut channels and use the passage only if the attendant has opened it. Return by the marked exit."
+        "route": "From the signed entrance follow the exterior circuit, pause beside the cut channels and use the passage only if the attendant has opened it. Return by the marked exit.",
+        "photoTip": "At the boundary between unworked rock and a cut channel, look across the groove rather than straight down into it. Side light reveals its depth without touching the surface.",
+        "tag": "A carved channel in an otherwise irregular outcrop",
+        "experience": "Natural limestone sets the bounds of the design here. Rather than assembling an entire structure from blocks, the builders removed stone to shape the outcrop itself."
       },
       "es": {
         "name": "Q'enqo",
         "history": "El afloramiento de caliza conserva canales, superficies talladas y un pasaje. Rodea primero la cara exterior: la comparación entre roca natural y corte permite reconocer el trabajo inca antes de entrar al espacio angosto.",
-        "route": "Desde el control sigue el circuito exterior, observa los canales y entra al pasaje sólo si el personal lo habilita. Regresa por la salida señalada."
+        "route": "Desde el control sigue el circuito exterior, observa los canales y entra al pasaje sólo si el personal lo habilita. Regresa por la salida señalada.",
+        "photoTip": "En el límite entre roca natural y canal tallado, mira de lado para que la luz revele el relieve sin tocarlo.",
+        "tag": "Un canal tallado en un afloramiento irregular",
+        "experience": "La caliza natural limita el diseño. En vez de levantar todo con bloques, los constructores retiraron material del propio afloramiento."
       },
       "zh": {
         "name": "肯科遗址",
         "history": "这处石灰岩露头上凿有沟槽、台面与通道。先环看外侧天然石面，再对比人工切削的轮廓，进入狭窄处前就能读出印加石工改造岩体的方式。",
-        "route": "从查验口沿外侧线路行走，在凿槽旁停看；工作人员开放通道时再进入，最后由标记的出口离开。"
+        "route": "从查验口沿外侧线路行走，在凿槽旁停看；工作人员开放通道时再进入，最后由标记的出口离开。",
+        "photoTip": "在天然岩面与人工沟槽交界处斜看，利用侧光表现深度，无需碰触石面。",
+        "tag": "在不规则岩体中辨认凿出的沟槽",
+        "experience": "天然石灰岩限定了设计。建造者从原有岩体去除材料而形成空间，与逐块砌墙的方式不同。"
       },
       "qu": {
         "name": "Q'enqo",
         "history": "Kay qaqapiqa yarqhachakunata, pampachasqa rumikunata, kichasqa ñannintapas rikunki. Ñawpaqta hawa qayllanta muyuy. Mana llaqllasqa qaqata llaqllasqa qaqawan tupachispaqa Inka runakuna imayna llamk'asqankuta aswan allinta rikunki.",
-        "route": "Punkumanta hawa ñanninta puriy, yarqhachakuna qayllapi sayay. Kamachiq kichaptinlla kichki ñanman yaykuy. Chimpusqa lluqsina ñanninta kutiy."
+        "route": "Punkumanta hawa ñanninta puriy, yarqhachakuna qayllapi sayay. Kamachiq kichaptinlla kichki ñanman yaykuy. Chimpusqa lluqsina ñanninta kutiy.",
+        "photoTip": "Mana llaqllasqa qaqawan yarqhacha tinkisqanpi waqtamanta qhaway. Waqta k'anchaymi ukhu kayninta rikuchin, mana llank'aspa.",
+        "tag": "Mana chiqap qaqapi llaqllasqa yarqhacha",
+        "experience": "Qaqallata llaqllaspa kikin qaqamanta kitita ruwarqanku. Manam sapa rumita huñuspa huk wasi pirqayllachu karqan."
       }
     }
   },
@@ -44,22 +56,34 @@
       "en": {
         "name": "Puka Pukara",
         "history": "This terraced complex stands beside the old approach to Cusco. From below, the walls seem stacked; from the upper platform the road and valley explain the importance of the position. The modern name refers to a red fortress, not conclusive evidence of a single military purpose.",
-        "route": "Begin below the outer wall, climb by the signed visitor stair and stop at the upper terrace to look back along the approach. Use the stair again for the descent."
+        "route": "Begin below the outer wall, climb by the signed visitor stair and stop at the upper terrace to look back along the approach. Use the stair again for the descent.",
+        "photoTip": "Keep the lower course of the wall in the foreground and the road corridor behind it. The photograph then explains the position of the site as well as its colour.",
+        "tag": "A walled lookout on the approach to Cusco",
+        "experience": "The approach road is part of what you are visiting. A position with broad views could oversee movement between the surrounding highlands and Cusco."
       },
       "es": {
         "name": "Puka Pukara",
         "history": "El conjunto escalonado domina una antigua aproximación al Cusco. Desde abajo los muros parecen superpuestos; arriba, el camino y el valle explican la posición elegida. El nombre actual alude a una fortaleza roja, sin resolver por sí solo todas sus funciones.",
-        "route": "Empieza bajo el muro exterior, sube por la escalera habilitada y mira desde la terraza superior hacia el camino de llegada. Baja por la escalera."
+        "route": "Empieza bajo el muro exterior, sube por la escalera habilitada y mira desde la terraza superior hacia el camino de llegada. Baja por la escalera.",
+        "photoTip": "Incluye la hilada baja en primer plano y el camino al fondo: así la imagen explica el emplazamiento y no sólo el color.",
+        "tag": "Un conjunto amurallado en la aproximación al Cusco",
+        "experience": "El camino de acceso también forma parte de la visita. Las vistas amplias permitían observar movimientos entre las alturas y el Cusco."
       },
       "zh": {
         "name": "普卡普卡拉",
         "history": "层层台地俯临通往库斯科的古道。自下而上看是层叠墙体，登上开放平台便能看到道路与谷地，理解选址意义。现代名称有“红色堡垒”之意，其用途还应结合遗迹来判断。",
-        "route": "从外墙下开始，经指定阶梯上行，在高台回望来路，再循开放台阶下行。"
+        "route": "从外墙下开始，经指定阶梯上行，在高台回望来路，再循开放台阶下行。",
+        "photoTip": "以前景低层墙石和后方道路同框，照片便能说明选址，而不只呈现石色。",
+        "tag": "沿古道观察层叠石墙与谷地",
+        "experience": "来路也是景观的一部分。开阔视野使人可以观察高地与库斯科之间的往来。"
       },
       "qu": {
         "name": "Puka Pukara",
         "history": "Kay pata patapi ruwasqa llaqtachaqa Qusquman puriq ñanpa hawanpi kachkan. Uraymanta pirqakuna huknin hukninpa hawanpi hina rikurin. Hanaq patamanta ñanta, wayq'utawan qhaway. Puka Pukara sutillanqa manam tukuy llamk'ayninta willanchu.",
-        "route": "Hawa pirqaq uranmanta qallariy. Saqisqa chakana patakunata wichay, hanaq patamanta hamusqayki ñanta qhaway. Chay chakanallata uraykamuy."
+        "route": "Hawa pirqaq uranmanta qallariy. Saqisqa chakana patakunata wichay, hanaq patamanta hamusqayki ñanta qhaway. Chay chakanallata uraykamuy.",
+        "photoTip": "Uray pirqata ñawpaqpi, ñanta qhipapi siq'iman churay. Chayhina llimp'allanta manam, maypi kasqantapas rikuchinki.",
+        "tag": "Qusquman yaykuna ñanpi pirqasqa pata",
+        "experience": "Yaykuna ñanpas kay kitiq huk rakinnim. Hanaq pampakunamanta Qusquman runakuna purisqanta kay patamanta rikuy atikuq."
       }
     }
   },
@@ -76,22 +100,34 @@
       "en": {
         "name": "Tambomachay",
         "history": "Water emerges through fitted masonry and drops between levels. The sound changes as you approach the fountains, making it easier to distinguish the working water system from the terraces behind it. The popular name “Inca baths” describes an interpretation of the waterworks.",
-        "route": "Walk from the control post toward the sound of the springs, stop on the visitor side opposite the outlets and follow the descending channels with your eyes. Photograph from the path without entering the watercourse."
+        "route": "Walk from the control post toward the sound of the springs, stop on the visitor side opposite the outlets and follow the descending channels with your eyes. Photograph from the path without entering the watercourse.",
+        "photoTip": "Use the viewpoint across from the outlets so that the falling water is outlined against darker masonry. A close-up alone can hide the difference in height between the channels.",
+        "tag": "Water moving through Inca masonry",
+        "experience": "Look for the junctions hidden within the retaining walls. Water seems to appear instantly at each outlet precisely because much of its journey is concealed inside the masonry."
       },
       "es": {
         "name": "Tambomachay",
         "history": "El agua sale entre muros de piedra y cae de un nivel a otro. Al acercarte cambia el sonido, una forma de distinguir el sistema hidráulico de las terrazas posteriores. El nombre popular “baños del Inca” es una interpretación de la obra.",
-        "route": "Del control camina hacia los manantes, detente enfrente de las salidas y sigue con la vista los canales descendentes. Fotografía desde el sendero sin ingresar al cauce."
+        "route": "Del control camina hacia los manantes, detente enfrente de las salidas y sigue con la vista los canales descendentes. Fotografía desde el sendero sin ingresar al cauce.",
+        "photoTip": "Desde enfrente recorta la caída de agua sobre la piedra oscura. Un detalle aislado puede ocultar el desnivel entre canales.",
+        "tag": "Agua que recorre la cantería inca",
+        "experience": "Busca las uniones ocultas en los muros. El agua parece brotar de golpe porque gran parte de su recorrido queda dentro de la piedra."
       },
       "zh": {
         "name": "坦博马查伊",
         "history": "泉水从拼合严密的石墙间流出，逐级跌落。沿步道靠近时听水声变化，能分辨仍在运行的水系与后方台地。“印加浴场”是对这组水工设施的一种通俗解读。",
-        "route": "从管理点循水声前往泉区，在出水口对面的游客侧停步，沿水渠方向视觉追踪。留在步道取景，不进入水道。"
+        "route": "从管理点循水声前往泉区，在出水口对面的游客侧停步，沿水渠方向视觉追踪。留在步道取景，不进入水道。",
+        "photoTip": "在出水口对面取景，让深色石墙衬出水流，同时留出上下两级水渠，交代落差。",
+        "tag": "沿印加石渠追踪流动的泉水",
+        "experience": "水仿佛从墙中突然出现，因为相当一段供水路线隐藏在砌体内。观察出水口与挡墙如何结合，能理解这一效果。"
       },
       "qu": {
         "name": "Tampumach'ay",
         "history": "Unuqa allin tinkuchisqa rumi pirqamanta lluqsispa huk patamanta huk pataman urmaykun. Asuykuspá unuypa t'uqyayninta uyariy. Chaymi unu ñankunata qhipapi kaq patakunamanta rakispa qhawanaykipaq yanapasunki.",
-        "route": "Qhawaqpa wasinmanta pukyukunaman puriy. Unu lluqsinaq chim­panpi sayay, yarqha uraykamusqanta qhaway. Ñan patamanta siq'ita hurquy, ama unuman yaykuychu."
+        "route": "Qhawaqpa wasinmanta pukyukunaman puriy. Unu lluqsinaq chim­panpi sayay, yarqha uraykamusqanta qhaway. Ñan patamanta siq'ita hurquy, ama unuman yaykuychu.",
+        "photoTip": "Unu lluqsinaq chimpanmanta yana rumita qhipaman churay. Hanaq uray yarqhata kuska siq'iy, chaymanta patakunapa sayaynin rikurin.",
+        "tag": "Inka rumi yarqhakunata puriq unu",
+        "experience": "Unuqa rumimanta chayllapi paqarimuq hina rikurin, ñanninpa huk rakinqa pirqa ukhupin pakasqa. Lluqsina punkuchata pirqawan kuska qhaway."
       }
     }
   },
@@ -108,22 +144,34 @@
       "en": {
         "name": "Qorikancha and Santo Domingo",
         "history": "The Dominican complex incorporates the masonry of the Inca sacred enclosure. Look at the change in construction at a single junction: fitted stone blocks, plaster and the cloister arcade belong to different building traditions within the same visit.",
-        "route": "See the curved outer wall from the street, find the convent ticket entrance and follow the interior circuit around the cloister to the Inca rooms. The site museum below is a separate visit."
+        "route": "See the curved outer wall from the street, find the convent ticket entrance and follow the interior circuit around the cloister to the Inca rooms. The site museum below is a separate visit.",
+        "photoTip": "The curved external wall is best seen from below and a little to the side. Inside, ask about photography limits before trying to record a stone joint or a painting.",
+        "tag": "An Inca enclosure within a Dominican convent",
+        "experience": "The stone rooms and the cloister tell overlapping stories of sacred space. At the threshold, notice which walls continue uninterrupted and which surfaces belong to a later enclosure."
       },
       "es": {
         "name": "Qorikancha y Santo Domingo",
         "history": "El convento dominico incorpora la cantería del recinto sagrado inca. Observa un punto de unión: los bloques ajustados, el enlucido y la arquería del claustro corresponden a tradiciones constructivas distintas.",
-        "route": "Mira el muro curvo desde la calle, ubica la taquilla del convento y sigue el claustro hasta los recintos incas. El museo de sitio inferior es una visita distinta."
+        "route": "Mira el muro curvo desde la calle, ubica la taquilla del convento y sigue el claustro hasta los recintos incas. El museo de sitio inferior es una visita distinta.",
+        "photoTip": "El muro curvo se aprecia desde abajo y de lado. Adentro consulta las reglas antes de fotografiar una junta o una pintura.",
+        "tag": "Un recinto inca en un convento dominico",
+        "experience": "Los recintos de piedra y el claustro superponen historias del espacio sagrado. En el umbral distingue muros continuos de cerramientos posteriores."
       },
       "zh": {
         "name": "太阳神殿与圣多明我修道院",
         "history": "多明我会修道院吸收了印加祭祀建筑的石砌结构。挑一个新旧墙体相接之处，看贴合石块、抹灰表面与拱廊如何在同一空间呈现不同建造传统。",
-        "route": "先在街面看弧形外墙，再找修道院售票入口，沿回廊前往印加石室。下方的遗址博物馆是另一处参观项目。"
+        "route": "先在街面看弧形外墙，再找修道院售票入口，沿回廊前往印加石室。下方的遗址博物馆是另一处参观项目。",
+        "photoTip": "弧形外墙宜从略低的斜侧拍摄；室内拍石缝或绘画前，先向工作人员确认规定。",
+        "tag": "修道院中的印加石室与弧墙",
+        "experience": "在门槛处找一找哪些旧墙连续延伸、哪些表面属于后建围合，便能具体看出这处神圣空间经历的叠加与改造。"
       },
       "qu": {
         "name": "Qurikancha",
         "history": "Santo Domingo wasipiqa ñawpa Inka yupaychana wasiq pirqankuna kachkanraq. Huk tinkina kitipi sumaq tinkuchisqa rumita, llusisqa pirqata, muyu punkukunatapas qhaway. Chaypi iskay kuti ruwasqa wasikunata riqsinki.",
-        "route": "Kikllu patamanta muyu pirqata qhaway, conventoq biliti rantina punkunta maskhay, chaymanta kancha muyuriq ñanninta Inka wasikunaman puriy. Uraypi museoqa huk t'aqa watukuymi."
+        "route": "Kikllu patamanta muyu pirqata qhaway, conventoq biliti rantina punkunta maskhay, chaymanta kancha muyuriq ñanninta Inka wasikunaman puriy. Uraypi museoqa huk t'aqa watukuymi.",
+        "photoTip": "Muyu pirqata uray waqtamanta qhaway. Ukhupi rumi tinkisqata utaq llimp'ita siq'iyta munaspa ñawpaqta kamachiyta tapuy.",
+        "tag": "Santo Domingo wasipi Inka kancha",
+        "experience": "Punku patapi mayqin ñawpa pirqa mana p'itispa purisqanta, mayqin qhipa pachapi yapasqa kasqantapas qhaway. Chaypi yupaychana kitiq t'ikrakuyninta rikunki."
       }
     }
   },
@@ -140,22 +188,34 @@
       "en": {
         "name": "Cusco’s Plaza de Armas",
         "history": "Cusco’s main square occupies part of the earlier Inca civic landscape. Its present edges are defined by arcades and two monumental churches. Walk the perimeter before crossing the centre; each corner changes the apparent scale of the cathedral and the neighbouring hills.",
-        "route": "Start under the arcades, cross toward the fountain, then return by the cathedral side. During public ceremonies use the open pavement instead of crossing the procession route."
+        "route": "Start under the arcades, cross toward the fountain, then return by the cathedral side. During public ceremonies use the open pavement instead of crossing the procession route.",
+        "photoTip": "Frame the church towers from an arcade corner. Returning to the same spot after crossing the plaza helps identify which façade belongs to the cathedral and which to the Jesuit church.",
+        "tag": "Portals, churches and a civic square",
+        "experience": "The arcades make a sheltered edge around an exposed centre. Watch where people meet after rain or during a ceremony: the architecture helps explain how the square still works."
       },
       "es": {
         "name": "Plaza de Armas del Cusco",
         "history": "La plaza actual ocupa parte del antiguo espacio público inca. Hoy sus bordes se leen mediante portales y dos grandes templos. Recorre el perímetro antes de cruzar: desde cada esquina cambian la escala de la catedral y la posición de los cerros.",
-        "route": "Parte de los portales, cruza hacia la pileta y vuelve por el costado de la catedral. Durante ceremonias usa el borde peatonal sin atravesar la procesión."
+        "route": "Parte de los portales, cruza hacia la pileta y vuelve por el costado de la catedral. Durante ceremonias usa el borde peatonal sin atravesar la procesión.",
+        "photoTip": "Encuadra las torres desde una esquina de los portales. Vuelve al mismo lugar tras cruzar para distinguir bien las dos fachadas.",
+        "tag": "Portales, templos y vida en la plaza",
+        "experience": "Los portales forman un borde protegido junto al centro abierto. Observa dónde se reúne la gente tras la lluvia o durante una ceremonia."
       },
       "zh": {
         "name": "库斯科武器广场",
         "history": "如今的主广场占据印加时代公共空间的一部分。四周廊屋与两座大型教堂勾勒出现代广场的边界。先绕外围走一圈再横穿，沿途可见教堂和山脊在视野中的比例变化。",
-        "route": "从廊下起步，走向中央喷泉，再经主教座堂一侧返回。典礼期间沿开放人行边缘通行，勿横穿队伍。"
+        "route": "从廊下起步，走向中央喷泉，再经主教座堂一侧返回。典礼期间沿开放人行边缘通行，勿横穿队伍。",
+        "photoTip": "可在廊屋转角框住塔楼。横穿广场后回到原位复看，更容易分清主教座堂和耶稣会教堂。",
+        "tag": "从廊屋之间认识古城的公共空间",
+        "experience": "廊屋在露天中央区外围形成可避雨的边缘。看看雨后或典礼时人群在哪里集合，就能读出广场今天的使用方式。"
       },
       "qu": {
         "name": "Qusqupa Hatun Plazan",
         "history": "Kunan hatun plazaqa ñawpa Inka runakuna huñunakuq pampanpa huk rakimpi kachkan. Muyu punkukuna, iskay hatun iglesiakunapas patanta rikuchinku. Ñawpaqta muyuriqta puriy. Sapa kuchumanta iglesiawan urqukunawan imayna rikurisqanta qhaway.",
-        "route": "Muyu punkukunamanta qallariy, unu phaqcha qayllaman chakiykiwan puriy, catedralpa waqtanta kutiy. Raymipiqa llaqta runakuna purisqankuta mana hark'aspa plaza patanta puriy."
+        "route": "Muyu punkukunamanta qallariy, unu phaqcha qayllaman chakiykiwan puriy, catedralpa waqtanta kutiy. Raymipiqa llaqta runakuna purisqankuta mana hark'aspa plaza patanta puriy.",
+        "photoTip": "Muyu punkukunaq kuchunmanta turrikunata siq'iy. Plazata chimpaspa chay kikillanman kutiy, iskay iglesiakunaq hawa pirqankunata rakispa qhawanaykipaq.",
+        "tag": "Muyu punkukuna, iglesiakuna, llaqta plaza",
+        "experience": "Muyu punkukunaqa ch'usaq plaza patapi paranmanta hark'ana. Para qhipapi utaq raymipi runakuna maypi huñunakusqankuta qhaway."
       }
     }
   },
@@ -172,22 +232,34 @@
       "en": {
         "name": "Cusco Cathedral",
         "history": "The cathedral ensemble stands on the upper edge of the square. It is both a functioning church and a setting for Cusco-school painting. Compare the street façade with the scale of the nave, then choose one painting to study with its identification label.",
-        "route": "View the complete front from across the square, go up to the posted visitor entrance and check the church’s service arrangements. Follow the interior circuit and keep the central aisle clear."
+        "route": "View the complete front from across the square, go up to the posted visitor entrance and check the church’s service arrangements. Follow the interior circuit and keep the central aisle clear.",
+        "photoTip": "Step down into the plaza to keep the towers and the top of the portal within one frame. Interior works deserve time even when cameras are restricted.",
+        "tag": "Stone portals and Cusco-school painting",
+        "experience": "Cusco-school painters worked within Christian subjects while using local workshops and visual conventions. Compare two paintings through gesture and dress before trying to cover every gallery."
       },
       "es": {
         "name": "Catedral del Cusco",
         "history": "La catedral ocupa el borde alto de la plaza. Es templo en uso y espacio para la pintura cusqueña. Compara la fachada con la escala de la nave y dedica tiempo a una obra con su cartela.",
-        "route": "Mira el frente desde la plaza, sube al ingreso turístico indicado y revisa los horarios de culto. Sigue el circuito interior dejando libre el paso central."
+        "route": "Mira el frente desde la plaza, sube al ingreso turístico indicado y revisa los horarios de culto. Sigue el circuito interior dejando libre el paso central.",
+        "photoTip": "Baja a la plaza para reunir torres y portada en el encuadre. Dedica tiempo a las obras interiores aunque haya restricciones fotográficas.",
+        "tag": "Portadas de piedra y pintura cusqueña",
+        "experience": "La escuela cusqueña trabajó asuntos cristianos en talleres locales. Compara gestos y vestimenta en dos lienzos antes de recorrer todas las salas."
       },
       "zh": {
         "name": "库斯科主教座堂",
         "history": "主教座堂位于广场较高的一边，兼具宗教活动与库斯科画派作品展示功能。先比较外立面与中殿的空间尺度，再选一幅作品结合标签细看。",
-        "route": "从广场对面看完整立面，登阶至标明的游客入口，确认礼拜安排后沿开放路线入内，留出中央通道。"
+        "route": "从广场对面看完整立面，登阶至标明的游客入口，确认礼拜安排后沿开放路线入内，留出中央通道。",
+        "photoTip": "退到较低的广场上，便可把塔楼与门廊顶部同时收入画面。室内即使限拍，也值得留时间仔细观看。",
+        "tag": "石门廊与库斯科画派作品",
+        "experience": "库斯科画派在当地作坊中表现基督教题材。与其赶着看完，不如选两幅画，比较人物服饰与动作。"
       },
       "qu": {
         "name": "Qusqupa Catedralnin",
         "history": "Catedralqa plaza pata chiqapin kachkan. Kunanpas yupaychana wasim, Qusqu llimp'iqkunapa rurayninkunapas chaypin kachkan. Hawa pirqata ukun hatun wasinwan tupachiy, chaymanta huk llimp'isqata sutichasqa rap'inwan allinta qhaway.",
-        "route": "Plaza chimpamanta hawa pirqata qhaway. Watukuqkunaq punkunman wichaspa misapa pachanta tapuy. Ukhupi ñanninta puriy, chawpi purina k'itita saqiy."
+        "route": "Plaza chimpamanta hawa pirqata qhaway. Watukuqkunaq punkunman wichaspa misapa pachanta tapuy. Ukhupi ñanninta puriy, chawpi purina k'itita saqiy.",
+        "photoTip": "Plazaman uraykuspa turrikunata punku patantawan huk siq'illapi churay. Ukhupi siq'iy mana atikuptinpas ruraykunata sumaqta qhaway.",
+        "tag": "Rumi punkukuna, Qusqu llimp'iqkunapa ruraynin",
+        "experience": "Qusqu llimp'iqkunaqa kay llaqtapi cristiano yupaychaymanta siq'ikunata llimp'irqanku. Iskay llimp'ipi runakunaq p'achanta, kuyuriyninta tupachiy."
       }
     }
   },
@@ -204,22 +276,34 @@
       "en": {
         "name": "Church of the Society of Jesus",
         "history": "The Jesuit church shares the main square with the cathedral but has a distinct carved façade between two towers. Step towards the centre of the plaza to see the entire composition before inspecting the stone carving at close range.",
-        "route": "Walk from the fountain toward the Jesuit façade, pause below the portal and enter only during visitor access. A side angle from the plaza shows the depth of the carvings without blocking the church steps."
+        "route": "Walk from the fountain toward the Jesuit façade, pause below the portal and enter only during visitor access. A side angle from the plaza shows the depth of the carvings without blocking the church steps.",
+        "photoTip": "Choose a point where the carved central portal stands clear of the two towers. The lower portions can be studied later from the pavement without stopping on the steps.",
+        "tag": "A Jesuit façade facing the main square",
+        "experience": "The stone carving concentrates at the central entrance. Look from the edge inward to see the transition from the broad mass of the towers to the fine shadow around the portal."
       },
       "es": {
         "name": "Iglesia de la Compañía de Jesús",
         "history": "El templo jesuita comparte la plaza con la catedral, aunque su portada tallada entre dos torres forma una composición propia. Retrocede hacia el centro de la plaza antes de acercarte a la talla.",
-        "route": "Desde la pileta acércate al templo, detente bajo la portada y entra sólo en horario de visita. Desde el costado de la plaza se aprecia el relieve sin ocupar las gradas."
+        "route": "Desde la pileta acércate al templo, detente bajo la portada y entra sólo en horario de visita. Desde el costado de la plaza se aprecia el relieve sin ocupar las gradas.",
+        "photoTip": "Busca un punto que separe la portada de las torres. Luego estudia los detalles bajos desde la acera sin detenerte en las gradas.",
+        "tag": "Una portada jesuita frente a la plaza",
+        "experience": "La talla se concentra en la entrada central. Mira del borde hacia dentro para pasar de la masa de las torres a las sombras finas de la portada."
       },
       "zh": {
         "name": "耶稣会教堂",
         "history": "耶稣会教堂与主教座堂同临广场，两塔之间的雕刻立面却有自己的构图。先退到广场中段看整体，再靠近观察石刻深浅。",
-        "route": "从喷泉走向耶稣会立面，在门廊下观察，限游客开放时段入内。广场斜侧能看清浮雕深度，也不会挡住台阶。"
+        "route": "从喷泉走向耶稣会立面，在门廊下观察，限游客开放时段入内。广场斜侧能看清浮雕深度，也不会挡住台阶。",
+        "photoTip": "在广场上找门廊与双塔轮廓清晰的位置，再在人行道近看低处纹样，不占据阶梯。",
+        "tag": "临广场的双塔与耶稣会石雕立面",
+        "experience": "从两侧向中央看，体量厚重的塔楼逐步过渡到正门细密雕饰及其阴影，能辨认立面的构图重点。"
       },
       "qu": {
         "name": "Compañía de Jesús iglesia",
         "history": "Jesuitakunaq iglesianqa catedralwan huk plazallapin kachkan. Iskay turripa chawpinpi llaqllasqa punkun kikin rikch'ayniyuqmi. Ñawpaqta plaza chawpimanta tukuy hawa pirqata qhaway, chaymanta llaqllasqa rumiman asuykuy.",
-        "route": "Unu phaqchamanta jesuitakunaq iglesiaman puriy, punku qayllapi sayay, watukuy pachallapi yaykuy. Plaza waqtamanta llaqllasqa rumikunata qhaway, chakanata ama hark'aychu."
+        "route": "Unu phaqchamanta jesuitakunaq iglesiaman puriy, punku qayllapi sayay, watukuy pachallapi yaykuy. Plaza waqtamanta llaqllasqa rumikunata qhaway, chakanata ama hark'aychu.",
+        "photoTip": "Chawpi punkuwan iskay turriwan sut'i rikurina kitita maskhay. Uray llaqllasqakunata kikllu patamanta qhaway, chakanapi ama sayaychu.",
+        "tag": "Hatun plaza chimpapi jesuitakunaq punkun",
+        "experience": "Iskay turripa sayayninmanta chawpi punkuman qhaway. Chaypi llaqllasqa rumiq llanthun uch'uy ruraykunata sut'ichan."
       }
     }
   },
@@ -236,22 +320,34 @@
       "en": {
         "name": "Twelve-Angled Stone",
         "history": "A single block in the wall on Hatun Rumiyoc is famous for its twelve corners. The surrounding stones matter just as much: each joint changes direction to fit the neighbouring block. This is a working pedestrian street, so study it from one side.",
-        "route": "Enter Hatun Rumiyoc from the centre, locate the signed block and trace its edges with your eyes. Continue to the far end of the wall to compare a different set of joints without touching the stone."
+        "route": "Enter Hatun Rumiyoc from the centre, locate the signed block and trace its edges with your eyes. Continue to the far end of the wall to compare a different set of joints without touching the stone.",
+        "photoTip": "Start counting at a clearly visible corner and follow the joint in one direction. Give other pedestrians room to pass; the best photograph often comes from waiting for a gap, not moving closer.",
+        "tag": "Twelve corners in a living city street",
+        "experience": "Counting corners is only a first step. Follow a line of joints past the famous block to see how the same method connects stones of quite different shapes along the street."
       },
       "es": {
         "name": "Piedra de los Doce Ángulos",
         "history": "Un bloque de Hatun Rumiyoc es conocido por sus doce ángulos. Las piedras vecinas explican el trabajo: cada junta cambia de dirección para ajustarse al siguiente bloque. La calle sigue siendo un paso peatonal activo.",
-        "route": "Entra desde el centro, ubica el bloque y recorre sus bordes con la vista. Continúa hasta el extremo del muro para comparar otras juntas sin tocar la piedra."
+        "route": "Entra desde el centro, ubica el bloque y recorre sus bordes con la vista. Continúa hasta el extremo del muro para comparar otras juntas sin tocar la piedra.",
+        "photoTip": "Empieza en una esquina visible y sigue la junta en una sola dirección. Deja pasar a la gente y espera un claro para fotografiar.",
+        "tag": "Doce esquinas en una calle viva",
+        "experience": "Contar ángulos es sólo el comienzo. Sigue la junta más allá del bloque célebre para ver cómo el método une piedras de formas distintas."
       },
       "zh": {
         "name": "十二角石",
         "history": "阿通鲁米约克街的墙上，有一块以十二个角出名的石块。相邻石块同样值得看：每条接缝都会改变方向与旁石咬合。这条巷仍供日常通行，观察时请靠一边。",
-        "route": "由古城中心进入巷道，找到有标记的石块，用目光沿边缘数角。再走至墙末端比较其他接缝，全程不要触摸石面。"
+        "route": "由古城中心进入巷道，找到有标记的石块，用目光沿边缘数角。再走至墙末端比较其他接缝，全程不要触摸石面。",
+        "photoTip": "从明显的一角开始，沿同一方向数接缝。先让出行人通道，等待空档往往比继续靠近更适合拍摄。",
+        "tag": "在日常巷道中沿石缝寻找十二角",
+        "experience": "数角只是开始，沿接缝越过名石继续看，可发现同一砌法如何连接一整条街面上不同形状的石块。"
       },
       "qu": {
         "name": "Chunka iskayniyuq k'uchuyuq rumi",
         "history": "Hatun Rumiyuq kikllupi huk rumiqa chunka iskayniyuq k'uchunraykun riqsisqa. Muyuriq rumikunatapas qhaway: sapa tinkisqanpi hukman muyuspa qayllanpi rumiman tinkun. Kay kikllunta runakuna sapa p'unchaw purinku, chayrayku huk waqtallapi sayay.",
-        "route": "Llaqta chawpimanta kiklluman yaykuy, sutichasqa rumita maskhay, k'uchunkunata ñawillaykiwan qhaway. Pirqaq tukukuyninman purispa huk tinkisqakunata tupachiy. Ama makiykiwan llank'aychu."
+        "route": "Llaqta chawpimanta kiklluman yaykuy, sutichasqa rumita maskhay, k'uchunkunata ñawillaykiwan qhaway. Pirqaq tukukuyninman purispa huk tinkisqakunata tupachiy. Ama makiykiwan llank'aychu.",
+        "photoTip": "Rikuriq k'uchumanta yupayta qallariy, huk lawllaman tinkisqata qatipay. Puriqkunata ñawpaqta pasachiy, ch'usaq kaqtin siq'iy.",
+        "tag": "Runa purina kikllupi chunka iskayniyuq k'uchu",
+        "experience": "K'uchukunata yupayqa qallariyllam. Riqsisqa rumimanta aswan karuman tinkisqata qatipay, sapaq rikch'ayniyuq rumi imayna kuskachakusqanta rikuy."
       }
     }
   },
@@ -268,22 +364,34 @@
       "en": {
         "name": "San Blas Square",
         "history": "The small plaza is a pause in a neighbourhood of narrow lanes, workshops and steep approaches. Stand at its lower edge and look up: the church frontage and surrounding houses explain how the quarter fits against the hillside.",
-        "route": "Climb Cuesta de San Blas from the historic centre, pause in the square and return by an open public lane. Check workshop hours locally; the square and church have different access arrangements."
+        "route": "Climb Cuesta de San Blas from the historic centre, pause in the square and return by an open public lane. Check workshop hours locally; the square and church have different access arrangements.",
+        "photoTip": "Use the lower side of the little plaza for a view back toward the church and rooftops. On busy days, avoid stopping with a tripod in the narrow approach lanes.",
+        "tag": "A neighbourhood pause above the historic centre",
+        "experience": "The slopes shape how people reach workshops and homes. The change from a narrow stair to an open square is one of the neighbourhood’s most distinctive experiences."
       },
       "es": {
         "name": "Plazoleta de San Blas",
         "history": "La plazoleta interrumpe una trama de callejas, talleres y cuestas. Desde la parte baja mira al templo y las casas; así se entiende cómo el barrio se adapta a la ladera.",
-        "route": "Sube la cuesta de San Blas desde el centro, descansa en la plazoleta y vuelve por una calle pública abierta. Consulta los talleres por separado; templo y plaza tienen accesos distintos."
+        "route": "Sube la cuesta de San Blas desde el centro, descansa en la plazoleta y vuelve por una calle pública abierta. Consulta los talleres por separado; templo y plaza tienen accesos distintos.",
+        "photoTip": "Desde abajo reúne iglesia y tejados. En días concurridos evita el trípode en las calles angostas de acceso.",
+        "tag": "Una pausa de barrio sobre el centro histórico",
+        "experience": "Las pendientes condicionan el acceso a talleres y casas. Pasar de una escalera estrecha a la plaza abierta es una experiencia propia del barrio."
       },
       "zh": {
         "name": "圣布拉斯小广场",
         "history": "小广场是狭窄巷道、作坊与上坡路之间的一处歇脚点。从低处抬头看教堂正面和周围住宅，能理解这一街区如何顺应山坡地势。",
-        "route": "从历史中心沿圣布拉斯坡道上行，在小广场休息，再经开放街巷返回。作坊营业时间应分别查询，教堂与广场也各有开放方式。"
+        "route": "从历史中心沿圣布拉斯坡道上行，在小广场休息，再经开放街巷返回。作坊营业时间应分别查询，教堂与广场也各有开放方式。",
+        "photoTip": "从小广场低侧回望教堂与屋顶。人多时不要在狭窄入口巷架设脚架。",
+        "tag": "古城上方作坊街区里的歇脚广场",
+        "experience": "陡坡影响作坊与住宅的出入，从窄阶突然进入开敞小广场，正是体验这个街区的一个切口。"
       },
       "qu": {
         "name": "San Blas plazoleta",
         "history": "Kay plazachaqa kichki kikllukunaq, maki llamk'ana wasikunaq, wichay ñankunaq chawpinpin kachkan. Uray waqtanmanta iglesiata wasikunatapas qhaway; orqo kinrayman imayna churakusqankuta rikunki.",
-        "route": "Llaqta chawpimanta San Blas wichay ñanta puriy, plazachapi samay, kichasqa kikllunta kutiy. Maki llamk'ana wasikunaq kichasqa pachanta tapuy. Iglesiaqa plazamanta huk yaykunayuqmi."
+        "route": "Llaqta chawpimanta San Blas wichay ñanta puriy, plazachapi samay, kichasqa kikllunta kutiy. Maki llamk'ana wasikunaq kichasqa pachanta tapuy. Iglesiaqa plazamanta huk yaykunayuqmi.",
+        "photoTip": "Plazachaq uray waqtanmanta iglesiawan wasi qatakunawan kuska qhaway. Achkha runa kaqtin kichki ñankunapi siq'ina takyachiqta ama churaychu.",
+        "tag": "Ñawpa llaqtaq hawanpi samana plazacha",
+        "experience": "Wichay uray kikllukunaqa runakuna wasinkuman, llamk'ana wasinkuman purisqankuta kamachin. Kichki chakanamanta plazachaman lluqsiyta musyay."
       }
     }
   },
@@ -300,22 +408,34 @@
       "en": {
         "name": "San Pedro Market",
         "history": "This covered market serves residents as well as travellers. Its aisles divide produce, prepared food and daily supplies. Looking along a whole aisle reveals that organisation better than stopping immediately at the first colourful display.",
-        "route": "Enter from the side facing San Pedro church, select one aisle to walk to its end and return by another row. Ask the vendor before taking a close photograph of a stall or its staff."
+        "route": "Enter from the side facing San Pedro church, select one aisle to walk to its end and return by another row. Ask the vendor before taking a close photograph of a stall or its staff.",
+        "photoTip": "Look for the rhythm of a produce aisle from its end, keeping baskets and customers clear. With permission, focus on the ingredients that distinguish one stall from its neighbour.",
+        "tag": "A covered market arranged by trade",
+        "experience": "Produce and prepared meals occupy different spaces and move at different speeds. Comparing an ingredient stall with a counter serving lunch connects the trading floor with Cusco’s daily cooking."
       },
       "es": {
         "name": "Mercado Central de San Pedro",
         "history": "El mercado techado abastece tanto a vecinos como a visitantes. Sus pasillos separan productos frescos, comidas y artículos cotidianos. Mira primero una fila completa para entender su organización.",
-        "route": "Entra por el lado del templo de San Pedro, recorre un pasillo hasta el fondo y regresa por otra fila. Pide permiso para fotografiar de cerca a vendedores o puestos."
+        "route": "Entra por el lado del templo de San Pedro, recorre un pasillo hasta el fondo y regresa por otra fila. Pide permiso para fotografiar de cerca a vendedores o puestos.",
+        "photoTip": "Desde el extremo de un pasillo observa la repetición de los puestos sin obstaculizar canastas ni clientes. Con permiso, enfoca los productos que distinguen un puesto de otro.",
+        "tag": "Un mercado techado organizado por rubros",
+        "experience": "La venta de productos y la comida preparada tienen ritmos distintos. Compara un puesto de ingredientes con un mostrador de almuerzos para relacionar comercio y cocina diaria."
       },
       "zh": {
         "name": "圣佩德罗市场",
         "history": "有顶市场同时服务居民与游客。过道把生鲜、熟食和日用品划分成不同区域，先沿整排摊位纵向观察，比刚进门就停在第一摊前更能看清布局。",
-        "route": "从圣佩德罗教堂一侧进入，选一条过道走到底，再经另一排返回。近距离拍摄摊位或摊商前，请先征得同意。"
+        "route": "从圣佩德罗教堂一侧进入，选一条过道走到底，再经另一排返回。近距离拍摄摊位或摊商前，请先征得同意。",
+        "photoTip": "从生鲜过道尽头观察摊位的排列，不挡住篮筐或顾客。获许可后可拍不同摊位各自经营的特色食材。",
+        "tag": "沿有顶市场的摊位认识本地日常",
+        "experience": "生鲜与现做午餐分区经营，节奏也不同。对比食材摊与供餐柜台，会看到市场交易与库斯科日常饮食的联系。"
       },
       "qu": {
         "name": "San Pedro qhatu",
         "history": "Kay qatasqa qhatuqa llaqta runakunamanpas watukuqkunamanpas yanapan. Ukhu ñankunapi rurukuna, wayk'usqa mikhuykuna, sapa p'unchaw imaymanakuna sapan rakipi kachkan. Ñawpaqta huk ñanta tukuyta qhaway.",
-        "route": "San Pedro iglesiaq waqtanmanta yaykuy, huk ukhu ñanninta tukukuyninkama puriy, huk ñanninta kutiy. Qhatuqta utaq qhatu wasichanta qayllamanta siq'iyta munaspa ñawpaqta tapuy."
+        "route": "San Pedro iglesiaq waqtanmanta yaykuy, huk ukhu ñanninta tukukuyninkama puriy, huk ñanninta kutiy. Qhatuqta utaq qhatu wasichanta qayllamanta siq'iyta munaspa ñawpaqta tapuy.",
+        "photoTip": "Ukhu ñanpa tukukuyninmanta qhatu wasichakunata qhaway, rantikuqkunata ama hark'aychu. Saqiptinkuqa sapa qhatuqpa sapaq mikhuykunanta siq'iy.",
+        "tag": "Qatasqa qhatupi sapa llamk'aypa kikin kitin",
+        "experience": "Chawa mikhuy qhatuqpa llamk'aynin, chaypi wayk'uqpa llamk'ayninwan sapaqmi. Iskayninta qhawaspa llaqtapi sapa p'unchaw ima mikhusqankuta yachanki."
       }
     }
   },
@@ -332,22 +452,34 @@
       "en": {
         "name": "Inka Museum",
         "history": "The university museum occupies the Casa del Almirante. The historic house is part of the visit, but the collection addresses a much longer Andean past. At one case compare the object's material, date and place of origin before connecting it to the building around you.",
-        "route": "From the cathedral walk up Cuesta del Almirante, enter at the museum desk and follow the galleries around the courtyard. Ask staff which rooms permit photography before taking out a camera."
+        "route": "From the cathedral walk up Cuesta del Almirante, enter at the museum desk and follow the galleries around the courtyard. Ask staff which rooms permit photography before taking out a camera.",
+        "photoTip": "The courtyard is a useful visual reference between rooms. For collections, read the object's label before taking a photograph so the image can later be identified correctly.",
+        "tag": "Andean collections in the Admiral’s House",
+        "experience": "A small textile or vessel can carry evidence of materials and use that monumental architecture cannot. Read its provenance before comparing it with the stone sites outside the city."
       },
       "es": {
         "name": "Museo Inka",
         "history": "El museo universitario ocupa la Casa del Almirante. La casa forma parte de la visita, aunque las colecciones abarcan un pasado andino mucho más largo. En una vitrina compara material, fecha y procedencia antes de relacionar la pieza con el edificio.",
-        "route": "Desde la catedral sube la cuesta del Almirante, pasa por recepción y sigue las salas en torno al patio. Pregunta en cuáles se permite fotografiar."
+        "route": "Desde la catedral sube la cuesta del Almirante, pasa por recepción y sigue las salas en torno al patio. Pregunta en cuáles se permite fotografiar.",
+        "photoTip": "El patio sirve de referencia entre salas. Lee la cartela antes de fotografiar una pieza permitida para identificarla bien después.",
+        "tag": "Colecciones andinas en la Casa del Almirante",
+        "experience": "Un textil o una vasija aporta evidencias de material y uso distintas de la arquitectura monumental. Lee su procedencia antes de compararlo con los sitios de piedra."
       },
       "zh": {
         "name": "印加博物馆",
         "history": "大学博物馆设在海军上将故居中。住宅本身值得观察，收藏的安第斯历史则早于建筑许久。选一件展品先看材质、年代和出处，再思考它与眼前展厅的时间差异。",
-        "route": "从主教座堂步行向上，沿上将坡找到前台，绕着庭院依次进入展厅。拍摄前向馆员确认哪些房间开放摄影。"
+        "route": "从主教座堂步行向上，沿上将坡找到前台，绕着庭院依次进入展厅。拍摄前向馆员确认哪些房间开放摄影。",
+        "photoTip": "庭院可作为不同展厅之间的方位参照。允许摄影时，先读展签再拍，方便日后准确辨认。",
+        "tag": "旧宅中的安第斯考古收藏",
+        "experience": "织物与器皿保存着不同于建筑的材料与使用痕迹。先读出土地，再与城外的遗址作比较。"
       },
       "qu": {
         "name": "Inka museo",
         "history": "Universidadpa museonqa Casa del Almirante nisqa wasipin kachkan. Wasiqa huk pachamanta, huñusqa imakunaqa aswan ñawpa Ande suyukunamantam. Huk ima qhawasqaykipi hayk'a watayuq kasqanta, imawan ruwasqanta, maymanta hamusqanta ñawinchay.",
-        "route": "Catedralmanta Cuesta del Almirante ñanta wichay, museo punkupi willakuy, kancha muyuriq wasikunata qhaway. Mayqin wasipi siq'iy atikuqta llamk'aqkunata tapuy."
+        "route": "Catedralmanta Cuesta del Almirante ñanta wichay, museo punkupi willakuy, kancha muyuriq wasikunata qhaway. Mayqin wasipi siq'iy atikuqta llamk'aqkunata tapuy.",
+        "photoTip": "Kanchaqa qhawana wasikunaq chawpinpi maypi kasqaykita yachanaykipaq allinmi. Siq'iy saqisqa kaqtin sutichasqa rap'ita ñawpaqta ñawinchay.",
+        "tag": "Almiranteq wasinpi Ande suyupa imankuna",
+        "experience": "Huch'uy awaypi utaq mankapiqa hatun rumi wasipi mana rikuriq llamk'ay sut'i kan. Maymanta hamusqanta ñawinchaspa ñawpa llaqtakunawan tupachiy."
       }
     }
   },
@@ -364,22 +496,34 @@
       "en": {
         "name": "Museum of Pre-Columbian Art",
         "history": "The museum presents pre-Columbian works as art, with opportunities to compare form across clay, wood and metal. The most rewarding stop is often a single case where the lighting brings the silhouette or surface into clear relief.",
-        "route": "Enter from Plazoleta Nazarenas, note the gallery sequence around the house and choose two objects of different materials to compare. Return to the plaza for an exterior view of the entrance."
+        "route": "Enter from Plazoleta Nazarenas, note the gallery sequence around the house and choose two objects of different materials to compare. Return to the plaza for an exterior view of the entrance.",
+        "photoTip": "Study a vessel against the background of its case, then look along its rim. That change of angle helps distinguish painted lines from contours formed by the potter's hand.",
+        "tag": "Clay, wood and metal seen as art",
+        "experience": "Look for a motif repeated in objects of two materials. In metal it may be defined by reflected light; in clay a painted outline or a modelled edge may carry the same idea."
       },
       "es": {
         "name": "Museo de Arte Precolombino",
         "history": "El museo presenta obras precolombinas desde una mirada artística. Compara formas en arcilla, madera y metal; una vitrina bien iluminada permite leer mejor la silueta y el tratamiento de una superficie.",
-        "route": "Entra por la plazoleta Nazarenas, identifica el orden de las salas y compara dos piezas de materiales distintos. Regresa a la plaza para ver el acceso completo."
+        "route": "Entra por la plazoleta Nazarenas, identifica el orden de las salas y compara dos piezas de materiales distintos. Regresa a la plaza para ver el acceso completo.",
+        "photoTip": "Observa una vasija frente al fondo de la vitrina y luego a lo largo del borde; así distingues las líneas pintadas de la forma modelada.",
+        "tag": "Barro, madera y metal vistos como arte",
+        "experience": "Busca un motivo compartido por dos materiales. El metal puede definirlo por reflejo; el barro, por un borde modelado o una línea pintada."
       },
       "zh": {
         "name": "前哥伦布艺术博物馆",
         "history": "馆方从艺术角度呈现前哥伦布时期的作品。可对比陶、木、金属三种材质所呈现的形态，挑一座光线集中的展柜，观察器形轮廓与表面处理。",
-        "route": "从纳萨雷纳斯小广场入馆，先看展厅顺序，再选两件不同材质的作品比较；回到广场看完整入口。"
+        "route": "从纳萨雷纳斯小广场入馆，先看展厅顺序，再选两件不同材质的作品比较；回到广场看完整入口。",
+        "photoTip": "先正看器物，再沿口沿斜看，区分彩绘的线条与陶工塑造的实际轮廓。",
+        "tag": "从陶、木与金属细看古代艺术",
+        "experience": "选两个材质不同、纹样相似的器物。金属可借反光构形，陶器则可能凭塑出的边棱或绘线表达相近意象。"
       },
       "qu": {
         "name": "Ñawpa artepa museon",
         "history": "Museopiqa ñawpa llaqtakunapa sumaq ruwasqankunata qhawachinku. T'uru, k'ullu, q'illay ruwasqakunapa rikch'ayninta tupachiy. Allin k'anchasqa vitrinapi huk imaq hawa rikch'ayninta, qaranta ima allinta rikunki.",
-        "route": "Nazarenas plazachamanta yaykuy, qhawana wasikunaq qatipayninta riqsiy. Iskay sapaq imawan ruwasqata tupachiy. Plazachaman kutispa punkuta hawamanta qhaway."
+        "route": "Nazarenas plazachamanta yaykuy, qhawana wasikunaq qatipayninta riqsiy. Iskay sapaq imawan ruwasqata tupachiy. Plazachaman kutispa punkuta hawamanta qhaway.",
+        "photoTip": "Mankata vitrinaq qhipanwan tupachispa qhaway, chaymanta patanpa kantunta qhaway. Chayhina llimp'isqa rayata makiwan ruwasqa rikch'aymanta rakinki.",
+        "tag": "T'uru, k'ullu, q'illay sumaq ruraykuna",
+        "experience": "Iskay sapaq imawan ruwasqapi huk rikch'ayta maskhay. Q'illaypi k'anchay rikch'ayta rikuchin, t'urupi llimp'isqa raya utaq makiwan ruwasqa kantun rikuchin."
       }
     }
   },
@@ -396,22 +540,34 @@
       "en": {
         "name": "Regional Historical Museum, Casa Garcilaso",
         "history": "The museum occupies a house associated with the chronicler Inca Garcilaso de la Vega. The exhibits link the longer regional past to colonial Cusco. Read labels carefully to distinguish objects from the chronicler's time from material centuries older.",
-        "route": "From Plaza Regocijo find the museum on Calle Heladeros, enter the courtyard and follow the numbered or signed galleries. Finish by looking at the house itself from a different side of the patio."
+        "route": "From Plaza Regocijo find the museum on Calle Heladeros, enter the courtyard and follow the numbered or signed galleries. Finish by looking at the house itself from a different side of the patio.",
+        "photoTip": "For a picture of the house, let a doorway frame the patio. For an exhibit, note its period first; the house and the object in the case may represent very different centuries.",
+        "tag": "A chronicler’s house and a regional collection",
+        "experience": "The domestic courtyard provides a fixed point while the exhibition moves between periods. Returning to it helps separate the history of the house from the chronology of the objects."
       },
       "es": {
         "name": "Museo Histórico Regional, Casa Garcilaso",
         "history": "La casa se relaciona con el cronista Inca Garcilaso de la Vega. Las salas enlazan la larga historia regional con el Cusco colonial. Distingue en las cartelas los objetos de época del cronista y los de siglos anteriores.",
-        "route": "Desde la plaza Regocijo busca la calle Heladeros, entra al patio y sigue el orden señalado en las salas. Termina observando la casa desde otro lado del patio."
+        "route": "Desde la plaza Regocijo busca la calle Heladeros, entra al patio y sigue el orden señalado en las salas. Termina observando la casa desde otro lado del patio.",
+        "photoTip": "Para la casa usa un vano que enmarque el patio. Para las piezas anota la época: objeto y edificio pueden pertenecer a siglos muy distintos.",
+        "tag": "La casa del cronista y una colección regional",
+        "experience": "El patio funciona como referencia mientras las salas cambian de época. Volver a él ayuda a separar la historia de la casa y la cronología de los objetos."
       },
       "zh": {
         "name": "加西拉索故居区域历史博物馆",
         "history": "博物馆设在与编年史家印卡·加西拉索·德拉维加有关的故居。展厅把区域早期历史与殖民库斯科相连，读标签时可区分作家所处时代与更早数百年的物件。",
-        "route": "从雷戈西霍广场找到赫拉德罗斯街入口，进庭院后按馆内标识参观，最后换到庭院另一侧看住宅结构。"
+        "route": "从雷戈西霍广场找到赫拉德罗斯街入口，进庭院后按馆内标识参观，最后换到庭院另一侧看住宅结构。",
+        "photoTip": "利用门洞框住院子表现住宅；看展品时先记年代，房屋与展柜里的器物可能相隔数个世纪。",
+        "tag": "编年史家故居里的区域史展览",
+        "experience": "展览跨越多个年代，院落则提供不变的方位参照。回到庭院再想想住宅本身的历史，便不会把所有展品都归入同一时期。"
       },
       "qu": {
         "name": "Garcilasoq wasin, ñawpa kawsay museo",
         "history": "Kay wasiqa ñawpa willaykuna qillqaq Inka Garcilaso de la Vegawan tinkusqam. Qhawana wasikunaqa Qusqu suyupa ñawpa kawsayninta colonia pachawan tinkuchinku. Sutichasqa rap'ikunata ñawinchaspa Garcilasoq pachanmanta aswan ñawpa imakunata rakiy.",
-        "route": "Regocijo plazamanta Heladeros kiklluman puriy. Kanchaman yaykuspa chimpusqa qhawana wasikunata qatipay. Tukuspa kanchaq huk waqtanmanta wasita qhaway."
+        "route": "Regocijo plazamanta Heladeros kiklluman puriy. Kanchaman yaykuspa chimpusqa qhawana wasikunata qatipay. Tukuspa kanchaq huk waqtanmanta wasita qhaway.",
+        "photoTip": "Wasita siq'inaykipaq punku ukhunta kanchata qhaway. Ima qhawasqaykipaq ñawpaqta mayqin pachamanta kasqanta yachay; wasiwan ima ruwasqawan sapaq pachamantam kanman.",
+        "tag": "Willay qillqaqpa wasinpi suyupa ñawpa kawsaynin",
+        "experience": "Qhawana wasikunapi sapaq pachakuna rikurin; kanchaqa kikillan. Kanchaman kutispa wasiq pachatapas imakunapa pachatapas sapaqta yuyariy."
       }
     }
   },
@@ -428,22 +584,34 @@
       "en": {
         "name": "Museum of Religious Art",
         "history": "The Archbishop's Palace combines a colonial residence with an exterior of Inca stonework. The religious art collection gives a second way to read the building: paintings made for devotion now occupy rooms visited as a museum.",
-        "route": "Walk along Hatun Rumiyoc to see the outer wall, locate the signed museum doorway and follow the interior circuit. Viewing the famous stone outside does not require museum admission."
+        "route": "Walk along Hatun Rumiyoc to see the outer wall, locate the signed museum doorway and follow the interior circuit. Viewing the famous stone outside does not require museum admission.",
+        "photoTip": "On the street, leave the wall at the edge of the frame to show its long alignment. Indoors, ask for the current camera rules before taking out equipment near paintings.",
+        "tag": "Sacred paintings inside the Archbishop’s Palace",
+        "experience": "An exterior street view and an interior painting belong to different kinds of heritage. Remember one detail from the stonework to compare with the work of Cusco’s painters inside."
       },
       "es": {
         "name": "Museo de Arte Religioso",
         "history": "El Palacio Arzobispal reúne una residencia colonial y un exterior de cantería inca. Las pinturas creadas para la devoción se observan hoy en salas museales, una segunda lectura del edificio.",
-        "route": "Recorre el muro de Hatun Rumiyoc, busca la puerta del museo y sigue el circuito interior. Observar la piedra célebre desde la calle no exige entrar al museo."
+        "route": "Recorre el muro de Hatun Rumiyoc, busca la puerta del museo y sigue el circuito interior. Observar la piedra célebre desde la calle no exige entrar al museo.",
+        "photoTip": "En la calle deja el muro en perspectiva para mostrar su alineación. En salas pregunta las reglas antes de usar cámara junto a los lienzos.",
+        "tag": "Pintura religiosa en el Palacio Arzobispal",
+        "experience": "La cantería de la calle y los lienzos interiores pertenecen a patrimonios distintos. Recuerda un detalle pétreo antes de entrar a ver la labor de los pintores."
       },
       "zh": {
         "name": "宗教艺术博物馆",
         "history": "总主教宫外侧保留印加石墙，内部则是殖民时期住宅。原本服务于宗教信仰的绘画，如今陈列在博物馆展厅里，提供了理解建筑的另一条线索。",
-        "route": "沿阿通鲁米约克街看外墙，再找馆门进入展厅。街面上的名石可直接从公共道路观看，无须为此购买馆票。"
+        "route": "沿阿通鲁米约克街看外墙，再找馆门进入展厅。街面上的名石可直接从公共道路观看，无须为此购买馆票。",
+        "photoTip": "街面上可斜拍墙体，保留墙线延伸感。馆内接近画作时，应先询问当天拍摄规则。",
+        "tag": "总主教宫里的宗教绘画",
+        "experience": "外墙石工与馆内绘画属于不同门类的遗产。进馆前记住一个砌石细节，再看画家如何用另一种材料塑造形象。"
       },
       "qu": {
         "name": "Yupaychana artepa museon",
         "history": "Arzobispoq wasinpiqa colonia pachaq wasin, hawapiqa Inka rumi pirqapas kachkan. Ñawpaqta yupaychanapaq llimp'isqa siq'ikunata kunan museo wasikunapi qhawanku. Iskay pachakunata huñuspa qhaway.",
-        "route": "Hatun Rumiyuq kikllunta purispa hawa pirqata qhaway, museo punkunta maskhay, ukhu ñanninta qatipay. Riqsisqa rumita kikllumanta qhawanaykipaq museo bilitita mana rantinkichu."
+        "route": "Hatun Rumiyuq kikllunta purispa hawa pirqata qhaway, museo punkunta maskhay, ukhu ñanninta qatipay. Riqsisqa rumita kikllumanta qhawanaykipaq museo bilitita mana rantinkichu.",
+        "photoTip": "Kikllupi pirqaq suniyayninta rikuchinaykipaq waqtamanta siq'iy. Ukhupi llimp'ikunapa qayllanpi siq'ina aparata hurqunaykipaq ñawpaqta tapuy.",
+        "tag": "Arzobispoq wasinpi yupaychana llimp'ikuna",
+        "experience": "Hawa rumi pirqa, ukhu llimp'iwan sapaq ñawpa ruraymi. Huk rumi tinkisqata yuyaykipi waqaychay, ukhupi llimp'iqkunapa rurayninta qhawanaykama."
       }
     }
   },
@@ -460,22 +628,34 @@
       "en": {
         "name": "Municipal Museum of Contemporary Art",
         "history": "Municipal galleries beside Plaza Regocijo shift the story from archaeological Cusco to modern and contemporary artists. Exhibitions change. Read the current exhibition title before treating a particular work as a permanent highlight.",
-        "route": "Cross Plaza Regocijo to the municipal entrance, ask which galleries are open and follow one exhibition from its introductory text to its final work. Return through the public courtyard."
+        "route": "Cross Plaza Regocijo to the municipal entrance, ask which galleries are open and follow one exhibition from its introductory text to its final work. Return through the public courtyard.",
+        "photoTip": "Read the artist's name and the exhibition date before making notes. A work seen in the municipal gallery may belong to a temporary show rather than a fixed display.",
+        "tag": "A changing programme beside Plaza Regocijo",
+        "experience": "Do not expect an archaeological survey in every Cusco museum. Here the exhibition text and artist statements help place present-day work in dialogue with a historic city."
       },
       "es": {
         "name": "Museo de Arte Contemporáneo",
         "history": "Las salas municipales junto a la plaza Regocijo trasladan la mirada del Cusco arqueológico a artistas modernos y contemporáneos. La programación cambia: lee el título de la muestra antes de dar una obra por permanente.",
-        "route": "Cruza la plaza hacia el ingreso municipal, pregunta qué salas están abiertas y sigue una exposición desde su texto inicial hasta la última obra. Vuelve por el patio público."
+        "route": "Cruza la plaza hacia el ingreso municipal, pregunta qué salas están abiertas y sigue una exposición desde su texto inicial hasta la última obra. Vuelve por el patio público.",
+        "photoTip": "Anota artista y fecha de la muestra: una obra de la galería municipal puede pertenecer a una exposición temporal.",
+        "tag": "Exposiciones cambiantes junto a Regocijo",
+        "experience": "No todos los museos cusqueños ofrecen un recorrido arqueológico. Aquí el texto de sala y la voz del artista sitúan la creación actual en una ciudad histórica."
       },
       "zh": {
         "name": "市立当代艺术博物馆",
         "history": "雷戈西霍广场旁的市立展厅把视线从考古库斯科转向近现代艺术家。展览会轮换，先读当前展名，再判断哪些作品属于常设收藏。",
-        "route": "穿过广场至市政建筑入口，先问开放展厅，按一场展览的导言到最后一件作品顺次参观，再经公共庭院返回。"
+        "route": "穿过广场至市政建筑入口，先问开放展厅，按一场展览的导言到最后一件作品顺次参观，再经公共庭院返回。",
+        "photoTip": "记录作者和展期，市立展厅中看到的作品可能属于临时展览。",
+        "tag": "雷戈西霍广场旁的轮换艺术展",
+        "experience": "并非库斯科每个博物馆都讲考古。这里可以借展览导言和艺术家文字，理解当代创作如何回应一座历史城市。"
       },
       "qu": {
         "name": "Kunan pacha artepa museon",
         "history": "Regocijo plaza qayllapi municipalidadpa wasikunapiqa kunan pacha llimp'iqkunapa rurayninkunata qhawachinku. Qhawachisqakunaqa huk kutipi hukman t'ikrakun. Ñawpaqta qhawachiy sutinta ñawinchay, chaymanta sapa rurayta qhaway.",
-        "route": "Regocijo plazata chimpaspa municipalidad punkunman chayay. Mayqin wasi kichasqa kasqanta tapuy, huk qhawachiyta qallariy qillqamanta qhipa ruraykama qatipay. Kanchanta kutiy."
+        "route": "Regocijo plazata chimpaspa municipalidad punkunman chayay. Mayqin wasi kichasqa kasqanta tapuy, huk qhawachiyta qallariy qillqamanta qhipa ruraykama qatipay. Kanchanta kutiy.",
+        "photoTip": "Llimp'iqpa sutinta, qhawachiy pachantapas qillqay. Municipalidadpa wasinpi rikusqayki rurayqa huk pachallapaq apamusqa kanman.",
+        "tag": "Regocijo plaza qayllapi t'ikrakuq qhawachiy",
+        "experience": "Qusqu museokunaqa manam llapanchu ñawpa rumi llaqtakunamanta rimanku. Kaypi qhawachiy qillqata ñawinchaspa kunan ruray ñawpa llaqtawan imayna tinkusqanta yachanki."
       }
     }
   },
@@ -492,22 +672,34 @@
       "en": {
         "name": "Folk Art Museum",
         "history": "Popular art in Cusco includes modelled figures and scenes tied to local festivities and daily life. Look at scale, gesture and costume together: a tiny group of figures can tell a fuller story than the most brightly painted individual piece.",
-        "route": "Find the museum entrance in the centre, check the current display and choose one multi-figure scene. Move around the case where permitted to identify what each participant is doing."
+        "route": "Find the museum entrance in the centre, check the current display and choose one multi-figure scene. Move around the case where permitted to identify what each participant is doing.",
+        "photoTip": "Choose a scene containing several figures and look from left to right for changes of dress and gesture. A close photograph needs permission and should not obscure the case for other visitors.",
+        "tag": "Small figures with stories of local life",
+        "experience": "Craft materials and small gestures can describe an entire celebration. Compare the centre of a scene with a figure at the edge to see how attention is directed."
       },
       "es": {
         "name": "Museo de Arte Popular",
         "history": "El arte popular cusqueño incluye figuras y escenas de fiestas y vida cotidiana. Observa escala, gestos y vestimenta juntos: un grupo pequeño puede contar más que la pieza individual más colorida.",
-        "route": "Ubica el ingreso en el centro, revisa la muestra actual y elige una escena con varias figuras. Rodea la vitrina donde se permita para identificar cada acción."
+        "route": "Ubica el ingreso en el centro, revisa la muestra actual y elige una escena con varias figuras. Rodea la vitrina donde se permita para identificar cada acción.",
+        "photoTip": "Escoge una escena con varias figuras y compara vestidos y gestos de izquierda a derecha. Pide permiso para acercar la cámara sin tapar la vitrina.",
+        "tag": "Figuras pequeñas con relatos de vida local",
+        "experience": "Materiales y gestos pequeños pueden describir una celebración. Compara el centro de una escena con una figura del borde para seguir su composición."
       },
       "zh": {
         "name": "民间艺术博物馆",
         "history": "库斯科民间艺术常以塑像和微型场景表现节庆与日常生活。把比例、姿态和服饰结合起来看，一组小人物可能比单件鲜艳作品讲出更完整的故事。",
-        "route": "在市中心找到入口，确认当前展陈，选一组多人场景。若展柜四周开放，可绕看每个人物正在做什么。"
+        "route": "在市中心找到入口，确认当前展陈，选一组多人场景。若展柜四周开放，可绕看每个人物正在做什么。",
+        "photoTip": "从左至右观察一组人物的服饰和动作变化。近拍应先获许可，也要为其他游客留出看展柜的位置。",
+        "tag": "从微型人物群读节庆与日常",
+        "experience": "材料和细小动作能交代整场节庆，可比较场景中央与边缘人物，看作者如何引导视线。"
       },
       "qu": {
         "name": "Llaqta runakunapa arte museon",
         "history": "Qusqu runakunaq maki rurayninkunapiqa raymikunata, sapa p'unchaw kawsaytapas rikuchiq runachakuna kachkan. Sayayninkuta, kuyuriyninkuta, p'achankutapas kuska qhaway. Huch'uy huñu runachakuna huk willakuyta rikuchin.",
-        "route": "Llaqta chawpipi museo punkunta maskhay, kunan qhawachisqata tapuy, achkha runachayuq rurayta akllay. Saqisqa kaqtinqa vitrinata muyuy, sapa runacha ima ruwasqanta qhaway."
+        "route": "Llaqta chawpipi museo punkunta maskhay, kunan qhawachisqata tapuy, achkha runachayuq rurayta akllay. Saqisqa kaqtinqa vitrinata muyuy, sapa runacha ima ruwasqanta qhaway.",
+        "photoTip": "Achkha runachayuq rurayta akllaspa lluq'imanta pañaman p'achankuta, kuyuriyninkuta qhaway. Qayllamanta siq'inaykipaq tapuy, huk watukuqkunapa rikunanta ama hark'aychu.",
+        "tag": "Llaqta kawsayta willakuq huch'uy runachakuna",
+        "experience": "Huch'uy kuyuykuna, imawan ruwasqapas huk raymita willakun. Chawpi runachata kantupi kaqwan tupachiy, ñawiyki mayman risqanta qhaway."
       }
     }
   },
@@ -524,22 +716,34 @@
       "en": {
         "name": "Pachacuteq Monument",
         "history": "The modern monument marks the lower end of Avenida del Sol with a large figure of the Inca ruler above a cylindrical base. The roundabout makes the monument easy to identify but calls for care when crossing to the visitor entrance.",
-        "route": "Use a pedestrian crossing to reach the monument, walk around the public base and check whether the interior or upper viewpoint is open. For a full-length photograph return to a safe public pavement."
+        "route": "Use a pedestrian crossing to reach the monument, walk around the public base and check whether the interior or upper viewpoint is open. For a full-length photograph return to a safe public pavement.",
+        "photoTip": "Frame the figure from outside the traffic circle with the pedestal visible. From immediately below, perspective can hide the relationship between the modern statue and the tower beneath it.",
+        "tag": "A modern landmark on Avenida del Sol",
+        "experience": "This is a modern commemoration of an Inca ruler. The statue and the circulation of a present-day avenue make a different encounter with Inca memory from an archaeological site."
       },
       "es": {
         "name": "Monumento al Inca Pachacuteq",
         "history": "Una gran figura del gobernante inca corona la base cilíndrica en el extremo bajo de la avenida del Sol. El óvalo permite orientarse, aunque exige cuidado al cruzar hacia el ingreso.",
-        "route": "Cruza por un paso peatonal, rodea la base accesible y consulta si abre el mirador interior. Para fotografiar la figura completa vuelve a una acera segura."
+        "route": "Cruza por un paso peatonal, rodea la base accesible y consulta si abre el mirador interior. Para fotografiar la figura completa vuelve a una acera segura.",
+        "photoTip": "Encuadra desde fuera del óvalo con el pedestal visible. Desde el pie puede perderse la relación entre estatua y torre.",
+        "tag": "Un hito moderno en la avenida del Sol",
+        "experience": "Es una conmemoración moderna de un gobernante inca. Estatua y avenida actual producen otra relación con la memoria inca que un sitio arqueológico."
       },
       "zh": {
         "name": "帕查库特克纪念碑",
         "history": "现代纪念碑位于太阳大道低端，圆柱基座上立着印加统治者的高大塑像。环岛便于辨识方位，前往入口要使用指定过街点。",
-        "route": "经人行横道到达，在开放基座周边绕行，确认是否开放内部观景层。要拍雕像全身，回到安全人行道取景。"
+        "route": "经人行横道到达，在开放基座周边绕行，确认是否开放内部观景层。要拍雕像全身，回到安全人行道取景。",
+        "photoTip": "在环岛外人行道取景，保留基座。紧贴碑脚会因透视而看不清现代雕像与下方塔身的关系。",
+        "tag": "太阳大道上的现代印加统治者纪念像",
+        "experience": "这里是现代城市对印加统治者的纪念。塑像与今天的大道共同构成不同于考古遗址的观看体验。"
       },
       "qu": {
         "name": "Inka Pachakutiqpa yuyarinan",
         "history": "Avenida del Sol uray tukukuyninpi Inka Pachakutiqpa hatun rikch'aynin muyu wasi patapi kachkan. Muyu ñanrayku karumanta riqsiy atikun. Punkuman chimpaspaqa runa chimpana chiqallanta puriy.",
-        "route": "Runa chimpana ñanta chimpay, saqisqa tiksin muyuriqta puriy, hanaq qhawana kichasqachu tapuy. Tukuy rikch'ayninta siq'iyta munaspa allin kikllu pataman kutiy."
+        "route": "Runa chimpana ñanta chimpay, saqisqa tiksin muyuriqta puriy, hanaq qhawana kichasqachu tapuy. Tukuy rikch'ayninta siq'iyta munaspa allin kikllu pataman kutiy.",
+        "photoTip": "Muyu ñanpa hawanmanta rikch'ayta siq'iy, tiksinta rikuchispa. Turripa chakinmantalla qhawaspaqa hanaq rikch'aywan uray tiksinwan imayna tinkusqanta mana rikunkichu.",
+        "tag": "Avenida del Sol ñanpi kunan pacha yuyarina",
+        "experience": "Kayqa kunan runakunaq Inka kamachiqta yuyarinankupaq ruwasqam. Kunan ñanwan hatun rikch'aywan ñawpa llaqtamanta sapaq yuyayta rikuchinku."
       }
     }
   },
@@ -556,22 +760,34 @@
       "en": {
         "name": "Tipón Archaeological Park",
         "history": "Streams still run through carefully cut channels beside agricultural terraces. The relationship is easier to read by following one supply line rather than looking at every fountain separately: water, retaining walls and cultivation surfaces work as one design.",
-        "route": "At the control point ask for the open terrace circuit. Walk beside one channel to its division or drop, then return along the designated path. Do not step onto the channel lining for photographs."
+        "route": "At the control point ask for the open terrace circuit. Walk beside one channel to its division or drop, then return along the designated path. Do not step onto the channel lining for photographs.",
+        "photoTip": "From a designated viewing point line up a water outlet with the terrace beneath it. The change of level explains the system better than a photograph of water alone.",
+        "tag": "Flowing channels beside agricultural terraces",
+        "experience": "Notice how a regular line of terrace walls is interrupted only where water must pass. The arrangement balances usable growing space with a controlled change in water level."
       },
       "es": {
         "name": "Parque Arqueológico de Tipón",
         "history": "El agua aún recorre canales labrados junto a andenes agrícolas. Sigue una línea de conducción: los canales, muros de contención y superficies cultivables se leen como un sistema.",
-        "route": "En el control consulta el circuito de andenes. Sigue un canal hasta una división o caída y regresa por el sendero autorizado. No pises el revestimiento del canal para fotografiar."
+        "route": "En el control consulta el circuito de andenes. Sigue un canal hasta una división o caída y regresa por el sendero autorizado. No pises el revestimiento del canal para fotografiar.",
+        "photoTip": "Alinea desde un punto permitido una salida de agua con el andén inferior. El desnivel explica el sistema mejor que una foto del agua aislada.",
+        "tag": "Canales en uso junto a los andenes",
+        "experience": "Observa cómo la regularidad del muro cambia donde debe pasar el agua. El diseño reúne espacio de cultivo y control del desnivel hidráulico."
       },
       "zh": {
         "name": "蒂蓬考古公园",
         "history": "流水至今沿精心切凿的水渠通过农耕梯田。不要只逐个看泉眼，可追踪一条输水线，观察水渠、挡土墙与种植平台怎样组成整体。",
-        "route": "在检查点询问开放梯田线路，沿一条渠走到分流或跌水处，再循指定步道返回。拍照时勿踩渠壁。"
+        "route": "在检查点询问开放梯田线路，沿一条渠走到分流或跌水处，再循指定步道返回。拍照时勿踩渠壁。",
+        "photoTip": "从许可位置将出水口与下层梯田放在同一画面，落差比单拍水流更能解释系统。",
+        "tag": "从梯田边的水渠读懂引水布局",
+        "experience": "沿挡土墙观察水渠穿过时的变化，便能理解设计如何兼顾可种植空间与水位落差。"
       },
       "qu": {
         "name": "Tipón ñawpa llaqta",
         "history": "Unuqa kunanpas allin llaqllasqa yarqhakunanta pata chakrakunaq waqtanta purin. Huk yarqhata qallariyninmanta qatipay. Unu ñan, allpa hap'iq pirqa, tarpuna pampapas huk llamk'ayllapi hina rikurin.",
-        "route": "Qhawaqpa punkunpi pata chakrakunaman ñanta tapuy. Huk yarqha waqtanta rakikunan utaq urmaykunan chiqakama puriy, saqisqa ñanta kutiy. Siq'inaykipaq yarqha pirqata ama saruychu."
+        "route": "Qhawaqpa punkunpi pata chakrakunaman ñanta tapuy. Huk yarqha waqtanta rakikunan utaq urmaykunan chiqakama puriy, saqisqa ñanta kutiy. Siq'inaykipaq yarqha pirqata ama saruychu.",
+        "photoTip": "Saqisqa qhawana kitimanta unu lluqsinata uray pata chakrawan kuska siq'iy. Patakunaq sayayninmi unu imayna rakikusqanta rikuchin.",
+        "tag": "Pata chakraq waqtanpi puriq unu yarqhakuna",
+        "experience": "Unu maypi pasananpi pirqa imayna t'ikrasqanta qhaway. Chaymi tarpuna pampata saqispa unupa uraykamuyninta kamachin."
       }
     }
   },
@@ -588,22 +804,34 @@
       "en": {
         "name": "Pikillacta Archaeological Park",
         "history": "Pikillacta is associated with the Wari period, earlier than the Inca sites above Cusco. Its long straight walls and corridors reveal a planned settlement. Along one axis the repetition is easier to see than from inside a single enclosure.",
-        "route": "Begin at the interpretation area, follow a signed straight passage and pause where an opening reveals another enclosure. Retrace the marked route rather than climbing walls for a view."
+        "route": "Begin at the interpretation area, follow a signed straight passage and pause where an opening reveals another enclosure. Retrace the marked route rather than climbing walls for a view.",
+        "photoTip": "Choose one long corridor and keep its walls parallel in the frame. A second view through a doorway then shows the relationship between passage and enclosure.",
+        "tag": "The straight streets of a Wari settlement",
+        "experience": "The street plan is evidence in its own right. Compare the width of a corridor with a doorway rather than searching for Inca-style fitted stones in a Wari settlement."
       },
       "es": {
         "name": "Parque Arqueológico de Pikillacta",
         "history": "Pikillacta corresponde al período wari, anterior a los recintos incas sobre Cusco. Muros y corredores rectos muestran un asentamiento planificado. Desde un eje se aprecia mejor la repetición de los recintos.",
-        "route": "Empieza en el área interpretativa, recorre un pasaje recto y detente donde un vano deja ver otro recinto. Sigue la ruta señalada sin subir a los muros."
+        "route": "Empieza en el área interpretativa, recorre un pasaje recto y detente donde un vano deja ver otro recinto. Sigue la ruta señalada sin subir a los muros.",
+        "photoTip": "Encuadra un corredor largo con sus muros paralelos; otra vista por un vano muestra la relación entre pasaje y recinto.",
+        "tag": "Las calles rectas de un asentamiento wari",
+        "experience": "El trazado es evidencia por sí mismo. Compara el ancho de un corredor y el de un acceso, en vez de buscar cantería inca en un poblado wari."
       },
       "zh": {
         "name": "皮基亚克塔考古公园",
         "history": "皮基亚克塔属于瓦里时期，早于库斯科上方的印加遗址。笔直的长墙与廊道体现出规划性；沿一条轴线看，比站在单个围院内更能察觉重复布局。",
-        "route": "从解说区开始，走一段标记的直廊，在开口处观察相邻围区。沿指示路线行走，不攀墙取景。"
+        "route": "从解说区开始，走一段标记的直廊，在开口处观察相邻围区。沿指示路线行走，不攀墙取景。",
+        "photoTip": "先用一条长廊的平行墙线取景，再透过门洞观察廊道与围院的关系。",
+        "tag": "沿笔直廊道理解瓦里城市规划",
+        "experience": "街道布局本身就是证据，可比较通道与门洞宽度，无需在瓦里城市里寻找印加式拼合巨石。"
       },
       "qu": {
         "name": "Pikillaqta ñawpa llaqta",
         "history": "Pikillaqtaqa Wari pachamantam, Inka llaqtakunamanta ñawpaqmanta. Suni chiqap pirqakuna, ñankunapas ñawpaqta yuyaychasqa llaqta kasqanta rikuchin. Huk chiqap ñanmanta achkha kanchakuna kutin kutin rikurinku.",
-        "route": "Willana kitimanta qallariy, chimpusqa chiqap ñanta puriy. Huk punkumanta huk kancha rikuriptin sayaspa qhaway. Chimpusqa ñanta kutiy, pirqakunaman ama wichaychu."
+        "route": "Willana kitimanta qallariy, chimpusqa chiqap ñanta puriy. Huk punkumanta huk kancha rikuriptin sayaspa qhaway. Chimpusqa ñanta kutiy, pirqakunaman ama wichaychu.",
+        "photoTip": "Huk suni ñanta akllay, iskay pirqanta kuska siq'iman churay. Chaymanta punku ukhunta qhawaspa ñanwan kanchawan tinkisqanta rikuy.",
+        "tag": "Wari llaqtapi chiqap purina ñankuna",
+        "experience": "Ñankunaq churasqan kikinmi willakuyta qun. Suni ñanpa anchunwan punkuq anchunwan tupachiy. Kayqa Wari llaqta, manam Inka llaqtachu."
       }
     }
   },
@@ -620,22 +848,34 @@
       "en": {
         "name": "Rumiqolqa Gateway",
         "history": "This monumental gateway lies on the southern approach to the Cusco basin near Pikillacta. The opening frames the road corridor, making the site a useful contrast to the enclosed streets inside the nearby Wari settlement.",
-        "route": "Use the designated roadside access, approach the opening from the visitor path and step sideways to see wall thickness. Arrange a safe pickup away from moving highway traffic."
+        "route": "Use the designated roadside access, approach the opening from the visitor path and step sideways to see wall thickness. Arrange a safe pickup away from moving highway traffic.",
+        "photoTip": "Photograph from outside the opening, leaving the edge of the masonry visible. The next step sideways reveals the thickness that a straight-on view compresses.",
+        "tag": "An old gateway on the southern route",
+        "experience": "A gateway is understood from both directions. Look back after passing the viewing point to see how the opening narrows and then releases the surrounding valley view."
       },
       "es": {
         "name": "Portada de Rumiqolqa",
         "history": "La portada monumental se encuentra en el acceso sur a la cuenca del Cusco, cerca de Pikillacta. El vano enmarca el corredor vial y contrasta con las calles encerradas del asentamiento wari.",
-        "route": "Usa el acceso indicado, acércate al vano por el sendero y desplázate de lado para ver el espesor del muro. Acuerda la recogida fuera del tráfico de la carretera."
+        "route": "Usa el acceso indicado, acércate al vano por el sendero y desplázate de lado para ver el espesor del muro. Acuerda la recogida fuera del tráfico de la carretera.",
+        "photoTip": "Fotografía desde fuera dejando visible el canto del muro. Un paso lateral muestra el espesor que se pierde en una vista frontal.",
+        "tag": "Una antigua portada en la ruta sur",
+        "experience": "Una portada se lee en dos sentidos. Mira atrás para ver cómo el vano estrecha y vuelve a abrir la vista del valle."
       },
       "zh": {
         "name": "鲁米科尔卡石门",
         "history": "巨大的石门靠近皮基亚克塔，位于通往库斯科盆地的南侧通道。门洞框住交通走廊，可与邻近瓦里城内较封闭的巷道对照。",
-        "route": "经指定入口由步道接近门洞，从侧面观察墙体厚度。接车地点应避开公路行车道。"
+        "route": "经指定入口由步道接近门洞，从侧面观察墙体厚度。接车地点应避开公路行车道。",
+        "photoTip": "在门洞外取景时保留石墙侧边，再横移几步，观察正面视角容易压缩掉的城门厚度。",
+        "tag": "南向交通走廊上的古石门",
+        "experience": "门洞应从两个方向观察。走过观景点后回头，看门框如何先收窄谷景，再把视野放开。"
       },
       "qu": {
         "name": "Rumi Qullqa punku",
         "history": "Kay hatun punkuqa Qusqu pampaman qullaw lawmanta yaykuna ñanpin, Pikillaqta qayllapi. Punku chaupimanta ñan k'itita qhaway. Chayta Wari llaqtapi pirqasqa ñankunawan tupachiy.",
-        "route": "Chimpusqa yaykunata hap'iy, ñanninta punkuman asuykuy, waqtamanta pirqaq rakhu kayninta qhaway. Kutina carro suyanaykipaq hatun ñanmanta karupi tinkuna kitita akllay."
+        "route": "Chimpusqa yaykunata hap'iy, ñanninta punkuman asuykuy, waqtamanta pirqaq rakhu kayninta qhaway. Kutina carro suyanaykipaq hatun ñanmanta karupi tinkuna kitita akllay.",
+        "photoTip": "Punku hawamanta siq'iy, rumi pirqaq kantunta rikuchispa. Waqtaman huk tatkita purispa pirqaq rakhu kayninta rikunki.",
+        "tag": "Qullaw law ñanpi ñawpa rumi punku",
+        "experience": "Punkuta iskay lawmanta qhaway. Qhawana kitimanta pasaspa kutirispa mayu wayq'u punku ukhupi imayna kichki, chaymanta kichasqa rikurisqanta qhaway."
       }
     }
   },
@@ -652,22 +892,34 @@
       "en": {
         "name": "Saint Peter’s Church, Andahuaylillas",
         "history": "A modest frontage facing the town square gives little warning of the painted interior. Wall paintings, ceiling decoration and liturgical furnishings were conceived for a parish church. View them as an ensemble before approaching any particular image.",
-        "route": "Start in the plaza, walk to the raised church forecourt and check the parish visitor entrance. Follow the authorised interior circuit; photography rules may be different inside and outside."
+        "route": "Start in the plaza, walk to the raised church forecourt and check the parish visitor entrance. Follow the authorised interior circuit; photography rules may be different inside and outside.",
+        "photoTip": "The plaza gives the best context for the modest exterior. Inside, put the camera away whenever the parish requires it and follow the painted surfaces with your eyes from wall to ceiling.",
+        "tag": "Painted walls behind a quiet rural façade",
+        "experience": "The surface decoration draws the eye from wall to ceiling. Pause well back in the permitted area first, then focus on a single panel as part of the larger parish interior."
       },
       "es": {
         "name": "Templo de San Pedro Apóstol de Andahuaylillas",
         "history": "La fachada frente a la plaza anticipa poco del interior pintado. Murales, techumbre y mobiliario litúrgico pertenecen a un templo parroquial. Observa primero el conjunto antes de fijarte en una imagen.",
-        "route": "Desde la plaza sube al atrio y busca el ingreso de visitantes. Sigue el circuito autorizado; consulta por separado las reglas fotográficas del interior y del exterior."
+        "route": "Desde la plaza sube al atrio y busca el ingreso de visitantes. Sigue el circuito autorizado; consulta por separado las reglas fotográficas del interior y del exterior.",
+        "photoTip": "La plaza sitúa la fachada en su entorno. Dentro guarda la cámara si así lo pide la parroquia y recorre con la vista los murales hasta la techumbre.",
+        "tag": "Muros pintados detrás de una fachada rural",
+        "experience": "La decoración lleva la vista del muro al techo. Detente primero a distancia y luego relaciona un panel con el conjunto parroquial."
       },
       "zh": {
         "name": "安达瓦伊利亚斯圣伯多禄教堂",
         "history": "面向镇广场的朴素立面，很难预示内部绘饰的丰富。壁画、天顶与礼仪陈设原为堂区教堂服务，可先整体观察，再细看某幅图像。",
-        "route": "从广场登上教堂前庭，找到游客入口，依许可路线参观；室内外拍摄规定可能不同，请分别确认。"
+        "route": "从广场登上教堂前庭，找到游客入口，依许可路线参观；室内外拍摄规定可能不同，请分别确认。",
+        "photoTip": "广场最适合交代朴素外观与镇区的关系。若堂区要求收起相机，可用目光从壁画追至天顶。",
+        "tag": "朴素广场立面后的彩绘内殿",
+        "experience": "绘饰把视线从墙面引向天顶。先在开放区域后退看整体，再选单幅装饰理解它与堂内其余部分的关系。"
       },
       "qu": {
         "name": "Antawayllillas San Pedro iglesia",
         "history": "Plaza chimpapi aswan llamp'u hawa pirqa rikurin, ukhupin ichaqa pirqa llimp'ikuna, qata llimp'ikuna, yupaychana imakunapas kachkan. Kaykunaqa llaqta runakunapa iglesianpaq ruwasqam. Ñawpaqta tukuyta kuska qhaway, chaymanta huk llimp'ita akllay.",
-        "route": "Plazamanta iglesia punku pampanman wichay. Watukuqkunapa yaykunanta maskhay, ukhupi saqisqa ñanta puriy. Siq'ina kamachiyta ukhupaq, hawapaqpas tapuy."
+        "route": "Plazamanta iglesia punku pampanman wichay. Watukuqkunapa yaykunanta maskhay, ukhupi saqisqa ñanta puriy. Siq'ina kamachiyta ukhupaq, hawapaqpas tapuy.",
+        "photoTip": "Plazamanta hawa pirqata llaqtawan kuska rikunki. Ukhupi parroquia mañakuqtinqa siq'ina aparataykita waqaychay. Ñawikiwan pirqa llimp'imanta qataman qhaway.",
+        "tag": "Llaqta iglesia ukhupi llimp'isqa pirqakuna",
+        "experience": "Pirqapi llimp'ikunaqa ñawita qataman apan. Ñawpaqta saqisqa kitiq qhipanpi sayay, chaymanta huk llimp'ita akllaspa tukuy iglesia ukhunwan tinkuchiy."
       }
     }
   },
@@ -684,22 +936,34 @@
       "en": {
         "name": "Pisac Archaeological Park",
         "history": "Terraces curve around high ridges above the modern town. At a turn in the path, compare the flowing terrace lines with the rectilinear rooms above them. The archaeological entrance is uphill and separate from the market in the valley town.",
-        "route": "Travel to the archaeological control rather than the market pin, take the open ridge path and stop at a terrace viewpoint. Confirm the return vehicle before continuing beyond the first sector."
+        "route": "Travel to the archaeological control rather than the market pin, take the open ridge path and stop at a terrace viewpoint. Confirm the return vehicle before continuing beyond the first sector.",
+        "photoTip": "At an open bend in the path, put the terrace curve at one edge of the frame and the higher buildings beyond it. Never leave the marked trail for a clearer angle.",
+        "tag": "Terraces tracing a ridge above the market town",
+        "experience": "The present-day town and the ridge are visually connected but serve different visits. Looking down toward the valley explains why a market visit does not substitute for the archaeological circuit."
       },
       "es": {
         "name": "Parque Arqueológico de Pisac",
         "history": "Los andenes rodean las crestas sobre el pueblo actual. En una curva compara sus líneas con los recintos rectilíneos de arriba. La entrada arqueológica está en altura, separada del mercado del pueblo.",
-        "route": "Llega al control del parque, no al mercado, sigue el sendero habilitado de la cresta y detente en un mirador de andenes. Acuerda el regreso antes de avanzar a otro sector."
+        "route": "Llega al control del parque, no al mercado, sigue el sendero habilitado de la cresta y detente en un mirador de andenes. Acuerda el regreso antes de avanzar a otro sector.",
+        "photoTip": "Desde una curva abierta reúne el andén curvo y las construcciones altas. No abandones el sendero marcado para despejar el encuadre.",
+        "tag": "Andenes sobre las crestas del pueblo",
+        "experience": "El pueblo y la cresta se ven juntos, pero son visitas diferentes. Mirar al valle aclara por qué el mercado no sustituye el recorrido arqueológico."
       },
       "zh": {
         "name": "皮萨克考古公园",
         "history": "梯田沿现代城镇上方山脊环绕。步道转弯处可比较梯田曲线与上方方正石室。遗址入口位于山上，与谷中集市分开。",
-        "route": "先抵达考古公园检票点，勿误定位到集市。沿开放山脊步道至梯田观景处；继续下一片区前确认返程接送。"
+        "route": "先抵达考古公园检票点，勿误定位到集市。沿开放山脊步道至梯田观景处；继续下一片区前确认返程接送。",
+        "photoTip": "在开放步道转弯处让梯田弧线与高处建筑同框，勿为了避开遮挡离开步道。",
+        "tag": "俯临谷中集镇的山脊梯田",
+        "experience": "现代小镇与山脊可同时入眼，但对应两种不同游览。向谷中俯看，更容易理解逛集市为何不能替代遗址线路。"
       },
       "qu": {
         "name": "Pisaq ñawpa llaqta",
         "history": "Pata chakrakunaqa kunan llaqtaq hawanpi urqu kinrayta muyunku. Ñan t'ikrakunanpi pata chakraq muyusqa rayankunata hanaq chiqap wasikunawan tupachiy. Ñawpa llaqtaq punkun urqupim, qhatuqa uray llaqtapim.",
-        "route": "Ñawpa llaqtaq qhawaq punkunman chayay, ama qhatumanqa. Kichasqa urqu ñanta purispa pata chakrakuna qhawana kitipi sayay. Huk kitiman manaraq rispa kutina carrota allichay."
+        "route": "Ñawpa llaqtaq qhawaq punkunman chayay, ama qhatumanqa. Kichasqa urqu ñanta purispa pata chakrakuna qhawana kitipi sayay. Huk kitiman manaraq rispa kutina carrota allichay.",
+        "photoTip": "Ñanpa muyu chiqanmanta pata chakraq kumusqa kantunta hanaq wasikunatawan siq'iy. Aswan sut'i siq'ita munaspapas chimpusqa ñanmanta ama lluqsiychu.",
+        "tag": "Qhatu llaqtaq hawanpi urqu pata chakrakuna",
+        "experience": "Kunan llaqta, urqu patapas kuska rikurin, sapaq watukuy ichaqa kanku. Wayq'uman qhawaspa qhatu watukuywan ñawpa llaqta puriywan sapaq kasqanta yuyariy."
       }
     }
   },
@@ -716,22 +980,34 @@
       "en": {
         "name": "Ollantaytambo Archaeological Park",
         "history": "War, worship and engineering meet above a still-inhabited town. The steep terrace stair gives a sense of the labour involved in moving large stone blocks. Compare the finish of the upper stones with the retaining walls passed on the way up.",
-        "route": "From the formal entrance visit the lower terrace edge, climb only the open staircase at your pace and follow the signed descent. The railway station in the valley is a different destination."
+        "route": "From the formal entrance visit the lower terrace edge, climb only the open staircase at your pace and follow the signed descent. The railway station in the valley is a different destination.",
+        "photoTip": "Pause at a permitted landing and look back across the town. The terrace steps in the foreground connect the modern settlement visually with the archaeological hillside.",
+        "tag": "A monumental stair above a living settlement",
+        "experience": "A retaining wall and an upper ceremonial block serve different tasks. Comparing their scale and finish provides a practical way to read the climb rather than treating it only as a staircase."
       },
       "es": {
         "name": "Parque Arqueológico de Ollantaytambo",
         "history": "Sobre el pueblo habitado se reúnen ingeniería, culto e historia militar. La escalera empinada da una idea del esfuerzo de mover grandes bloques. Compara el acabado de las piedras superiores con los muros de contención del ascenso.",
-        "route": "Desde el ingreso visita el borde inferior, sube por la escalera abierta a tu ritmo y sigue el descenso señalizado. La estación ferroviaria es otro destino."
+        "route": "Desde el ingreso visita el borde inferior, sube por la escalera abierta a tu ritmo y sigue el descenso señalizado. La estación ferroviaria es otro destino.",
+        "photoTip": "En un descanso habilitado mira hacia el pueblo. Los escalones del primer plano relacionan el asentamiento actual con la ladera arqueológica.",
+        "tag": "Una escalera monumental sobre un pueblo vivo",
+        "experience": "Un muro de contención y un bloque ceremonial cumplen tareas distintas. Compara escala y acabado para interpretar la subida, además de recorrer sus gradas."
       },
       "zh": {
         "name": "奥扬泰坦博考古公园",
         "history": "在仍有人居住的小镇上方，工程、祭祀与军事历史叠合。梯田陡阶能让人体会搬运巨石的难度。可比较高处石材的精细加工与沿途挡土墙的砌法。",
-        "route": "从正式入口到梯田下缘，依体力沿开放阶梯上行，再按下行标识返回。谷中的火车站是不同目的地。"
+        "route": "从正式入口到梯田下缘，依体力沿开放阶梯上行，再按下行标识返回。谷中的火车站是不同目的地。",
+        "photoTip": "在允许停留的平台回望小镇，让前景梯阶把现代聚落与遗址山坡联系起来。",
+        "tag": "活态聚落上方的巨石平台与梯阶",
+        "experience": "挡土墙与上部仪式区石块功能不同，可沿途比较尺度和加工精度，把上坡变为观察路线。"
       },
       "qu": {
         "name": "Ullantaytampu ñawpa llaqta",
         "history": "Kawsayniyuq llaqtaq hawanpiña hatun ruwanakuna, yupaychana kitikuna, awqanakuy willaykunapas huñunakun. Pata chakraq sasa chakananpi wichaspa hatun rumikunata astanapaq llank'ayta yuyariy. Hanaq rumikunata uray pirqakunawan tupachiy.",
-        "route": "Hatun punkumanta uray pata chakraman puriy. Kichasqa chakananta kallpaykiman hina wichay, chimpusqa uray ñanta kutiy. Trenpa samananqa huk kitipin kachkan."
+        "route": "Hatun punkumanta uray pata chakraman puriy. Kichasqa chakananta kallpaykiman hina wichay, chimpusqa uray ñanta kutiy. Trenpa samananqa huk kitipin kachkan.",
+        "photoTip": "Saqisqa samana patapi sayaspa llaqtaman qhaway. Ñawpaq chakanakunaqa kunan llaqtata ñawpa urqu kinraywan huk siq'ipi tinkuchinku.",
+        "tag": "Kawsayniyuq llaqtaq hawanpi hatun rumi chakana",
+        "experience": "Allpa hap'iq pirqa, yupaychana hatun rumiwan sapaq llamk'ayniyuqmi. Sayayninkuta, llaqllasqankutapas tupachispa wichana ñanta riqsiy."
       }
     }
   },
@@ -748,22 +1024,34 @@
       "en": {
         "name": "Chinchero Archaeological Park",
         "history": "Inca terraces descend from the monumental core toward cultivated land. Their retaining walls make a strong contrast with the painted church on the upper plaza. The park visit is best understood as a sequence of occupied, ceremonial and agricultural spaces.",
-        "route": "Enter at the archaeological checkpoint, cross the upper plaza and follow the designated path to the terrace viewpoints. Return to the settlement on the signed trail rather than crossing cultivated plots."
+        "route": "Enter at the archaeological checkpoint, cross the upper plaza and follow the designated path to the terrace viewpoints. Return to the settlement on the signed trail rather than crossing cultivated plots.",
+        "photoTip": "Keep the top of the terrace wall and the cultivated ground behind it in the same frame. This avoids mistaking an agricultural retaining wall for a room wall.",
+        "tag": "Agricultural terraces below the upper plaza",
+        "experience": "Look beyond the monumental core to fields outside it. The change from formal stonework to cultivated ground keeps the connection between the settlement and Andean agriculture visible."
       },
       "es": {
         "name": "Parque Arqueológico de Chinchero",
         "history": "Los andenes descienden del núcleo monumental hacia tierras de cultivo. Sus muros de contención contrastan con el templo pintado de la plaza alta. El conjunto reúne espacios habitados, ceremoniales y agrícolas.",
-        "route": "Entra por el control, cruza la plaza alta y sigue el camino autorizado a los miradores de andenes. Vuelve al pueblo por la vía señalada sin atravesar cultivos."
+        "route": "Entra por el control, cruza la plaza alta y sigue el camino autorizado a los miradores de andenes. Vuelve al pueblo por la vía señalada sin atravesar cultivos.",
+        "photoTip": "Incluye la coronación del muro y el terreno que sostiene. Así se distingue un andén de una pared de recinto.",
+        "tag": "Andenes bajo la plaza alta",
+        "experience": "Mira más allá del núcleo monumental hacia los campos. Del aparejo formal al terreno cultivado se aprecia la relación entre asentamiento y agricultura andina."
       },
       "zh": {
         "name": "钦切罗考古公园",
         "history": "印加梯田从核心建筑区向耕地下降。挡土石墙与上方广场的彩绘教堂形成对照，沿途可分辨居住、仪式和农业空间之间的过渡。",
-        "route": "从遗址查验口入，通过上方广场，循指定步道至梯田观景点。沿标注路线返回村镇，勿穿越耕地。"
+        "route": "从遗址查验口入，通过上方广场，循指定步道至梯田观景点。沿标注路线返回村镇，勿穿越耕地。",
+        "photoTip": "拍到墙顶的同时保留下方墙体所承托的耕作面，就容易区分梯田挡墙和房间墙壁。",
+        "tag": "广场下方的印加农业梯田",
+        "experience": "目光越过核心石建区直至耕地，可看出聚落与安第斯农业之间持续的关系。"
       },
       "qu": {
         "name": "Chinchiru ñawpa llaqta",
         "history": "Inka pata chakrakunaqa hatun wasikuna qayllamanta tarpuna pampaman uraykunku. Rumimanta pirqankuna hanaq plaza llimp'isqa iglesiawan mana kikinchu. Kawsana, yupaychana, tarpuna kitikunata qatipaspa riqsiy.",
-        "route": "Qhawaqpa punkunmanta yaykuy, hanaq plazata chimpay, pata chakrakuna qhawana ñanta qatipay. Chimpusqa ñanta llaqtaman kutiy, tarpuna allpakunata ama chimpaychu."
+        "route": "Qhawaqpa punkunmanta yaykuy, hanaq plazata chimpay, pata chakrakuna qhawana ñanta qatipay. Chimpusqa ñanta llaqtaman kutiy, tarpuna allpakunata ama chimpaychu.",
+        "photoTip": "Pirqaq patanta, chaypa hap'isqa tarpuna pampantapas kuska siq'iy. Chayhinata pata chakraq pirqanta wasi pirqamanta rakinki.",
+        "tag": "Hanaq plazaq uranpi pata chakrakuna",
+        "experience": "Hatun rumi wasikunamanta karupi chakrakunata qhaway. Pirqamanta tarpuna pampaman t'ikrasqan llaqtawan Ande tarpuywan tinkisqanta rikuchin."
       }
     }
   },
@@ -780,22 +1068,34 @@
       "en": {
         "name": "Moray Archaeological Park",
         "history": "Concentric terraces descend into natural depressions. Their geometry is easiest to understand from the rim, where neighbouring terraces and their connecting stairs remain visible together. Agricultural experimentation is an interpretation, and the geometry itself is directly observable.",
-        "route": "From the access control follow the upper circuit, stop at two viewpoints with different angles and leave by the signed route. Stay off closed terraces even when the grass looks walkable."
+        "route": "From the access control follow the upper circuit, stop at two viewpoints with different angles and leave by the signed route. Stay off closed terraces even when the grass looks walkable.",
+        "photoTip": "A view from the rim records several terrace rings. Move a few steps around the authorised circuit to see where the rings meet the natural slope rather than treating the site as a perfect circle.",
+        "tag": "Circular terraces in natural depressions",
+        "experience": "The terraces are not identical when viewed from the side: the depression changes around their edge. Compare one shaded section with a sunlit one without assuming present weather proves an ancient use."
       },
       "es": {
         "name": "Parque Arqueológico de Moray",
         "history": "Andenes concéntricos bajan hacia depresiones naturales. Desde el borde se distinguen varios niveles y sus escaleras a la vez. La experimentación agrícola es una interpretación; la geometría puede observarse directamente.",
-        "route": "Desde el control sigue el circuito alto, detente en dos miradores distintos y sal por la ruta indicada. No bajes a andenes cerrados aunque parezcan transitables."
+        "route": "Desde el control sigue el circuito alto, detente en dos miradores distintos y sal por la ruta indicada. No bajes a andenes cerrados aunque parezcan transitables.",
+        "photoTip": "Desde el borde se ven varios anillos. Muévete por el circuito permitido para observar dónde los andenes se encuentran con la pendiente natural.",
+        "tag": "Andenes circulares en depresiones naturales",
+        "experience": "Vistos de lado, los bordes cambian con la depresión. Compara tramos al sol y a la sombra sin tomar el clima de hoy como prueba de un uso antiguo."
       },
       "zh": {
         "name": "莫雷考古公园",
         "history": "同心梯田逐层下降至天然洼地。站在边缘可同时看清多级平台与连接它们的阶梯。农业试验是对其用途的解读，而几何布局则是现场可直接观察的证据。",
-        "route": "检票后沿上缘路线，在两个不同角度的观景点分别停留，再循标识离开。即使草地看似平缓，也不要进入关闭的平台。"
+        "route": "检票后沿上缘路线，在两个不同角度的观景点分别停留，再循标识离开。即使草地看似平缓，也不要进入关闭的平台。",
+        "photoTip": "在边缘取景可同时看到多圈平台；沿开放环线再移几步，看圆环如何接入天然坡面。",
+        "tag": "天然洼地里的同心梯田",
+        "experience": "从侧面看，梯田边界随洼地而变。可观察向阳与背阴段，但不能把今天一次天气观察当成古代用途的证明。"
       },
       "qu": {
         "name": "Muray ñawpa pata chakrakuna",
         "history": "Muyu pata chakrakunaqa allpa pukrukunaman uraykunku. Pata kantunmanta achkha patakunata chakanankunatawan kuska rikunki. Tarpuyta yachanapaq kasqanqa huk yuyaymi; muyu rikch'ayninta ichaqa kikin ñawiykiwan rikuy atinmi.",
-        "route": "Qhawaqpa punkunmanta hanaq muyuna ñanta puriy, iskay sapaq qhawana kitipi sayay, chimpusqa ñanta lluqsiy. Wichq'asqa patakunaman ama uraykuychu."
+        "route": "Qhawaqpa punkunmanta hanaq muyuna ñanta puriy, iskay sapaq qhawana kitipi sayay, chimpusqa ñanta lluqsiy. Wichq'asqa patakunaman ama uraykuychu.",
+        "photoTip": "Kantumanta achkha muyu patakunata rikunki. Saqisqa ñanta asllata purispa maypicha patakunawan urqu kinraywan tinkun chayta qhaway.",
+        "tag": "Allpa pukrukunapi muyu pata chakrakuna",
+        "experience": "Waqtamanta qhawaspa pukru patakuna mana kikinchu rikurin. Intiyuq kitita llanthuyuqwan tupachiy; kunan p'unchawpa ruphayllanqa ñawpa llamk'ayta mana chiqanchanchu."
       }
     }
   },
@@ -812,22 +1112,34 @@
       "en": {
         "name": "Maras Salt Ponds",
         "history": "Salty springwater is distributed among small evaporation ponds worked by local families. From the visitor side, look at how the water is divided before it reaches a basin. Different colours can reflect water depth and stages of evaporation, not different kinds of stone.",
-        "route": "Use the community visitor entrance, walk to the authorised viewing terrace and follow a feeder channel with your eyes. Stay outside the working pans to protect the salt harvest."
+        "route": "Use the community visitor entrance, walk to the authorised viewing terrace and follow a feeder channel with your eyes. Stay outside the working pans to protect the salt harvest.",
+        "photoTip": "Use the public lookout to frame a group of ponds with different water levels. Their small feeder channels are often a more informative detail than the broad white panorama.",
+        "tag": "Salt harvest and spring-fed evaporation ponds",
+        "experience": "Salt is harvested rather than quarried from these ponds. Watching the entry channel and the exposed crystals links the landscape to an ongoing local livelihood."
       },
       "es": {
         "name": "Salineras de Maras",
         "history": "El agua salada se reparte entre pozas de evaporación trabajadas por familias locales. Desde el área pública observa la distribución antes de cada poza. Los colores cambian según el agua y la etapa de evaporación.",
-        "route": "Usa la entrada de visitantes, camina al mirador habilitado y sigue con la vista un canal de alimentación. Respeta las pozas de trabajo para proteger la cosecha de sal."
+        "route": "Usa la entrada de visitantes, camina al mirador habilitado y sigue con la vista un canal de alimentación. Respeta las pozas de trabajo para proteger la cosecha de sal.",
+        "photoTip": "Desde el mirador público reúne pozas con distintos niveles de agua. Los pequeños canales de alimentación explican más que una panorámica blanca por sí sola.",
+        "tag": "Cosecha de sal y pozas alimentadas por un manante",
+        "experience": "Aquí se cosecha sal en pozas. Observar el canal de ingreso y los cristales expuestos relaciona el paisaje con un trabajo local vigente."
       },
       "zh": {
         "name": "马拉斯盐田",
         "history": "咸泉水经细渠分配到当地家庭经营的小盐池。先从游客区看水如何流入各池；池色差异常与水深和蒸发阶段有关，不是不同岩石的颜色。",
-        "route": "从社区游客入口到开放观景台，用目光追踪一条引水渠。为保护采盐作业，请勿走入盐池。"
+        "route": "从社区游客入口到开放观景台，用目光追踪一条引水渠。为保护采盐作业，请勿走入盐池。",
+        "photoTip": "从公共观景台框入不同水位的数个盐池，细小引水渠比单纯的白色全景更能说明生产过程。",
+        "tag": "咸泉、蒸发盐池与社区采盐",
+        "experience": "盐是在池中收获的。引水渠与裸露盐晶一起解释了这片景观如何维系今天的社区生计。"
       },
       "qu": {
         "name": "Maras kachi quchakuna",
         "history": "Kachiyuq pukyu unuqa llaqta ayllukuna llamk'asqanku huch'uy quchakunaman rakikun. Watukuqkunapa chiqanmanta unu sapa quchaman chayasqanta qhaway. Unupa ukhuywan chakisqawanmi sapa quchaq llimp'in t'ikrakun.",
-        "route": "Aylluq watukuq punkunmanta yaykuy, saqisqa qhawana pataman puriy, huk unu yarqhata ñawiykiwan qatipay. Kachi pallayta waqaychanapaq llamk'ana quchakunaman ama yaykuychu."
+        "route": "Aylluq watukuq punkunmanta yaykuy, saqisqa qhawana pataman puriy, huk unu yarqhata ñawiykiwan qatipay. Kachi pallayta waqaychanapaq llamk'ana quchakunaman ama yaykuychu.",
+        "photoTip": "Llaqtaq qhawana patanmanta sapaq unu sayayniyuq quchakunata siq'iy. Huch'uy unu apamuq yarqhakunaqa kachi ruwasqankuta aswan sut'ita rikuchinku.",
+        "tag": "Kachiyuq pukyu, kachi quchakuna, aylluq llamk'aynin",
+        "experience": "Kay quchakunapi kachita pallanku. Yaykumuq yarqhata, rikuriq kachita qhawaspa llaqta runakunaq kunan llamk'ayninta riqsinki."
       }
     }
   },
@@ -844,22 +1156,34 @@
       "en": {
         "name": "Huchuy Qosqo",
         "history": "Above the Sacred Valley, long halls and terraces occupy a high ledge overlooking the river corridor. The view helps explain the setting, but reaching the site is a hiking objective in its own right and needs a planned approach and return.",
-        "route": "Agree the permitted approach with local visitor staff or a knowledgeable guide, begin at the agreed trailhead and walk only the authorised site circuit on arrival. Set the descent and pickup point before departure."
+        "route": "Agree the permitted approach with local visitor staff or a knowledgeable guide, begin at the agreed trailhead and walk only the authorised site circuit on arrival. Set the descent and pickup point before departure.",
+        "photoTip": "From a designated terrace viewpoint frame the building line against the valley below. Do not trade the agreed return time for a detour in search of a higher camera position.",
+        "tag": "An archaeological terrace reached on foot",
+        "experience": "Space the visit between the high terrace and one hall. The wide valley outlook and the sheltered enclosure address two different questions: where the site was placed and how people used its rooms."
       },
       "es": {
         "name": "Huchuy Qosqo",
         "history": "Sobre el Valle Sagrado, salones y andenes ocupan una repisa alta que domina el corredor del río. La vista explica el emplazamiento, pero llegar exige planificar una caminata completa, con ida y regreso.",
-        "route": "Coordina la aproximación autorizada con personal local o guía conocedor, comienza en el inicio acordado y sigue el circuito permitido. Define descenso y recogida antes de partir."
+        "route": "Coordina la aproximación autorizada con personal local o guía conocedor, comienza en el inicio acordado y sigue el circuito permitido. Define descenso y recogida antes de partir.",
+        "photoTip": "Desde el mirador permitido reúne los edificios y el valle inferior. Respeta la hora de retorno acordada sin desviarte por una foto más alta.",
+        "tag": "Un conjunto en altura al que se llega a pie",
+        "experience": "Alterna la terraza alta y un salón. El valle responde a la ubicación; el recinto protegido permite pensar en el uso de los espacios."
       },
       "zh": {
         "name": "小库斯科遗址",
         "history": "长厅与梯田位于圣谷上方突出的高台，俯瞰河谷通道。视野有助于理解选址；抵达遗址本身就是一次徒步行程，需要单独安排去程与回程。",
-        "route": "先向当地管理人员或熟悉路线的向导确认开放线路，从约定登山口起步，抵达后只走许可动线。出发前定好下山路线和接车点。"
+        "route": "先向当地管理人员或熟悉路线的向导确认开放线路，从约定登山口起步，抵达后只走许可动线。出发前定好下山路线和接车点。",
+        "photoTip": "在开放梯田观景处将建筑线与下方河谷同框。不要为追求更高机位偏离路线或错过约定返程时间。",
+        "tag": "须徒步到达的高处遗址平台",
+        "experience": "高台视野与厅室内部回答不同问题：前者解释选址，后者帮助理解人们怎样使用这些空间。"
       },
       "qu": {
         "name": "Huch'uy Qusqu",
         "history": "Willkamayu wayq'u hawanpi suni wasikuna, pata chakrakuna hanaq patapi kachkan. Mayu ñanta chaymanta rikunki. Kay ñawpa llaqtaman chayanapaq karu puriymi kan, chayrayku rina kutina ñankunata ñawpaqmantaraq yuyaychay.",
-        "route": "Llaqta kamachiqwan utaq ñan riqsiq pusaqwan saqisqa ñanta rimay, akllasqa qallariy kitimanta puriy. Chayaspa kichasqa ñanllanta qatipay. Manaraq lluqsispa uray ñanta, carro suyanata ima allichay."
+        "route": "Llaqta kamachiqwan utaq ñan riqsiq pusaqwan saqisqa ñanta rimay, akllasqa qallariy kitimanta puriy. Chayaspa kichasqa ñanllanta qatipay. Manaraq lluqsispa uray ñanta, carro suyanata ima allichay.",
+        "photoTip": "Saqisqa pata qhawanamanta wasikunata uray wayq'utawan siq'iy. Aswan hanaq siq'irayku ama ñanmanta lluqsiychu, kutina pacha rimanakusqaykita respetay.",
+        "tag": "Chakillawan chayana hanaq ñawpa llaqta",
+        "experience": "Hanaq patata huk hatun wasita ima qhaway. Mayu wayq'uta qhawaspa maypi ruwasqankuta yachanki; wasi ukhupiqa imapaq llamk'achisqankuta yuyanki."
       }
     }
   },
@@ -876,22 +1200,34 @@
       "en": {
         "name": "Tarawasi Archaeological Site",
         "history": "The platform and finely fitted masonry at Tarawasi mark a distinct stop on the road through Limatambo. Look at the shape of a niche against the polygonal blocks below it; the precision is clearest when the wall is viewed obliquely.",
-        "route": "At the site entrance confirm the open platform route, follow the public edge of the masonry and stop at the niche wall. Step back along the access path for the full profile rather than mounting the stonework."
+        "route": "At the site entrance confirm the open platform route, follow the public edge of the masonry and stop at the niche wall. Step back along the access path for the full profile rather than mounting the stonework.",
+        "photoTip": "Stand to one side of a niche so its depth is visible. Then look at the adjoining wall joints; touching the masonry is unnecessary for seeing how the blocks fit.",
+        "tag": "Niches and tight-fitting stonework in Limatambo",
+        "experience": "The wall’s precision is easiest to judge where a niche interrupts it. A change in the angle of light can reveal the return face of the stone without the need to approach closely."
       },
       "es": {
         "name": "Sitio Arqueológico de Tarawasi",
         "history": "La plataforma y la cantería ajustada distinguen Tarawasi en la ruta de Limatambo. Compara la forma de una hornacina con los bloques poligonales de abajo: la precisión se aprecia en vista oblicua.",
-        "route": "En el acceso confirma el recorrido, sigue el borde permitido y detente ante el muro de hornacinas. Retrocede por el sendero para ver el perfil sin subir a los bloques."
+        "route": "En el acceso confirma el recorrido, sigue el borde permitido y detente ante el muro de hornacinas. Retrocede por el sendero para ver el perfil sin subir a los bloques.",
+        "photoTip": "Mira la hornacina de lado para ver su profundidad y luego las juntas contiguas. No hace falta tocar la cantería.",
+        "tag": "Hornacinas y juntas de piedra en Limatambo",
+        "experience": "La precisión se aprecia donde la hornacina interrumpe el muro. Cambia de ángulo para ver la cara lateral sin acercarte demasiado."
       },
       "zh": {
         "name": "塔拉瓦西考古遗址",
         "history": "平台与严密拼接的石墙使塔拉瓦西成为利马坦博公路边独立的一站。可比较壁龛轮廓与下方多角石块，斜侧观看最能看清接合精度。",
-        "route": "在入口确认开放范围，沿石墙外侧走至壁龛墙，再沿通道后退看完整轮廓，不要攀上砌石。"
+        "route": "在入口确认开放范围，沿石墙外侧走至壁龛墙，再沿通道后退看完整轮廓，不要攀上砌石。",
+        "photoTip": "从壁龛侧面看深度，再观察旁边墙体接缝，毋须触摸石面就能看清拼接。",
+        "tag": "利马坦博的石壁龛与精密拼缝",
+        "experience": "壁龛打断墙面处最能看出石工精度。换一个受光角度就能看清侧壁，无需贴近。"
       },
       "qu": {
         "name": "Tarawasi ñawpa llaqta",
         "history": "Tarawasipi pata pampawan sumaq tinkisqa rumi pirqawan Limatambo ñanpi riqsisqa. Pirqa t'uquta uranpi k'uchuyuq rumikunawan tupachiy; waqtamanta qhawaspa imayna tinkusqankuta aswan allinta rikunki.",
-        "route": "Punkupi kichasqa ñanta tapuy, saqisqa pirqa waqtanta puriy, t'uquyuq pirqapi sayay. Ñanllanta qhipaman kutirispa tukuy rikch'ayninta qhaway, rumikunaman ama wichaychu."
+        "route": "Punkupi kichasqa ñanta tapuy, saqisqa pirqa waqtanta puriy, t'uquyuq pirqapi sayay. Ñanllanta qhipaman kutirispa tukuy rikch'ayninta qhaway, rumikunaman ama wichaychu.",
+        "photoTip": "Pirqa t'uquta waqtamanta qhawaspa ukhu kayninta rikuy. Chaymanta qayllanpi rumi tinkisqakunata qhaway; makiwan llank'ayqa mana atinachu.",
+        "tag": "Limatambopi pirqa t'uqukuna, tinkisqa rumikuna",
+        "experience": "Pirqa t'uqu kastanpi rumi llamk'aypa allin kayninta rikuy. Huk lawman kuyuspa rumiq waqtan k'anchaypi rikurin, mana ancha qayllachaspa."
       }
     }
   },
@@ -908,22 +1244,34 @@
       "en": {
         "name": "Zurite Agricultural Terraces",
         "history": "These long agricultural terraces are a landscape of cultivation, not simply a set of empty viewing platforms. From a public path, identify the retaining wall of one level and the planted surface it supports; then follow the same relationship across the slope.",
-        "route": "Ask in Zurite for the public approach, walk along the accessible edge and view the terraces from the side of the slope. Keep irrigation channels and cultivated plots clear."
+        "route": "Ask in Zurite for the public approach, walk along the accessible edge and view the terraces from the side of the slope. Keep irrigation channels and cultivated plots clear.",
+        "photoTip": "Stand on the public edge and include at least two retaining walls with the fields between them. This records the terraces as a working landscape while respecting growers' plots.",
+        "tag": "Terraces in an agricultural landscape",
+        "experience": "A terrace is both a level surface and the wall that makes it possible. Begin at the base of one wall and trace its line toward the fields instead of judging the system only by its height."
       },
       "es": {
         "name": "Andenes de Zurite",
         "history": "Los andenes son un paisaje de cultivo, no simples plataformas vacías. Desde un camino público distingue el muro que sostiene un nivel y la superficie de siembra, y sigue esa relación en la ladera.",
-        "route": "Pregunta en Zurite por el acceso público, recorre el borde accesible y observa los andenes desde el lateral. Mantén libres acequias y parcelas sembradas."
+        "route": "Pregunta en Zurite por el acceso público, recorre el borde accesible y observa los andenes desde el lateral. Mantén libres acequias y parcelas sembradas.",
+        "photoTip": "Desde el borde público incluye dos muros y los campos intermedios. Así registras el paisaje productivo sin ingresar a las parcelas.",
+        "tag": "Andenes de un paisaje agrícola",
+        "experience": "Un andén es superficie y muro a la vez. Sigue la línea del muro hacia las parcelas para comprender el conjunto más allá de su altura."
       },
       "zh": {
         "name": "苏里特农业梯田",
         "history": "长条梯田至今属于耕作景观，并非一排可随意踏入的观景台。从公共步道先认出一级梯田的挡土墙及其托住的种植面，再沿坡观察相同结构如何反复出现。",
-        "route": "在苏里特镇确认公共入口，走可通行边缘，从山坡侧面看梯田。请勿占用灌渠或进入已播种地块。"
+        "route": "在苏里特镇确认公共入口，走可通行边缘，从山坡侧面看梯田。请勿占用灌渠或进入已播种地块。",
+        "photoTip": "从公共边缘至少框入两道挡土墙及其间耕地，既能说明梯田仍在生产，也不干扰农户。",
+        "tag": "仍有农耕生活的梯田地景",
+        "experience": "梯田既是平整种植面，也是支撑它的墙体。可从一面墙的基部沿线看向耕地，不只判断高低。"
       },
       "qu": {
         "name": "Zurite pata chakrakuna",
         "history": "Kay suni pata chakrakunaqa tarpuna allpam, manam qhawana ch'usaq patakunallachu. Llaqta ñanmanta huk pataq allpa hap'iq pirqanta, hawanpi tarpuna pampanta ima qhaway. Chaymanta urqu kinraypi kikin ruwasqata qatipay.",
-        "route": "Zurite llaqtapi llaqta runakunapa ñanninta tapuy. Saqisqa kantunta purispa pata chakrakunata kinraymanta qhaway. Yarqhakunata, tarpuna allpakunata ama saruychu."
+        "route": "Zurite llaqtapi llaqta runakunapa ñanninta tapuy. Saqisqa kantunta purispa pata chakrakunata kinraymanta qhaway. Yarqhakunata, tarpuna allpakunata ama saruychu.",
+        "photoTip": "Llaqta ñanpa kantunmanta iskay pirqata, chawpinpi chakratawan siq'iy. Chayhina llamk'asqa pampata rikuchinki, tarpuna allpaman mana yaykuspa.",
+        "tag": "Tarpuy kawsayniyuq pata chakrakuna",
+        "experience": "Pata chakraqa pampa allpawan chayta hap'iq pirqawan kuskam. Pirqaq chakinmanta chakrakunaman rayanta qatipay, sayaynillanta mana qhawaspa."
       }
     }
   },
@@ -940,22 +1288,34 @@
       "en": {
         "name": "Church of the Nativity, Chinchero",
         "history": "The church occupies the upper plaza in Chinchero’s monumental ensemble. Originally dedicated to Nuestra Señora de Monserrat, it is now known as the Church of the Nativity. The shift from Inca masonry below to a painted Christian worship space is central to the visit.",
-        "route": "Cross the upper plaza to see the church front, ask the parish about entry and follow the open aisle if visiting is permitted. The park ticket and church access should be checked separately."
+        "route": "Cross the upper plaza to see the church front, ask the parish about entry and follow the open aisle if visiting is permitted. The park ticket and church access should be checked separately.",
+        "photoTip": "Use the upper plaza to show the church against its Inca stone base. Interior photography depends on parish instructions; a view of the threshold often tells the architectural story clearly.",
+        "tag": "A painted church on an Inca foundation",
+        "experience": "Read the shift in building materials at the plaza edge before stepping inside. The external stone base and the religious paintings belong to related but distinct episodes in Chinchero’s history."
       },
       "es": {
         "name": "Templo de Nuestra Señora de la Natividad",
         "history": "El templo ocupa la plaza alta. Su primera advocación fue Nuestra Señora de Monserrat; hoy se conoce como iglesia de la Natividad. El paso de la cantería inca a un espacio cristiano pintado es central para comprenderlo.",
-        "route": "Cruza la plaza alta, consulta el ingreso parroquial y recorre la nave habilitada si se permite. Verifica por separado el acceso al parque y al templo."
+        "route": "Cruza la plaza alta, consulta el ingreso parroquial y recorre la nave habilitada si se permite. Verifica por separado el acceso al parque y al templo.",
+        "photoTip": "Desde la plaza alta muestra el templo y su base inca. La fotografía interior depende de la parroquia; el umbral ya explica parte de la secuencia arquitectónica.",
+        "tag": "Un templo pintado sobre una base inca",
+        "experience": "Lee el cambio de materiales antes de entrar. La base pétrea y las pinturas religiosas corresponden a episodios vinculados pero distintos de la historia local."
       },
       "zh": {
         "name": "钦切罗圣母诞辰教堂",
         "history": "教堂位于钦切罗古迹群上方广场。最初奉献给蒙塞拉特圣母，如今以圣母诞辰教堂为名。从下层印加石砌过渡到上部基督教彩绘空间，是理解这座建筑的重点。",
-        "route": "横过上方广场看教堂正面，向堂区确认能否入内，开放时沿指定中殿通道参观。遗址公园门票与教堂安排需分别核对。"
+        "route": "横过上方广场看教堂正面，向堂区确认能否入内，开放时沿指定中殿通道参观。遗址公园门票与教堂安排需分别核对。",
+        "photoTip": "上方广场适合把教堂与印加石基同框。室内拍摄按堂区规定，门槛附近也能说明不同时期建筑的衔接。",
+        "tag": "印加石基之上的彩绘教堂",
+        "experience": "进门前在广场边观察材料转换。外侧石基与宗教绘画属于钦切罗历史中彼此相连却不同的阶段。"
       },
       "qu": {
         "name": "Chinchiru Natividad iglesia",
         "history": "Iglesiaqa Chinchiru hanaq plazapin kachkan. Ñawpaq sutinqa Nuestra Señora de Monserrat karqan; kunanqa Natividad iglesia nisqa. Uray Inka rumi pirqamanta hanaq llimp'isqa yupaychana wasiman tukusqanta qhaway.",
-        "route": "Hanaq plazata chimpaspa iglesia punkunta qhaway. Yaykuyta parroquiapi tapuy. Saqiptinkuqa kichasqa ukhunta puriy. Ñawpa llaqtaq bilitinta, iglesiaq yaykunantapas sapaqta tapuy."
+        "route": "Hanaq plazata chimpaspa iglesia punkunta qhaway. Yaykuyta parroquiapi tapuy. Saqiptinkuqa kichasqa ukhunta puriy. Ñawpa llaqtaq bilitinta, iglesiaq yaykunantapas sapaqta tapuy.",
+        "photoTip": "Hanaq plazamanta iglesiata Inka rumi tiksinwan kuska siq'iy. Ukhupi siq'iyqa parroquiaq kamachiyninman hina. Punku patamantapas sapaq pacha ruwasqankuta rikunki.",
+        "tag": "Inka rumi tiksipi llimp'isqa iglesia",
+        "experience": "Manaraq yaykuspa plaza patapi sapaq ruwana imakunata qhaway. Rumi tiksiwan yupaychana llimp'ikunawan Chinchiruq sapaq pachankunamanta kanku."
       }
     }
   },
@@ -972,22 +1332,34 @@
       "en": {
         "name": "Checacupe Colonial Bridge",
         "history": "The old arched bridge is part of a river crossing where structures from different periods can be compared. Identify the masonry arch first; the neighbouring crossings have different materials and construction histories. A side view makes those differences legible.",
-        "route": "From the town approach use the indicated visitor path to the colonial bridge, stop on the bank for the arch profile and cross only where local signs allow. Keep working road crossings clear."
+        "route": "From the town approach use the indicated visitor path to the colonial bridge, stop on the bank for the arch profile and cross only where local signs allow. Keep working road crossings clear.",
+        "photoTip": "From the approved riverbank path, photograph the stone arch with water visible beneath. The curved profile is much harder to see when standing on the bridge deck.",
+        "tag": "A masonry arch beside other river crossings",
+        "experience": "Stand back until the abutments as well as the arch are visible. They explain how a masonry crossing meets the riverbanks and why a photograph taken on the deck tells only half the story."
       },
       "es": {
         "name": "Puente colonial de Checacupe",
         "history": "El puente de arco forma parte de un cruce con estructuras de distintas épocas. Identifica primero el arco de mampostería; los pasos vecinos tienen materiales e historias distintos. Desde un costado se lee mejor la diferencia.",
-        "route": "Desde el pueblo usa el acceso indicado, detente en la ribera para ver el arco y cruza sólo donde las señales lo permiten. Deja libres los pasos de tránsito."
+        "route": "Desde el pueblo usa el acceso indicado, detente en la ribera para ver el arco y cruza sólo donde las señales lo permiten. Deja libres los pasos de tránsito.",
+        "photoTip": "Desde la ribera autorizada fotografía el arco con agua debajo. La curva casi no se aprecia desde el tablero del puente.",
+        "tag": "Un arco de piedra junto a otros pasos del río",
+        "experience": "Retrocede hasta ver los estribos junto al arco. Así se entiende cómo la mampostería se apoya en las riberas."
       },
       "zh": {
         "name": "切卡库佩殖民时期石桥",
         "history": "拱桥处在一组跨河设施之中，可比较不同年代的过河方式。先辨认石砌拱券，再看邻近桥梁在材料与结构上的差别；河岸侧面比正站桥头更容易看清。",
-        "route": "从镇区经指定步道到石桥，在岸边看拱形侧面，只走允许通行的桥面，勿占用车行通道。"
+        "route": "从镇区经指定步道到石桥，在岸边看拱形侧面，只走允许通行的桥面，勿占用车行通道。",
+        "photoTip": "从允许进入的岸边步道拍石拱与下方水流；站在桥面上反而不易看出拱形。",
+        "tag": "在同一河段比较石拱桥与其他跨河设施",
+        "experience": "后退到可同时看清桥台和拱券的位置，便能理解砌石结构如何与两岸衔接。"
       },
       "qu": {
         "name": "Checacupe colonia pachaq chakallan",
         "history": "Ñawpa muyu punkuyuq chakallaqa mayu chimpana kitipin kachkan; chaypin sapaq pachakunamanta chakakuna rikurin. Ñawpaqta rumi arconta riqsiy, chaymanta qayllanpi chakakunawan tupachiy. Waqtamanta qhawaspa sapaq ruwasqankuta allinta rikunki.",
-        "route": "Llaqtamanta chimpusqa ñanta ñawpa chakaman puriy. Mayu patapi sayaspa arcuq rikch'ayninta qhaway. Llaqta kamachiy saqisqanllanta chimpay, carro ñanta ama hark'aychu."
+        "route": "Llaqtamanta chimpusqa ñanta ñawpa chakaman puriy. Mayu patapi sayaspa arcuq rikch'ayninta qhaway. Llaqta kamachiy saqisqanllanta chimpay, carro ñanta ama hark'aychu.",
+        "photoTip": "Saqisqa mayu pata ñanmanta rumi arconta uranpi unuta ima siq'iy. Chakallan patapi sayaspaqa kumusqa rikch'ayninta mana allinta rikunkichu.",
+        "tag": "Mayu chimpana kitipi rumi arcu chakalla",
+        "experience": "Arconta iskay pata tiksinkunatawan rikunaykikama qhipaman puriy. Chaymanta rumi chakalla mayu patakunapi imayna samasqanta yachanki."
       }
     }
   }

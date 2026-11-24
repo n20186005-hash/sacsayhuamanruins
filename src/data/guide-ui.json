@@ -1,0 +1,288 @@
+{
+  "labels": {
+    "en": [
+      "Nearby places",
+      "Explore",
+      "Planning your visit",
+      "What to look for",
+      "About the site",
+      "Visitor essentials",
+      "Opening hours",
+      "Admission",
+      "Getting there",
+      "History and local experience",
+      "Walking route",
+      "Before you go",
+      "Photography",
+      "Where to stay",
+      "Visitor reviews",
+      "Address and map",
+      "Visitor questions",
+      "Local name",
+      "Location",
+      "Visitor information",
+      "Suggested visit",
+      "Current ratings",
+      "View the place on the map",
+      "Current reviews, dates and rating totals are available on the place listing.",
+      "Photo source",
+      "Related guides",
+      "How do I reach the site?",
+      "What should I look for here?",
+      "Where can I verify access and admission?",
+      "Visitor information or official directory",
+      "Start here",
+      "Follow the circuit",
+      "At the viewpoint",
+      "min",
+      "Reviewed source",
+      "Get directions"
+    ],
+    "es": [
+      "Lugares cercanos",
+      "Explorar",
+      "Consejos de visita",
+      "Qué observar",
+      "Acerca del lugar",
+      "Información básica",
+      "Horario de apertura",
+      "Entradas y precios",
+      "Cómo llegar",
+      "Historia y experiencia local",
+      "Recorrido a pie",
+      "Antes de ir",
+      "Puntos para fotografías",
+      "Dónde alojarse",
+      "Opiniones de visitantes",
+      "Dirección y mapa",
+      "Preguntas frecuentes",
+      "Nombre local",
+      "Ubicación",
+      "Información de visita",
+      "Tiempo sugerido",
+      "Valoraciones actuales",
+      "Ver ubicación en el mapa",
+      "Consulta las opiniones actuales, sus fechas y el total de valoraciones en la ficha del lugar.",
+      "Fuente de la fotografía",
+      "Otras guías",
+      "¿Cómo llego al lugar?",
+      "¿En qué detalle conviene fijarse?",
+      "¿Dónde verifico el acceso y la tarifa?",
+      "Información de visita o directorio oficial",
+      "Punto de partida",
+      "Sigue el circuito",
+      "En el mirador",
+      "min",
+      "Fuente consultada",
+      "Ver indicaciones"
+    ],
+    "zh": [
+      "周边景点",
+      "探索与引言",
+      "游览建议",
+      "现场特色",
+      "关于景点",
+      "基础信息表",
+      "开放时间",
+      "门票价格",
+      "交通方式",
+      "历史与当地体验",
+      "步行游线",
+      "游览须知",
+      "拍照机位",
+      "住宿建议",
+      "游客评价",
+      "地址与地图",
+      "常见问答",
+      "当地名称",
+      "地点",
+      "参观信息",
+      "建议停留",
+      "当前评分",
+      "查看景点地图",
+      "打开该地点的地图页面，可按日期查阅实际游客评价及当前评分数量。",
+      "实景照片来源",
+      "更多周边专页",
+      "怎样到达这里？",
+      "现场最值得观察什么？",
+      "在哪里核对入场安排和门票？",
+      "访客信息或官方名录",
+      "路线起点",
+      "沿景点路线步行",
+      "在观景点停留",
+      "分钟",
+      "资料来源",
+      "查看导航"
+    ],
+    "qu": [
+      "Qayllapi watukuna kitikuna",
+      "Riqsiy",
+      "Watukunapaq yuyaychay",
+      "Ima qhawanapaq",
+      "Kay kitimanta",
+      "Watukuqpaq willay",
+      "Kichana pacha",
+      "Yaykuna bilitipa chanin",
+      "Imayna chayana",
+      "Ñawpa kawsay, kunan kawsay",
+      "Chakipi purina ñan",
+      "Manaraq rispa",
+      "Siq’ina kitikuna",
+      "Maypi puñuna",
+      "Watukuqkunaq yuyayninku",
+      "Maypi kasqan, mapa",
+      "Watukuqkunaq tapukuyninku",
+      "Llaqta suti",
+      "Maypi kasqan",
+      "Watukuy willay",
+      "Qhawana pacha",
+      "Kunan chaninchay",
+      "Mapapi kay kitita qhaway",
+      "Kay kitiq mapanpi kunan watukuqkunaq qillqayninkuta, p’unchawninkuta, hayk’a runakuna chaninchasqankutapas qhaway.",
+      "Siq’iq pukyun",
+      "Huk qaylla kitikuna",
+      "Imaynatataq chayman chayasaq?",
+      "Imatataq allinta qhawana?",
+      "Maypitaq yaykuyta bilitipa chanintapas tapusaq?",
+      "Watukuqkunapaq kamachiqpa willaynin",
+      "Kaypi qallariy",
+      "Purina ñanta qatipay",
+      "Qhawana kitipi sayay",
+      "minutu",
+      "Willaypa pukyun",
+      "Rina ñanta qhaway"
+    ]
+  },
+  "extra": {
+    "ticket": [
+      "COSITUC lists the international adult partial ticket for circuit {n} at S/70 and the full ticket at S/130. Check validity and resident or student rates before purchase.",
+      "COSITUC publica S/70 para el boleto parcial de adulto extranjero del circuito {n} y S/130 para el integral. Verifica vigencia y tarifas nacionales o estudiantiles.",
+      "COSITUC 公布外国成人第 {n} 线路部分联票为 70 索尔，外国成人综合票为 130 索尔。购票前请核对有效期、本国居民及学生票种。",
+      "COSITUC willasqanman hina hawa suyupi tiyaq kuraq runapa {n} muyuna bilitin S/70, tukuy muyuna bilitinqa S/130. Manaraq rantichkaspa hayk'a p'unchaw llamk'asqanta, Perú runapa, yachakuqpa chanintapas tapuy."
+    ],
+    "square": [
+      "The public street or square has no visitor ticket. Access to neighbouring buildings, private plots and events is separate.",
+      "La vía o plaza pública no exige boleto turístico. Edificios vecinos, parcelas privadas y eventos tienen acceso independiente.",
+      "公共街道或广场无需景区门票。附近建筑、私有土地和活动须分别查询。",
+      "Llaqtaq kikllunman utaq plazanman yaykunapaq watukuy biliti mana kanchu. Qaylla wasikunaman, runaq kikin chakranman, raymimanpas sapaqta tapuy."
+    ],
+    "market": [
+      "The public market has no museum ticket. Agree on price and portions with each stallholder before ordering.",
+      "El mercado público no exige boleto de museo. Acuerda precio y porción con cada puesto antes de pedir.",
+      "公共市场无需博物馆门票，点餐前可直接向摊主确认份量与价格。",
+      "Llaqta qhatuman yaykunapaq museo biliti mana kanchu. Mikhuyta manaraq mañakuspa qhatuqwan chaninta, hayk'a kasqantapas rimay."
+    ],
+    "other": [
+      "Check the visitor office listed here for the current ticket, concessions and any separate guide charge. A ticket for another Cusco circuit does not establish entry here.",
+      "Consulta con la sede la tarifa vigente, descuentos y cobros por guía. Un boleto de otro circuito del Cusco no acredita por sí solo este ingreso.",
+      "向本页所列参观联系方核对现行票价、优惠及导览费。其他库斯科线路门票并不自动包含此处。",
+      "Kaypi sutichasqa kamachiqta bilitipa kunan chaninta, pisichisqa chanintapas, pusaqpa qullqintapas tapuy. Huk muyuna bilitillaqa kayman yaykuyta mana chiqanchanchu."
+    ],
+    "cityStay": [
+      "Stay near the historic centre to combine this stop with nearby museums. For quieter nights compare side streets and ask about steps between the entrance and the room.",
+      "Alójate en el centro para combinar museos cercanos. Para descansar, compara calles laterales y pregunta por las escaleras hasta la habitación.",
+      "住历史中心便于顺访周边场馆。想要安静可选侧街，并询问从入口至房间的台阶。",
+      "Ñawpa llaqta chawpipi puñuspaqa qaylla museokunatapas watukuy atinki. Ch'in tuta munaspa kinray kikllupi wasita akllay, punkumanta puñuna wasikama chakanakunata tapuy."
+    ],
+    "valleyStay": [
+      "For a Sacred Valley outing compare Urubamba as a base with a return to Cusco. Confirm the last ride before committing to dinner or a train connection.",
+      "Para recorrer el Valle Sagrado compara una base en Urubamba con el retorno al Cusco. Confirma el último traslado antes de reservar cena o tren.",
+      "游圣谷可比较住乌鲁班巴与返回库斯科两种安排。订晚餐或火车前先确认最后一程交通。",
+      "Willkamayu wayq'uta watukunaykipaq Urubambapi puñuyta Qusquman kutiywan tupachiy. Tuta mikhuyta utaq tren tinkuyta manaraq rimachkaspa qhipa carrota tapuy."
+    ],
+    "roadStay": [
+      "Stay in Cusco for a day trip, or arrange a room in the approach town and the return ride separately. Confirm the exact pickup point.",
+      "Puedes alojarte en Cusco para una salida de día o en el pueblo de acceso con regreso contratado. Confirma el punto exacto de recogida.",
+      "可住库斯科做一日往返，也可住沿途镇区并另约接送。订房或约车时请确认具体会合点。",
+      "Huk p'unchaw watukunaykipaq Qusqupi puñuy, utaq ñan qaylla llaqtapi puñuna wasita kamachiy. Kutina carruwan maypi tinkunaykita sut'ita tapuy."
+    ],
+    "walk": [
+      "Walk from the historic centre to the address below. The last street can be pedestrian-only; give drivers the place name rather than just the district.",
+      "Camina desde el centro a la dirección indicada. La última calle puede ser peatonal; indica al conductor el lugar exacto y no sólo el barrio.",
+      "从历史中心步行至下方地址，最后一段可能为步行街。约车时请说明具体地点，而不仅是街区名。",
+      "Ñawpa llaqta chawpimanta uraypi qillqasqa kitiman chakipi puriy. Qhipa kiklluqa chakillapaq kanman; carro pusaqman kikin kitiq sutinta willay."
+    ],
+    "drive": [
+      "Arrange transport to the named visitor entrance, then walk the marked route. Confirm the pickup time and point with the driver before leaving the vehicle.",
+      "Acuerda el traslado al ingreso señalado y realiza a pie el tramo habilitado. Confirma la hora y el punto de recogida antes de bajar.",
+      "乘车至注明的游客入口，再按标示步行。下车前定好返程时间与会合点。",
+      "Carro pusaqwan sutichasqa punkuman rinata rimay. Qhipa ñanta chimpusqa nisqanta chakipi puriy. Manaraq uraykuspa kutina pachata tinkuna kititapas allichay."
+    ],
+    "hike": [
+      "Arrange the approach and descent with a local guide or visitor contact before departure. The pin locates the monument, not the permitted mountain route.",
+      "Coordina subida y bajada con un guía o contacto local. La ubicación identifica el monumento, sin sustituir indicaciones de ruta de montaña.",
+      "出发前与当地向导或接待方确认进山与下山线路。地图标记指向遗址，不能代替获准步道路线。",
+      "Manaraq lluqsispa llaqta pusaqwan wichayta urayta rimay. Mapapi chimpusqaqa ñawpa kitillata rikuchin; mana riqsisqa urqu ñanpaq pusaqta tapuy."
+    ],
+    "short": [
+      "Allow this time for the visit itself. Add travel, admission queues and any scheduled tour separately.",
+      "Reserva este tiempo para la visita y añade traslados, colas y guía programada por separado.",
+      "此为现场建议停留时间，交通、排队与预约导览应另计。",
+      "Kay pachataqa kiti qhawanapaqllam yuyaychay. Carro purina, suyana, pusaqwan purina pachatapas sapaqta yapay."
+    ],
+    "day": [
+      "Allow a full hiking day including approach, the site circuit and descent.",
+      "Reserva una jornada completa para aproximación, circuito y descenso.",
+      "含进山、遗址参观与下山路线，应留足完整徒步日。",
+      "Rina ñanpaq, ñawpa kiti muyunapaq, uraykamunapaqpas huk p'unchaw hunt'ata saqiy."
+    ]
+  },
+  "policy": {
+    "north": [
+      [
+        "Entry is through the staffed archaeological control. Check the last admission and any restrictions for the day before leaving Cusco.",
+        "El ingreso pasa por el control arqueológico. Consulta la última admisión y los cierres del día antes de salir del Cusco.",
+        "须经遗址检查点入场。从库斯科出发前应核对最后入场时间与当日关闭区域。",
+        "Ñawpa llaqtaq qhawaq punkunmanta yaykuna. Qusqumanta manaraq lluqsispa qhipa yaykuna horata wichq’asqa kitikunatapas tapuy."
+      ]
+    ],
+    "park": [
+      [
+        "The site authority sets the open sectors and the last admission. Confirm these with the control post, particularly on days with rain or maintenance.",
+        "La administración determina sectores abiertos y última entrada. Verifica en el control, especialmente en días de lluvia o mantenimiento.",
+        "管理方决定开放片区及最后入场时间，雨天或维护期间尤其应先向检查点确认。",
+        "Kamachiqkuna mayqin kiti kichasqa kasqanta, qhipa yaykuna pachatapas willanku. Para p’unchawpi utaq ñan allinchasqa kaqtin qhawaq punkupi tapuy."
+      ]
+    ],
+    "church": [
+      [
+        "Tourist access is separate from worship. Confirm the day’s service times and the visitor entrance at the parish or ticket desk.",
+        "El acceso turístico y el culto tienen horarios distintos. Confirma los oficios y la entrada habilitada con la parroquia.",
+        "游客参观与礼拜时段分别安排，请向堂区或售票处确认当天仪式和游客入口。",
+        "Watukuqkunapa pacha, misa pachawan sapaqmi kanman. Parroquiapi kunan p’unchawpa misa pachanta, watukuq punkuntapas tapuy."
+      ]
+    ],
+    "square": [
+      [
+        "The public area is generally accessible on foot. Ceremonies, municipal works or local activity may change the route.",
+        "El espacio público suele recorrerse a pie. Ceremonias, obras y actividades locales pueden modificar el paso.",
+        "公共区域一般可步行游览。仪式、市政工程及当地活动可能调整通行线路。",
+        "Llaqtaq kikin pampanta chakipi puriy atikun. Raymikuna, ñan allinchay, llaqta llamk’ayraykupas purina ñan t’ikrakunman."
+      ]
+    ],
+    "market": [
+      [
+        "Visit during active trading hours. Each stallholder decides when to open or close, so a meal plan should allow for changes.",
+        "Visita durante la actividad comercial. Cada puesto decide sus horas y la oferta de comida puede cambiar.",
+        "建议在市场营业活跃时段前往，各摊开放与收摊时间不同，用餐安排应留出余地。",
+        "Qhatu llamk’achkaptin watukuy. Sapa qhatuqmi wasichanta kichan, wichq’an. Mikhuna munaspa kunan p’unchaw ima kasqanta tapuy."
+      ]
+    ],
+    "salt": [
+      [
+        "The community operator sets admission hours and the visitor route. Weather and salt production can change the accessible area.",
+        "El operador local fija horario y recorrido. El clima y la producción de sal pueden modificar las áreas accesibles.",
+        "社区运营方公布开放时间和观览线路，天气、盐业生产均可能调整可达范围。",
+        "Ayllu kamachiqkuna yaykuna pachata, watukuna ñanta churanku. Para utaq kachi llamk’ayrayku kichasqa kiti t’ikrakunman."
+      ]
+    ],
+    "museum": [
+      [
+        "The museum sets its opening days and last entry; temporary exhibitions and holidays can change access. Check the museum or its official visitor directory for the date of travel.",
+        "El museo fija días y última entrada. Muestras temporales y festivos pueden alterar la visita; consulta al museo o su directorio oficial.",
+        "馆方安排开放日和最后入场，临展及节假日可能影响参观。请查本馆或官方名录获取出行日期安排。",
+        "Museoq kamachiqnin kichana p’unchawkunata qhipa yaykuna pachatapas churan. Raymipi utaq musuq qhawachiy kaptin museopi kunan p’unchawpaq tapuy."
+      ]
+    ]
+  }
+}

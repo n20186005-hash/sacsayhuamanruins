@@ -1,0 +1,506 @@
+{
+  "en": [
+    {
+      "slug": "qenqo",
+      "name": "Q'enqo"
+    },
+    {
+      "slug": "puka-pukara",
+      "name": "Puka Pukara"
+    },
+    {
+      "slug": "tambomachay",
+      "name": "Tambomachay"
+    },
+    {
+      "slug": "qorikancha",
+      "name": "Qorikancha and Santo Domingo"
+    },
+    {
+      "slug": "plaza-de-armas",
+      "name": "Cusco’s Plaza de Armas"
+    },
+    {
+      "slug": "catedral-cusco",
+      "name": "Cusco Cathedral"
+    },
+    {
+      "slug": "compania",
+      "name": "Church of the Society of Jesus"
+    },
+    {
+      "slug": "hatun-rumiyoc",
+      "name": "Twelve-Angled Stone"
+    },
+    {
+      "slug": "san-blas",
+      "name": "San Blas Square"
+    },
+    {
+      "slug": "san-pedro",
+      "name": "San Pedro Market"
+    },
+    {
+      "slug": "museo-inka",
+      "name": "Inka Museum"
+    },
+    {
+      "slug": "museo-precolombino",
+      "name": "Museum of Pre-Columbian Art"
+    },
+    {
+      "slug": "casa-garcilaso",
+      "name": "Regional Historical Museum, Casa Garcilaso"
+    },
+    {
+      "slug": "museo-arte-religioso",
+      "name": "Museum of Religious Art"
+    },
+    {
+      "slug": "museo-arte-contemporaneo",
+      "name": "Municipal Museum of Contemporary Art"
+    },
+    {
+      "slug": "museo-arte-popular",
+      "name": "Folk Art Museum"
+    },
+    {
+      "slug": "monumento-pachacutec",
+      "name": "Pachacuteq Monument"
+    },
+    {
+      "slug": "tipon",
+      "name": "Tipón Archaeological Park"
+    },
+    {
+      "slug": "pikillacta",
+      "name": "Pikillacta Archaeological Park"
+    },
+    {
+      "slug": "rumicolca",
+      "name": "Rumiqolqa Gateway"
+    },
+    {
+      "slug": "andahuaylillas",
+      "name": "Saint Peter’s Church, Andahuaylillas"
+    },
+    {
+      "slug": "pisac",
+      "name": "Pisac Archaeological Park"
+    },
+    {
+      "slug": "ollantaytambo",
+      "name": "Ollantaytambo Archaeological Park"
+    },
+    {
+      "slug": "chinchero",
+      "name": "Chinchero Archaeological Park"
+    },
+    {
+      "slug": "moray",
+      "name": "Moray Archaeological Park"
+    },
+    {
+      "slug": "salineras-maras",
+      "name": "Maras Salt Ponds"
+    },
+    {
+      "slug": "huchuy-qosqo",
+      "name": "Huchuy Qosqo"
+    },
+    {
+      "slug": "tarawasi",
+      "name": "Tarawasi Archaeological Site"
+    },
+    {
+      "slug": "zurite",
+      "name": "Zurite Agricultural Terraces"
+    },
+    {
+      "slug": "chincheros-iglesia",
+      "name": "Church of the Nativity, Chinchero"
+    },
+    {
+      "slug": "puente-checacupe",
+      "name": "Checacupe Colonial Bridge"
+    }
+  ],
+  "es": [
+    {
+      "slug": "qenqo",
+      "name": "Q'enqo"
+    },
+    {
+      "slug": "puka-pukara",
+      "name": "Puka Pukara"
+    },
+    {
+      "slug": "tambomachay",
+      "name": "Tambomachay"
+    },
+    {
+      "slug": "qorikancha",
+      "name": "Qorikancha y Santo Domingo"
+    },
+    {
+      "slug": "plaza-de-armas",
+      "name": "Plaza de Armas del Cusco"
+    },
+    {
+      "slug": "catedral-cusco",
+      "name": "Catedral del Cusco"
+    },
+    {
+      "slug": "compania",
+      "name": "Iglesia de la Compañía de Jesús"
+    },
+    {
+      "slug": "hatun-rumiyoc",
+      "name": "Piedra de los Doce Ángulos"
+    },
+    {
+      "slug": "san-blas",
+      "name": "Plazoleta de San Blas"
+    },
+    {
+      "slug": "san-pedro",
+      "name": "Mercado Central de San Pedro"
+    },
+    {
+      "slug": "museo-inka",
+      "name": "Museo Inka"
+    },
+    {
+      "slug": "museo-precolombino",
+      "name": "Museo de Arte Precolombino"
+    },
+    {
+      "slug": "casa-garcilaso",
+      "name": "Museo Histórico Regional, Casa Garcilaso"
+    },
+    {
+      "slug": "museo-arte-religioso",
+      "name": "Museo de Arte Religioso"
+    },
+    {
+      "slug": "museo-arte-contemporaneo",
+      "name": "Museo de Arte Contemporáneo"
+    },
+    {
+      "slug": "museo-arte-popular",
+      "name": "Museo de Arte Popular"
+    },
+    {
+      "slug": "monumento-pachacutec",
+      "name": "Monumento al Inca Pachacuteq"
+    },
+    {
+      "slug": "tipon",
+      "name": "Parque Arqueológico de Tipón"
+    },
+    {
+      "slug": "pikillacta",
+      "name": "Parque Arqueológico de Pikillacta"
+    },
+    {
+      "slug": "rumicolca",
+      "name": "Portada de Rumiqolqa"
+    },
+    {
+      "slug": "andahuaylillas",
+      "name": "Templo de San Pedro Apóstol de Andahuaylillas"
+    },
+    {
+      "slug": "pisac",
+      "name": "Parque Arqueológico de Pisac"
+    },
+    {
+      "slug": "ollantaytambo",
+      "name": "Parque Arqueológico de Ollantaytambo"
+    },
+    {
+      "slug": "chinchero",
+      "name": "Parque Arqueológico de Chinchero"
+    },
+    {
+      "slug": "moray",
+      "name": "Parque Arqueológico de Moray"
+    },
+    {
+      "slug": "salineras-maras",
+      "name": "Salineras de Maras"
+    },
+    {
+      "slug": "huchuy-qosqo",
+      "name": "Huchuy Qosqo"
+    },
+    {
+      "slug": "tarawasi",
+      "name": "Sitio Arqueológico de Tarawasi"
+    },
+    {
+      "slug": "zurite",
+      "name": "Andenes de Zurite"
+    },
+    {
+      "slug": "chincheros-iglesia",
+      "name": "Templo de Nuestra Señora de la Natividad"
+    },
+    {
+      "slug": "puente-checacupe",
+      "name": "Puente colonial de Checacupe"
+    }
+  ],
+  "zh": [
+    {
+      "slug": "qenqo",
+      "name": "肯科遗址"
+    },
+    {
+      "slug": "puka-pukara",
+      "name": "普卡普卡拉"
+    },
+    {
+      "slug": "tambomachay",
+      "name": "坦博马查伊"
+    },
+    {
+      "slug": "qorikancha",
+      "name": "太阳神殿与圣多明我修道院"
+    },
+    {
+      "slug": "plaza-de-armas",
+      "name": "库斯科武器广场"
+    },
+    {
+      "slug": "catedral-cusco",
+      "name": "库斯科主教座堂"
+    },
+    {
+      "slug": "compania",
+      "name": "耶稣会教堂"
+    },
+    {
+      "slug": "hatun-rumiyoc",
+      "name": "十二角石"
+    },
+    {
+      "slug": "san-blas",
+      "name": "圣布拉斯小广场"
+    },
+    {
+      "slug": "san-pedro",
+      "name": "圣佩德罗市场"
+    },
+    {
+      "slug": "museo-inka",
+      "name": "印加博物馆"
+    },
+    {
+      "slug": "museo-precolombino",
+      "name": "前哥伦布艺术博物馆"
+    },
+    {
+      "slug": "casa-garcilaso",
+      "name": "加西拉索故居区域历史博物馆"
+    },
+    {
+      "slug": "museo-arte-religioso",
+      "name": "宗教艺术博物馆"
+    },
+    {
+      "slug": "museo-arte-contemporaneo",
+      "name": "市立当代艺术博物馆"
+    },
+    {
+      "slug": "museo-arte-popular",
+      "name": "民间艺术博物馆"
+    },
+    {
+      "slug": "monumento-pachacutec",
+      "name": "帕查库特克纪念碑"
+    },
+    {
+      "slug": "tipon",
+      "name": "蒂蓬考古公园"
+    },
+    {
+      "slug": "pikillacta",
+      "name": "皮基亚克塔考古公园"
+    },
+    {
+      "slug": "rumicolca",
+      "name": "鲁米科尔卡石门"
+    },
+    {
+      "slug": "andahuaylillas",
+      "name": "安达瓦伊利亚斯圣伯多禄教堂"
+    },
+    {
+      "slug": "pisac",
+      "name": "皮萨克考古公园"
+    },
+    {
+      "slug": "ollantaytambo",
+      "name": "奥扬泰坦博考古公园"
+    },
+    {
+      "slug": "chinchero",
+      "name": "钦切罗考古公园"
+    },
+    {
+      "slug": "moray",
+      "name": "莫雷考古公园"
+    },
+    {
+      "slug": "salineras-maras",
+      "name": "马拉斯盐田"
+    },
+    {
+      "slug": "huchuy-qosqo",
+      "name": "小库斯科遗址"
+    },
+    {
+      "slug": "tarawasi",
+      "name": "塔拉瓦西考古遗址"
+    },
+    {
+      "slug": "zurite",
+      "name": "苏里特农业梯田"
+    },
+    {
+      "slug": "chincheros-iglesia",
+      "name": "钦切罗圣母诞辰教堂"
+    },
+    {
+      "slug": "puente-checacupe",
+      "name": "切卡库佩殖民时期石桥"
+    }
+  ],
+  "qu": [
+    {
+      "slug": "qenqo",
+      "name": "Q'enqo"
+    },
+    {
+      "slug": "puka-pukara",
+      "name": "Puka Pukara"
+    },
+    {
+      "slug": "tambomachay",
+      "name": "Tampumach'ay"
+    },
+    {
+      "slug": "qorikancha",
+      "name": "Qurikancha"
+    },
+    {
+      "slug": "plaza-de-armas",
+      "name": "Qusqupa Hatun Plazan"
+    },
+    {
+      "slug": "catedral-cusco",
+      "name": "Qusqupa Catedralnin"
+    },
+    {
+      "slug": "compania",
+      "name": "Compañía de Jesús iglesia"
+    },
+    {
+      "slug": "hatun-rumiyoc",
+      "name": "Chunka iskayniyuq k'uchuyuq rumi"
+    },
+    {
+      "slug": "san-blas",
+      "name": "San Blas plazoleta"
+    },
+    {
+      "slug": "san-pedro",
+      "name": "San Pedro qhatu"
+    },
+    {
+      "slug": "museo-inka",
+      "name": "Inka museo"
+    },
+    {
+      "slug": "museo-precolombino",
+      "name": "Ñawpa artepa museon"
+    },
+    {
+      "slug": "casa-garcilaso",
+      "name": "Garcilasoq wasin, ñawpa kawsay museo"
+    },
+    {
+      "slug": "museo-arte-religioso",
+      "name": "Yupaychana artepa museon"
+    },
+    {
+      "slug": "museo-arte-contemporaneo",
+      "name": "Kunan pacha artepa museon"
+    },
+    {
+      "slug": "museo-arte-popular",
+      "name": "Llaqta runakunapa arte museon"
+    },
+    {
+      "slug": "monumento-pachacutec",
+      "name": "Inka Pachakutiqpa yuyarinan"
+    },
+    {
+      "slug": "tipon",
+      "name": "Tipón ñawpa llaqta"
+    },
+    {
+      "slug": "pikillacta",
+      "name": "Pikillaqta ñawpa llaqta"
+    },
+    {
+      "slug": "rumicolca",
+      "name": "Rumi Qullqa punku"
+    },
+    {
+      "slug": "andahuaylillas",
+      "name": "Antawayllillas San Pedro iglesia"
+    },
+    {
+      "slug": "pisac",
+      "name": "Pisaq ñawpa llaqta"
+    },
+    {
+      "slug": "ollantaytambo",
+      "name": "Ullantaytampu ñawpa llaqta"
+    },
+    {
+      "slug": "chinchero",
+      "name": "Chinchiru ñawpa llaqta"
+    },
+    {
+      "slug": "moray",
+      "name": "Muray ñawpa pata chakrakuna"
+    },
+    {
+      "slug": "salineras-maras",
+      "name": "Maras kachi quchakuna"
+    },
+    {
+      "slug": "huchuy-qosqo",
+      "name": "Huch'uy Qusqu"
+    },
+    {
+      "slug": "tarawasi",
+      "name": "Tarawasi ñawpa llaqta"
+    },
+    {
+      "slug": "zurite",
+      "name": "Zurite pata chakrakuna"
+    },
+    {
+      "slug": "chincheros-iglesia",
+      "name": "Chinchiru Natividad iglesia"
+    },
+    {
+      "slug": "puente-checacupe",
+      "name": "Checacupe colonia pachaq chakallan"
+    }
+  ]
+}
